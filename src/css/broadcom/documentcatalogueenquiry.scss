@@ -1,0 +1,443 @@
+.document-access-enquiry-container {
+  .pad-0 {
+    padding: 0px;
+  }
+  .pad-left-30 {
+    padding-left: 30px;
+  }
+  .mar-top-30 {
+    display: block;
+    margin-top: 30px;
+  }
+  .inline {
+    display: inline-block;
+  }
+  h3 {
+    &.main-heading {
+      color: $primary-red;
+    }
+  }
+  .nav-pills.nav-wizard>li {
+    width: 30%;
+  }
+  .content-wrapper {
+    .contact-container {
+      .contact-value-wrapper {
+        .glyphicon-envelope{
+          color: $color-link;
+        }
+        .contact-value {
+          font-family: $fontFamily-bold;
+          color: $color-link;
+          text-decoration: underline;
+          font-size: 12px;
+        }
+      }
+    }
+    .input-area-wrapper {
+      .input-area-label-wrapper {
+        .input-area-label {
+          font-family: $fontFamily-bold;
+          color: $primary-black;
+        }
+      }
+      .input-area-value-wrapper {
+        .form-group {
+          margin-bottom: 5px;
+        }
+        .label-wrapper {
+          display: none;
+        }
+        .input-wrapper {
+          width: 95%;
+        }
+        .input-area-value {
+          overflow: hidden;
+        }
+        .input-area-value-meta-wrapper {
+          padding: 0px;
+          width: 95%;
+          .input-area-value-meta {
+            font-family: $fontFamily-bold;
+            color: $color-link;
+            font-size: $fontSize-legend;
+          }
+        }
+      }
+    }
+    .button-area-wrapper {
+      .btn-custom {
+        background-color: $primary-red;
+        color: $color-white;
+        margin-left: 10px;
+        border-radius: 2px;
+      }
+      .btn-custom-red {
+        background-color: $color-white;
+        color: $primary-red;
+        margin-left: 10px;
+        border-radius: 2px;
+        border: 1px solid $secondary-red;
+      }
+    }
+  }
+}
+
+.document-enquiry-container {
+  .checkbox {
+    .cr {
+      color: $color-blue;
+      border: 1px solid $color-blue;
+    }
+  }
+  .doc-download-searchbox {
+    .typeahead__field {
+      position: relative;
+      .typeahead__button {
+        position: absolute;
+        right: 9px;
+        top: 8px;
+        z-index: 2;
+        span {
+          color: $primary-gray;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .no-record-style {
+    text-align: center;
+    h3 {
+      color: #000;
+    }
+  }
+  .inline-block{
+    display: inline-block;
+  }
+  .pad-0 {
+    padding: 0px;
+  }
+
+  h3 {
+    &.main-heading {
+      color: $primary-red;
+    }
+  }
+  .request-access-container {
+    .btn-wrapper {
+      margin: 10px;
+    }
+    #requestdatagrid {
+      .data-grid-checkbox {
+        .cr {
+          margin-left: -10px;
+        }
+      }
+      .show-more-column {
+        ol {
+            margin: 0px;
+            padding-left: 10px;
+        }
+        .hide-item {
+            display: none;
+        }
+      }
+    }
+    .footer-pagination {
+      .pagination-wrapper {
+        .custom-pagination {
+          padding: 0px;
+          .gird-custom-pagination {
+            padding: 0px;
+          }
+        }
+      }
+    }
+    .requestaccess-table-container {
+      table {
+        tr {
+          td {
+            font-size: 12px;
+            padding: 10px 10px 0px 10px;
+          }
+          th {
+            font-size: 12px;
+            padding: 10px;
+          }
+          th {
+            .checkbox {
+              &:first-child {
+                display: none;
+              }
+            }
+          }
+          td,
+          th {
+            .checkbox {
+              margin: 0px;
+            }
+          }
+        }
+      }
+    }
+    .checkbox-custom-style {
+      border: 1px solid $secondary-gray;
+      padding-left: 7px;
+      padding-right: 7px;
+      border-radius: 3px;
+      font-size: 11px;
+      color: $primary-gray;
+    }
+    .button-checkbox-wrap {
+      float: right;
+      width: 225px;
+      .checkbox-wrap {
+        white-space: normal;
+        width: 195px;
+      }
+      .button-wrap {
+        button {
+          background-color: $primary-red;
+          color: $color-white;
+        }
+      }
+    }
+    .btn-wrap {
+      text-align: right;
+    }
+    .btn-continue {
+      button {
+        background-color: $primary-red;
+        color: $color-white;
+      }
+    }
+    .btn-cancel {
+      button {
+        background-color: $color-white;
+        color: $primary-red;
+        border: 1px solid $primary-red;
+      }
+    }
+    .treeview-wrapper {
+      margin: 15px 0px;
+      .form-group {
+        &.stacked {
+          .input-wrapper {
+            padding: 0px 5px;
+            position: relative;
+            .glyphicon-search {
+              position: absolute;
+              top: 12px;
+              color: $secondary-gray;
+              font-size: 10px;
+              left: 10px;
+            }
+            .glyphicon-arrow-right {
+              position: absolute;
+              right: 11px;
+              top: 10px;
+              color: $colorBg-body;
+              font-size: 11px;
+            }
+            input {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      .doc-download-searchbox {
+        .meta-text {
+          padding: 0px;
+          margin-top: -24px;
+          margin-left: 11px;
+          font-size: 12px;
+          color: $color-link;
+        }
+        .form-group {
+          &.search-box {
+            &.inline {
+              width: 100%;
+            }
+          }
+        }
+      }
+      .treeview-style {
+        .col-md-4:nth-child(1),
+        .col-md-4:nth-child(3) {
+          border: 0.5px solid $color-gray80;
+          padding: 0px;
+          border-radius: 5px;   
+          .subject-info-box-2 {
+            select {
+              height: 100%;
+              overflow: scroll;
+            }
+          }
+          p {
+            padding: 10px;
+            background: $primary-red;
+            color: $colorBg-container;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            font-family: $fontFamily-medium;
+          }
+          .subject-info-box-2 {
+            padding: 1px;
+            .list-group {
+              overflow: auto;
+              border: 0px;
+              option {
+                padding-left: 10px;
+              }
+            }
+          }
+        }
+        .document-tree-container{
+          height: 200px;
+        }
+        .m8-top {
+          margin-top: 50px;
+          .btn-secondary {
+            background-color: #ffffff;
+            border: 1px solid #a7a8aa;
+            color: #a7a8aa;
+            padding: 2px; // padding-left: 14px;
+            // padding-right: 28px;
+            margin: 0px;
+            padding-right: 23px;
+            padding-left: 9px;
+          }
+        }
+        .input-wrapper {
+          display: block;
+          width: 100%;
+          padding-left: 10px;
+          padding-right: 10px;
+          .input-control {
+            // border: 0px;
+            // box-shadow: none;
+            &:after {
+              content: "\e113";
+              font-family: "Glyphicons Halflings";
+              font-size: 9px;
+              color: $primary-black;
+            }
+          }
+        }
+      }
+    }
+    p {
+      &.request-access-p {
+        color: $color-blue;
+        padding: 10px;
+      }
+    }
+    table{
+      tr.grey-out{
+        td{
+          color: $secondary-gray-light
+        }
+      }
+    }
+  }
+  .catalog-padding-12{
+    padding-top: 12%
+  }
+  .catalog-padding-13{
+    padding-top: 13%
+  }
+}
+
+textarea.form-control.checkCss.input-area-value {
+  width: 176%;
+}
+.document-enquiry-container
+{
+  
+    .panel{
+      box-shadow: none;
+    }
+    .panel-heading {
+      background-color: $primary-red;
+      p {
+        margin: 3px 0 2px 0;
+      }
+    }
+    .panel-body {
+      border: 1px solid $color-gray80;
+      border-radius: 0 0 2*$input-border-radius 2*$input-border-radius;
+      padding: 0;
+      overflow: hidden;
+      ul {
+        margin-bottom: 0;
+      }
+      select[multiple] {
+        margin-bottom: 0;
+        border: none;
+        outline: none;
+        float: left;
+        height: 250px;
+        overflow-y: auto;
+      }
+      .list-group option {
+        padding: 4px 6px;
+        font-family: $fontFamily-medium;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        min-height: 23px;
+      }
+    }
+    .tree-button-align {
+      padding: 0;
+      .btn {
+        width: 30px;
+        height: 30px;
+        border: 1px solid $color-gray80;
+        border-radius: 2*$input-border-radius;
+        color: $primary-gray;
+        padding: 0;
+        background-color: $color-white;
+      }
+    }
+    .search-product {
+      .form-group.stacked {
+        margin: 6px 6px 8px 6px;
+      }
+    }
+  }
+  i.glyphicon.glyphicon-arrow-right {
+    display: none;
+  }
+  svg#excel-icon {
+    width: 17px;
+    position: relative;
+    top: 3px;
+    margin-right: 6px;
+    .cls-1 {
+      fill: #eceff1;
+    }
+    .cls-2 {
+      fill: #388e3c;
+    }
+    .cls-3 {
+      fill: #2e7d32;
+    }
+    .cls-4 {
+      fill: #fafafa;
+    }
+  }
+  .checkbox {
+    >label {
+      /* it can be used to disable click or any anchor */
+      pointer-events: none;
+      cursor: default;
+      span.cr {
+        pointer-events: auto;
+        cursor: pointer;
+      }
+    }
+    span.cr {
+      left: 12px;
+    }
+}
+

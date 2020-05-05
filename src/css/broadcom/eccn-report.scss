@@ -1,0 +1,52 @@
+.eccn-report {
+    .page-heading {
+        font-family: $fontFamily-bold;
+        color: $primary-red;
+    }
+
+    .link-red {
+        color: $primary-red;
+    }
+
+    .clearfix {
+        clear: both;
+    }
+
+    .date-filter {
+        .flex-layout {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+
+
+            .from-title {
+                margin-top: 0px;
+            }
+
+            .from-date,
+            .to-date {
+                .search-box {
+                    margin-bottom: 5px;
+                }
+            }
+
+            .date-range-to {
+                padding: 8px;
+            }
+
+            .to-date {
+                margin: 0px;
+            }
+        }
+
+        .filter-date-subtext {
+            font-family: $fontFamily-bold;
+            color: $color-blue;
+            font-size: $fontSize-small;
+        }
+    }
+
+    .report-button-filter {
+        margin-top: 150px;
+    }
+}

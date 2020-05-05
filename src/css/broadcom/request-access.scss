@@ -1,0 +1,267 @@
+
+@include media-responsive(handhelds) {
+    body{
+        .docforexisitnguser{
+            margin: 0px;
+            .tabbable{   
+                font-size: 1rem;
+                .tab-content{
+                    border: none;
+                }
+            }
+        }
+        .mobile-design{
+            .panel-default{
+                border-color: $color-blue;
+            }
+        }
+        .form-group{
+            .input-wrapper {
+                display: inline-flex;
+            }
+        }
+        .for-web{
+            display: none;
+        }
+        .mobile-button-section{
+            border-bottom: 1px solid $secondary-gray-light;
+            padding-bottom: 16px;
+        }
+        #step3{
+            .ndanum{
+                .label-wrapper{
+                    width: 40%;
+                }
+                .input-wrapper{
+                    width: 60%;
+                }
+            }
+        }
+        .no-padding-mobile{
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    }
+    .myaccount{
+        padding: 0px 30px 30px 30px;
+        .breadcrumb-section{
+            display: none;
+        }
+        .pagination-wrapper{
+            display: none;
+        }
+        .filter-section{
+            border-bottom: 0px;
+            .request-wrapper{
+                .btn-filter-req{
+                    text-align: right;
+                }
+            }
+        }
+        .mobile-bottom-0{
+            bottom: 0px;
+            top: 36px;
+        }
+    }
+}
+@include media-responsive(handhelds-landscape) {
+    body{
+        .docforexisitnguser{
+            margin: 0px;
+            .tabbable{   
+                font-size: 1rem;
+                .tab-content{
+                    border: none;
+                }
+            }
+        }
+        .mobile-design{
+            .panel-default{
+                border-color: $color-blue;
+            }
+        }
+        .form-group{
+            .input-wrapper {
+                display: inline-flex;
+            }
+        }
+        .for-web{
+            display: none;
+        }
+        .mobile-button-section{
+            border-bottom: 1px solid $secondary-gray-light;
+            padding-bottom: 16px;
+        }
+        #step3{
+            .ndanum{
+                .label-wrapper{
+                    width: 40%;
+                }
+                .input-wrapper{
+                    width: 60%;
+                }
+            }
+        }
+        .no-padding-mobile{
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+    .myaccount{
+        padding: 0px 30px 30px 30px;
+        .breadcrumb-section{
+            display: none;
+        }
+        .pagination-wrapper{
+            display: none;
+        }
+        .filter-section{
+            border-bottom: 0px;
+            .request-wrapper{
+                .btn-filter-req{
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+@include media-responsive(tablet) {
+    body{
+        .docforexisitnguser{
+            margin: 0px;
+            .tabbable{   
+                font-size: 1rem;
+                .tab-content{
+                    border: none;
+                }
+            }
+        }
+        .mobile-design{
+            .panel-default{
+                border-color: $color-blue;
+            }
+        }
+        .form-group{
+            .input-wrapper {
+                display: inline-flex;
+            }
+        }
+        .for-web{
+            display: none;
+        }
+        .mobile-button-section{
+            border-bottom: 1px solid $secondary-gray-light;
+            padding-bottom: 16px;
+        }
+        #step3{
+            .ndanum{
+                .label-wrapper{
+                    width: 40%;
+                }
+                .input-wrapper{
+                    width: 60%;
+                }
+            }
+        }
+        .no-padding-mobile{
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+    .myaccount{
+        padding: 0px 30px 30px 30px;
+        .breadcrumb-section{
+            display: none;
+        }
+        .pagination-wrapper{
+            display: none;
+        }
+        .filter-section{
+            border-bottom: 0px;
+            .request-wrapper{
+                .btn-filter-req{
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+@include media-responsive(tablet-landscape) {
+    body{
+        .docforexisitnguser{
+            margin: 0px;
+            .tabbable{   
+                font-size: 1rem;
+                .tab-content{
+                    border: none;
+                }
+            }
+        }
+        .mobile-design{
+            .panel-default{
+                border-color: $color-blue;
+            }
+        }
+        .form-group{
+            .input-wrapper {
+                display: inline-flex;
+            }
+        }
+        .for-web{
+            display: none;
+        }
+        .mobile-button-section{
+            border-bottom: 1px solid $secondary-gray-light;
+            padding-bottom: 16px;
+        }
+        #step3{
+            .ndanum{
+                .label-wrapper{
+                    width: 40%;
+                }
+                .input-wrapper{
+                    width: 60%;
+                }
+            }
+        }
+        .no-padding-mobile{
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+    .myaccount{
+        padding: 0px 30px 30px 30px;
+        .breadcrumb-section{
+            display: none;
+        }
+        .pagination-wrapper{
+            display: none;
+        }
+        .filter-section{
+            border-bottom: 0px;
+            .request-wrapper{
+                .btn-filter-req{
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+
+
+@include media-responsive(medium-screens) {
+   
+}
+@include media-responsive(wide-screens) {
+    .myaccount{
+        .more-datagrid{
+            display: none;
+        }    
+    }
+    .docforexisitnguser{
+        margin: 0px;
+        .for-mobile{
+            display: none;
+        }
+    }
+}

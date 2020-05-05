@@ -1,0 +1,387 @@
+
+  /*Widget Tab */
+  .nav-pills {
+    padding-bottom: 20px;
+    text-align: center;
+      &.nav-wizard {
+          > li {
+              position: relative;
+              overflow: visible;
+              border-right: 15px solid transparent;
+              border-left: 15px solid transparent;
+              width: 20%;
+              a{
+                padding: 10px 15px;
+                font-size: 1.4rem;
+                margin: 0px;
+                color: $color-white;
+				border-radius: 0;
+				background-color: $tab-wizard-color;
+              }
+              + li {
+                  margin-left: 0;
+              }
+            
+              &:first-child {
+                  border-left: 0;
+   
+                  a {
+                      border-radius:5px 0 0 5px;
+                  }
+              }
+   
+              &:last-child {
+                  border-right: 0;
+   
+                  a {
+                      border-radius:0 5px 5px 0;
+                  }
+              }
+   
+              .nav-arrow {
+                  position: absolute;
+                  top: 0px;
+                  right: -20px;
+                  width: 0px;
+                  height: 0px;
+                  border-style: solid;
+                  border-width: 20px 0 20px 20px;
+                  border-color: transparent transparent transparent $tab-wizard-color;
+                  z-index: 150;
+              }
+   
+              .nav-wedge {
+                  position: absolute;
+                  top: 0px;
+                  left: -20px;
+                  width: 0px;
+                  height: 0px;
+                  border-style: solid;
+                  border-width: 19px 0 20px 20px;
+                  border-color: $tab-wizard-color $tab-wizard-color $tab-wizard-color transparent;
+                  z-index: 150;
+              }
+   
+              &:hover {
+                  .nav-arrow {
+                      border-color: transparent transparent transparent $tab-wizard-color;
+                  }
+   
+                  .nav-wedge {
+                      border-color: $tab-wizard-color $tab-wizard-color $tab-wizard-color transparent;
+                  }
+   
+                  a {
+                      background-color: $tab-wizard-color;
+                      color: $color-white;
+                  }
+              }
+   
+              &.active {
+                  .nav-arrow {
+                      border-color: transparent transparent transparent $color-blue;
+                  }
+   
+                  .nav-wedge {
+                      border-color: $color-blue $color-blue $color-blue  transparent;
+                  }
+   
+                  a {
+                      background-color: $color-blue;
+                  }
+              }
+          }
+      }
+  }
+  #mobile-step {
+
+    padding-bottom: 120px;
+    border-bottom: 1px solid $tab-wizard-color; 
+    .step-wizard {
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      .progress-doc {
+        position: absolute; 
+        top: 34px;
+        left: 11%;
+        width: 77%;
+      }
+      .progressbar {
+        position: absolute;
+        background-color: $color-blue;
+        opacity: 0.4;
+        height: 1px;
+        //border: 1px solid e5e6e6;
+        width: 0%;
+        -webkit-transition: width 0.6s ease;
+        -o-transition: width 0.6s ease;
+        transition: width 0.6s ease;
+        &.empty {
+          opacity: 1;
+          width: 100%;
+          background-color: $tab-wizard-color;
+        }
+      }
+      ul {
+        position: absolute;
+        width: 100%;
+        list-style-type: none;
+        padding: 0;
+        left: -2%
+      }
+      li {
+        display: inline-block;
+        text-align: center;
+        width: 19.7%;
+        & .step {
+          position: absolute;
+          display: inline-block;
+          line-height: 33px;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          border: 4px solid;
+          border-color: $tab-wizard-color;
+          background: $tab-wizard-color;
+          color: $color-white;
+          -webkit-transition: background-color 0.6s ease, border-color 0.6s ease;
+          -o-transition: background-color 0.6s ease, border-color 0.6s ease;
+          transition: background-color 0.6s ease, border-color 0.6s ease; 
+        }
+        & .title {
+          position: absolute;
+          width: 100%;
+          left: 20px;
+          padding-top: 42px;
+          color: $tab-wizard-color;
+          -webkit-transition: color 0.6s ease;
+          -o-transition: color 0.6s ease;
+          transition: color 0.6s ease; 
+        }
+        &.active {
+          .step {
+            border-color: $color-blue;
+            background-color: $color-blue;
+          }
+          .title{
+            color: $color-blue;
+          }
+        }   
+        &.done .step {
+          color: $color-white;
+          background-color: $color-blue;
+          border-color: $color-blue;
+        }  
+        & > a {
+          display: block;
+          width: 100%;
+          position: relative;
+          text-align: center; 
+        }
+      } 
+    }
+    
+    @media only screen and (max-width: 1200px) {
+      .step-wizard li {
+        width: 20%;
+      }
+    }
+    
+    @media only screen and (max-width: 375px) {
+      .step-wizard li {
+        width: 20%;
+      }
+    }
+    }
+    .mirror-tab{
+        padding-bottom: 85px;
+        .progressbar {
+            &.empty {
+                width: 25%;
+            }
+        }
+    }
+.step0{
+  h3{
+    text-align: center;
+    font-weight: bold;
+  }
+  .desc{
+    text-align: center;
+  }
+  .cards-container{
+    .card{
+      padding: 30px;
+      border: 1px solid $color-gray80;
+      span{
+        color:$primary-red;
+        font-size: 5rem;
+      }
+    }
+  }
+}
+.docforexisitnguser{
+    #productsAndDocumentsForm{
+      .checkbox{
+        label{
+          padding-left: 40px;
+        }
+      }
+    }
+    .second {
+      &.step2 {
+        .datagrid {
+          table {
+            tbody {
+              tr {
+                td {
+                  a {
+                    svg {
+                      width: 13px !important;
+                      margin-right: 3px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .card {
+      line-height: 23px;
+        svg{
+          fill: $primary-red;
+          width: 30%;
+          padding: 16px;
+        }
+      }
+      dt{
+          font-weight: normal;
+      }
+      .third {
+        label{
+            color: $primary-black;
+        }
+      }
+      .search-mirror{
+          position: relative;
+          .form-control{
+            width: 90%;
+          }
+          .typeahead__cancel-button{
+            display: none;
+          }
+          #typeahead-container {
+            .typeahead__query{
+              z-index: 0;
+            }
+          }
+          .typeahead__button{
+            display: none;
+          }
+              .glyphicon-search{
+                position: absolute;
+                bottom: 34px;
+                right: -3px;
+                top: 0px;
+                padding: 0px 10px 0px 10px;
+                border-radius: 0;
+                background-color: $primary-red;
+                color: $color-white;
+              }
+              #typeahead-user-button{
+                bottom: 15px;
+              }
+      }
+      .ndalist{
+        padding: 0px;
+        list-style: none;
+    } 
+      #doc-access-users{
+        padding-left: 15px;
+      }
+      #fetchSourceUSerForm{
+        ul.typeahead__list{
+          margin-top: -1px;
+        }
+      }
+      td{
+        ol{
+          .prodlist-li-hide{
+            display: none;
+          }
+        }
+      }
+      #datagridStep5, #step5-sw{
+        .user-access-Y{
+           color: $primary-red;
+        }
+      }
+}
+#datagridStep1 {
+  .checkbox {
+    .cr {
+      margin-left: -15px;
+    }
+  }
+}
+.myaccount{
+  .ndalist{
+    padding: 0px;
+    list-style: none;
+} 
+.my-requests{
+  table tr td:first-child{
+      a{
+        text-decoration: underline;
+        color: $color-blue;
+      }
+  }
+}
+
+dt{
+  font-weight: normal;
+}
+}
+
+.step5{
+  .input-wrapper{
+    .chkbox-request-originator{
+      padding-left: 5px;
+    }
+  }
+}
+
+
+.mirror-step1{
+.datagrid {
+table {
+thead {
+tr {
+th:last-child {
+    width: 10%;
+    cursor: pointer
+}
+}
+}
+}
+}
+} 
+#datagridStep1{
+ thead{
+  th{
+    &:first-child{
+      width: 5%;
+    }
+    &:nth-child(2){
+      width: 7%;
+    }
+    
+    &:last-child{
+      cursor:pointer;
+      }
+  }
+}
+} 

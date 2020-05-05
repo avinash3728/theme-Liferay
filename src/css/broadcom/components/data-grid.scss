@@ -1,0 +1,258 @@
+.datagrid{
+	.row{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	.col-md-*{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.dataTables_wrapper{
+		.top,
+		.bottom{
+			display: flex;
+			align-items: center;
+			.dataTables_info{
+				padding-top: 5px;
+				padding-right: 20px;
+			}
+			.dataTables_length {     
+				padding-top: 10px;
+				label{
+					font-weight: normal;
+				}
+			}
+			.dataTables_paginate{
+				float: left;
+			}
+		}
+	}
+	table{
+		border: 1px solid $secondary-gray-light;
+		thead{
+			background:$primary-red;
+			color:$color-white;
+			font-size:$fontSize-body;
+			text-transform: capitalize;
+			tr{
+				padding:10px;
+				border-bottom: 1px solid $secondary-gray-light;
+				th{
+					border-right: 1px solid $secondary-gray-light;
+					width:6%;
+					cursor: pointer;
+				}
+				th.nowrap {
+					white-space: nowrap; 
+					}
+					
+				/*.sorting_asc{
+					content: "\e155";
+				}
+				.sorting_desc{
+					content: "\e156";
+				}*/
+				th:last-child{
+					width:15%;
+					cursor: default;
+				}
+			}
+		}
+		tbody{
+			font-size:$fontSize-body;
+			tr{
+				border-bottom: 1px solid $secondary-gray-light;
+				td{
+					word-wrap:break-word;
+					border-right: 1px solid $secondary-gray-light;
+					a{
+							color: $primary-black;
+							text-decoration:none;
+							display: inline;
+							padding-right: 10px;
+						svg{
+							width:8%;
+							height: auto;
+						}
+					}
+				}
+				td:last-child{
+					button{
+						padding: 0px;
+						border: 0px;
+						margin: 0px;
+						background: none;
+					}
+				}
+			}
+			tr:nth-child(odd) {
+				background:$color-white;
+			}
+			tr:nth-child(even) {
+				background:$secondary-gray-light2;
+			}
+		}
+	}
+}
+
+.master-grid{
+	.row{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	.col-md-*{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.dataTables_wrapper{
+		.top,
+		.bottom{
+			display: flex;
+			align-items: center;
+			.dataTables_info{
+				padding-top: 5px;
+				padding-right: 20px;
+			}
+			.dataTables_length {     
+				padding-top: 10px;
+				label{
+					font-weight: normal;
+				}
+			}
+			.dataTables_paginate{
+				float: left;
+			}
+		}
+	}
+	table{
+		border: 1px solid $secondary-gray-light;
+		thead{
+			background:$primary-red;
+			color:$color-white;
+			font-size:$fontSize-body;
+			text-transform: capitalize;
+			tr{
+				padding:10px;
+				border-bottom: 1px solid $secondary-gray-light;
+				th{
+					
+					width:6%;
+					cursor: pointer;
+				}
+				th.nowrap {
+					white-space: nowrap; 
+					}
+					
+				/*.sorting_asc{
+					content: "\e155";
+				}
+				.sorting_desc{
+					content: "\e156";
+				}*/
+				th:last-child{
+					width:15%;
+					cursor: default;
+				}
+			}
+		}
+		tbody{
+			font-size:$fontSize-body;
+			tr{
+				border-bottom: 1px solid $secondary-gray-light;
+				td{
+					word-wrap:break-word;
+					
+					a{
+							color: $primary-black;
+							text-decoration:none;
+							display: inline;
+							padding-right: 10px;
+						svg{
+							width:8%;
+							height: auto;
+						}
+					}
+				}
+				td:last-child{
+					button{
+						padding: 0px;
+						border: 0px;
+						margin: 0px;
+						background: none;
+					}
+				}
+			}
+			tr:nth-child(odd) {
+				background:$color-white;
+			}
+			tr:nth-child(even) {
+				background:$secondary-gray-light2;
+			}
+		}
+	}
+}
+.viewgroups
+{
+padding: 0px;
+border: 0px;
+margin: 0px;
+background: none;
+}
+
+#slaExceptionsContainer
+{
+.datagrid table thead tr th:last-child
+{
+width : 1%;
+}
+}
+
+th.checkbox-padding-grid
+{
+width : 1%;
+}
+.padding-grid-5p
+{
+	margin-left: -5%;
+	margin-right: -5%;
+}
+
+
+
+#SlaDatagrid {
+	thead {
+
+		tr {
+
+			th {
+
+				&:last-child {
+					width: 3%;
+				}
+			}
+		}
+	}
+}
+
+.cust-datagrid{
+	.datagrid{
+		table{
+			tbody{
+				td:last-child{
+					button{
+						padding: 5px;
+						margin: 5px;
+						font-size: 12px;
+						&.btn-primary{
+							background: $primary-red;
+						}
+						&.btn-cancel{
+							background: $color-white;
+							border: 1px solid $primary-red;
+						}
+					}
+				}
+			}
+		}
+	}
+}

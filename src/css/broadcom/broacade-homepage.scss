@@ -1,0 +1,228 @@
+.homepage-brocade {
+  .my-reports {
+    table {
+      tr {
+        &:first-child>td {
+          border-top: none;
+        }
+      }
+
+      margin-bottom: 0;
+    }
+
+    .section-info {
+      margin: 40px auto;
+    }
+  }
+
+  .svg-report {
+    width: 11px;
+  }
+  &.other-resource {
+    .panel-broadcom {
+      padding: 30px 30px 0 30px !important;
+      .col-sm-3 {
+        padding-bottom: 30px;
+      }
+    }
+  }
+
+  .panel {
+    &.panel-broadcom {
+      padding: 30px;
+
+      &.panel-san-health {
+        padding: 15px;
+      }
+    }
+  }
+
+  .my-apps {
+    .apps-box {
+      padding: 10px;
+      border-right: 1px solid $secondary-gray-light2;
+
+      svg {
+        width: 50px;
+      }
+
+      .apps-box-text {
+        font-size: $fontSize-small;
+      }
+
+      .custom-boxtext-width {
+        width: 90%;
+      }
+
+      .icon-wrapper {
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 62px;
+        background-size: contain;
+
+        &.sanhealthicon {
+          background-image: url("../images/sanhealthicon.jpg");
+        }
+
+        &.brocadesupportlinkicon {
+          background-image: url("../images/brocadeSupportLinkIcon.jpg");
+        }
+
+        &.lithiumicon {
+          background-image: url("../images/Communities.jpg");
+        }
+
+        &.cornerstoneicon {
+          background-image: url("../images/Education.jpg");
+        }
+
+        &.wolkensofticon {
+          background-image: url("../images/Cases_home.gif");
+        }
+
+        &.servicenowicon {
+          background-image: url("../images/c_brcm_case.jpg");
+        }
+
+        // Not Used
+        &.loremicon {
+          background-image: url("../images/loremicon.svg");
+        }
+
+        &.softwareportalicon {
+          background-image: url("../images/licensing_portal.jpg");
+        }
+
+        &.nmsanalyticsicon {
+          background-image: url("../images/NMS_analysis.jpg");
+        }
+
+        &.documentationicon {
+          background-image: url("../images/Documents_home.gif");
+        }
+
+        &.knowledgebaseicon {
+          background-image: url("../images/knowledge_base.jpg");
+        }
+
+        &.softwaredownloadsicon {
+          background-image: url("../images/software_downloads.jpg");
+        }
+        
+        &.upgradeaccessicon {
+          background-image: url("../images/ICON_Shield_Lock.jpg");
+        }
+      }
+    }
+  }
+
+  .h1 {
+    margin: 0;
+  }
+}
+
+.software-document-card {
+  /*  padding-bottom: 40px; */
+  cursor: pointer;
+
+  .dot {
+    height: 50px;
+    width: 50px;
+    background-color: #e78100;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    float: left;
+  }
+
+  .card.bg-light.blue {
+    border: 1px;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #009cbc;
+    background: $color-white-gray;
+    padding: 15px;
+  }
+
+  .card.bg-light.orange {
+    border: 1px;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #e78100;
+    background: $color-white-gray;
+    padding: 15px;
+  }
+
+  p.text-in-circle {
+    color: white;
+    top: 12px;
+    position: relative;
+    font-size: 16px;
+  }
+
+  p.card-text {
+    margin-right: 40%;
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: #e78100;
+  }
+
+  p.card-sub-text {
+    margin-bottom: 0px;
+    margin-right: 39%;
+    font-size: 11px;
+    color: #a5a3a3;
+    margin-top: 0px;
+  }
+
+  p.card-text.orange {
+    margin-right: 40%;
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: #e78100;
+  }
+
+  p.card-text.blue {
+    margin-right: 53%;
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: #009cbc;
+  }
+
+  .dot.blue {
+    background-color: #009cbc;
+  }
+
+  .dot.orange {
+    background-color: #e78100;
+  }
+}
+/* css for back to top image */
+.image-backToTop {
+  display: inline-block;
+  width: 20%;
+  height: 35px;
+  background-image: url("../images/back_to_top.svg");
+  background-repeat: no-repeat;
+}
+
+.text-backToTop {
+  color: #cc092f;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.CSPHomePageLayout {
+  .portlet-column-content {
+    &.empty {
+      display: none;
+    }
+  }
+}
+
+span.logo.img-responsive.broadcom-brand-logo {
+  background-image: url("../images/Broadcom_Ltd_Logo.svg");
+  background-repeat: no-repeat;
+  background-size: 83%;
+}

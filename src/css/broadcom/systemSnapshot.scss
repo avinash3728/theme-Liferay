@@ -1,0 +1,54 @@
+.system-snapshot-container {
+    .clear {
+        clear: both;
+    }
+
+    .pad-0 {
+        padding: 0px;
+    }
+
+    .pad-left-0 {
+        padding-left: 0px;
+    }
+
+    .pad-right-0 {
+        padding-right: 0px;
+    }
+
+    .pad-bot-10 {
+        padding-bottom: 10px;
+    }
+
+    .marg-bot-50 {
+        margin-bottom: 50px;
+    }
+
+    .page-heading {
+        color: $primary-red;
+    }
+
+    .link-red {
+        color: $primary-red;
+    }
+
+    .custom-hr-modify {
+        margin: 5px 0px 10px 0px;
+    }
+
+    .system-snapshot-wrapper {
+        .snapshot-title {
+            padding-top: 15px;
+        }
+
+        .snapshot-sub-title,
+        .snapshot-sub-value {
+            padding-bottom: 10px;
+        }
+
+        .snapshot-title,
+        .snapshot-sub-title,
+        .system-datetime {
+            font-family: $fontFamily-medium;
+        }
+    }
+}

@@ -1,0 +1,314 @@
+.row-count-val::-ms-expand, .page-number::-ms-expand {
+    display: block !important;
+}
+
+.marginLeft13p{
+    margin-left: 13px;
+}
+#document-management{
+    .navTabs{
+        border-radius: 4px 4px 0 0 !important;
+        margin-left: 5px !important
+    }
+
+    .documentMarginTop5 {
+        margin-top: -5px !important;
+    }
+
+    .displayContent {
+        display: inline-block;
+        padding: 0px;
+    }
+
+    #previewWarning {
+      .modal-dialog {
+        width: 380px;
+
+        .modal-content {
+          .modal-header {
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+            h4 {
+              font-size: 1.5rem;
+              font-weight: 550;
+              margin: 0px;
+            }
+
+            .glyphicon {
+              font-size: 1.2rem;
+            }
+          }
+
+          .modal-body {
+            height: auto;
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+
+    .boldLable {
+        font-weight: bold;
+    }
+
+    .normalLable {
+        font-weight: normal;
+    }
+   
+    .btn-create{
+        background-color: $primary-red;
+        border: 1px solid $primary-red;
+        color:  $color-white;
+    }
+       
+    .margin-legend-40{
+		margin-top:-40px;
+    }
+    .margin-botton-pagination{
+        margin-top: -20px;
+    }
+    .datagrid table tbody tr td a{
+        padding-right:0px;
+    }
+    .btn-upload{
+        background-color: $color-white;
+        color: $color-blue;
+        border: 1px solid $color-blue;
+    }
+    .typeahead__container .typeahead__field input{
+        font-size: 14px;
+    }
+    #doc-management-ul{
+        li {
+           
+            margin-right: 8px;
+           }
+    }
+    #new-doc-management-ul{
+        li {
+            
+            margin-right: 8px;
+           }
+    }
+    .doc-heading-font{
+        padding-top:50px;
+    }
+    .doc-sub-heading-font{
+        font-size: 16px;
+        padding-top: 15px;
+    }
+    .card-section{
+        padding-top:58px;
+    }
+    .found-data-font{
+        font-size: 1.5rem;
+    }
+    .doc-heading-red{
+        font-size: 24px;
+        margin-bottom: -28px;
+        color: #cc092f;
+        padding-top: 14px;
+    }
+    .found-data-padding{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 0px;
+    }
+    #idDocManGrid{
+            display: block;
+            overflow-x: scroll;
+            white-space: nowrap;
+            padding-left: 0px;
+    }
+    #doc-management-ul{
+        .nav-tabs>li {
+            border-radius: 4px;
+            -webkit-transform: perspective(100px) rotateX(30deg);
+            -moz-transform: perspective(100px) rotateX(30deg);
+            margin-right: 8px;
+        }
+
+    }
+    #new-doc-management-ul{
+        .nav-tabs>li {
+            border-radius: 4px;
+            -webkit-transform: perspective(100px) rotateX(30deg);
+            -moz-transform: perspective(100px) rotateX(30deg);
+            margin-right: 8px;
+        }
+
+    }
+    .padding-bottom-breadcrumbs{
+        padding-bottom: 44px;
+		margin-left:-14px;
+    }
+    .padding-left-0px{
+        padding-left:0px;
+    }
+    .datagrid table tbody tr td:last-child button{
+        padding:1px 3px 1px 3px;
+    }
+    .doc-ul-border{
+        width: 74%;
+        border-bottom: 1px solid $secondary-gray;
+        margin-left: 26%;
+    }
+    #document-tab,
+    #new-document-tab{
+        .tab-content {
+            border: none;
+        }
+        #productName {
+            &.h1 {
+                font-size: $fontSize-h2;
+                margin-top: 0;
+            }
+        }
+        .content-searched-user {
+            .pagination-wrapper {
+                .custom-pagination {
+                    padding-top: 0;
+                    margin-top: 0;
+                    padding-bottom: 0;
+                .gird-custom-pagination {
+                    padding-top: 0;
+                    margin-top: 0;
+                }
+                }
+            }
+        }
+    }
+    .blue-text{
+        color: $color-blue;
+      }
+    .doc-product-finder{
+        .panel-body{
+            border: 1px solid $secondary-gray;
+            border-radius: 3px;
+        }
+        .nav-tabs {
+            >li {
+                width: 50%;
+                text-align: center;
+                &.active {
+                    >a {
+                        background-color: $primary-red;
+                        border-color: $primary-red;
+                        color: $color-white;
+                        border-bottom-color: $primary-red;
+                    }
+                }
+                &>a {
+                    padding: 10px 4px;
+                    border-color: $primary-red;
+                    color: $primary-red;
+                    margin: 1px 0px 1px 0px;
+                    border-bottom-color: $primary-red;
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
+    .existing-searchbox{
+        margin-left: -16px;
+    }
+    .doc-card{
+        display: flex;
+        flex-direction: column;
+        .card {
+            .card-container {
+                padding: 2px 16px;
+            }
+            .document{
+                width: 21%;
+            }
+            svg{
+                fill: $primary-red;
+                width: 24%;
+                padding: 16px;
+            }
+            
+        }
+    }
+    #advsearch{
+        select
+            {
+                color: $secondary-gray-light;
+            }
+            option
+            {
+                color: $primary-black;
+            }
+            option:first-child
+            {
+                color: $secondary-gray-light;
+            }
+    }
+    #preview-modal-box{
+        top: 3%;
+        bottom: 0%;
+        right: 0%;
+        left: 0%;
+        .modal-header{
+            padding: 0px 15px;
+            button{
+                padding-top: 12px;
+            }
+        }
+        .modal-content{
+            overflow: hidden;
+        }
+            .modal-body {
+                height: auto;
+                padding: 0px 5px;
+                iframe#preview {
+                    height: 100%;
+                    overflow: hidden;
+                    border-width: 0;
+                    width: 100%; 
+                }
+            }
+    }
+    .permission-search-grid{
+        .inactive-user-N{
+            color: $primary-red;
+        }
+    }
+}
+#prodfinder{
+    .product-tree{
+      height: 570px;
+      overflow: auto;
+    }
+}
+ #doc-edit-align{
+ margin-left:13px;
+ }
+ #New-Doc-Align{
+ margin-left:12px;
+ }
+
+.existing-searchbox #idrbtnReplaceFile{
+margin-left:13px;
+}
+
+.doc-manage-type{
+	.typeahead__query{
+		margin-left:-19px;
+		}
+.typeahead__container .typeahead__field .typeahead__button{
+	display:none !important;
+	}
+	}
+#manage-doc-underline{
+text-decoration:underline;
+}	
+
+#existing-file-align{
+margin-left:-16px;
+}
+#existing-file-search-align{
+margin-left:-18px;
+}
+

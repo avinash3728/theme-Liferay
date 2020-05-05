@@ -1,0 +1,29 @@
+.downloadlimits{
+    .card{
+        height: 300px;
+        color: $secondary-gray;
+        .sub-card{
+            height: 225px;
+            margin-top: 40px;
+            padding-right: 0px;
+            &.limit-border{
+                border-right: 1px solid $secondary-gray;
+            }
+        }
+    }
+    .width-80{
+        width: 80%;
+    }
+    .limit-font{
+        font-size: 65px;
+        padding: 5px;
+    }
+    .comment-font{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .limit-editable{
+        padding: 5px;
+        border: 1px solid $secondary-gray;
+    }
+}

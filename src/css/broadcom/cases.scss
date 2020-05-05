@@ -1,0 +1,162 @@
+.cases-wrapper
+{
+    font-family: gotham;
+	    padding-left: 24px;
+		    padding-top: 9px;
+    .heading-mybrocade
+    {
+        font-size: 24px;
+        margin-bottom: 19px;
+    }
+   .tab-content
+    {
+        border: none;
+        background-color: white;
+    }
+    .nav-tabs
+    {
+        li
+        {
+            a{
+                font-size: 16px;
+				box-shadow: 1px 0px 8px #888888;
+            }
+        }
+    }
+	span.glyphicon.glyphicon-file
+	{
+		display: none;
+	}
+    #Servicenow,#SFDC
+    {
+        ul.nav.nav-tabs
+        {
+            li.active
+            {
+                a{
+					background-color:transparent;
+                    border: none;
+                    color: $primary-red;
+                    border-bottom-style:groove; 
+                    border-bottom-color:red;
+					
+                    
+                }
+            }
+        }
+    }
+    .casesGrid
+    {
+        .table>thead:first-child>tr:first-child>th
+        {
+            padding-left: 0px;
+            padding-right: 15px;
+            width: 12%;
+        }
+        .table>thead:first-child>tr:first-child>th:nth-child(2)
+        {
+            width: 60%;
+        }
+        
+        .table > thead > tr > th
+        {
+            font-size: 14px;
+            color: #898888; 
+        }
+        .table>tbody>tr>td{
+            padding-left: 0px;
+            padding-right: 15px;
+			font-size: 14px;
+        }
+		svg.documenticon
+		{
+			    width: 15%;
+				float: left;
+				margin-right: 4px;
+				.cls-1{fill:#e1fbff;}.cls-2{fill:#069bbb;}
+		}
+		
+	}
+		span.glyphicon.glyphicon-file
+		{
+			float:left;
+			width:20%;
+		}
+		span.case-number
+		{
+			color:#383838;
+			float: left;
+			cursor: pointer;
+			width: 80%;
+		}
+		div#snow_opencase
+		{
+			a.sub-heading.red
+			{
+				color: #cc092f;
+				font-size: 16px;
+				font-weight: bold;
+			}
+		}
+		span.blacktext
+		{
+			font-size: 14px;
+			font-weight: bold;
+			margin-right: 9px;
+			color: #898888;
+		}
+		span.redtext
+		{
+			color: #cc092f;
+			font-weight: bold;
+			font-size: 16px;
+		}
+		.nav-tabs
+		{
+			margin-bottom: 10px;
+			margin-top: 14px;
+		}
+		div#snow_header
+		{
+			margin-top: 14px;
+		}
+		div#snow_url
+		{
+			text-decoration: underline;
+			font-size: 14px;
+			margin-bottom: 3%;
+		}
+		div#sfdc_url
+		{
+			text-decoration: underline;
+			font-size: 14px;
+			margin-bottom: 3%;
+		}
+		.showlatestcases {
+			font-family: gotham;
+			color: #c6c6c6;
+			font-size: 14px;
+		}
+		.greybottomcolorcases
+		{
+			    color: #999999;
+		}
+}
+	
+.cases-wrapper div#sfdc_opencase a.sub-heading.red{
+		color: #cc092f;
+		font-size: 16px;
+		font-weight: bold;
+}
+
+.cases-wrapper div#snow_opencase a.sub-heading.red,
+.cases-wrapper div#sfdc_opencase a.sub-heading.red,
+.cases-wrapper div#snow_url a,
+.cases-wrapper div#sfdc_url a{
+	display: inherit;
+}
+
+
+
+
+

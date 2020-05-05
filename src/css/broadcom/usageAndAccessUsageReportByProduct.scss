@@ -1,0 +1,299 @@
+
+.access-report-by-product{
+
+    .pad-left-0{
+        padding-left: 0px;
+    }
+    .pad-0{
+      padding: 0px;
+    }
+    .clear{
+      clear:both;
+    }
+    .margin-left-10{
+        margin-left: 10px;
+    }
+
+    .margin-top-15{
+        margin-top: 15px;
+        display: block;
+    }
+    .access-form-wrapper{
+      margin-top: 20px;
+    }
+    .company-container{
+      padding: 10px 0px 10px 0px;
+      .doc-style{
+        display: inline-block;
+        width: 9.5%;
+      }
+      .doc-type-items{
+        padding-left: 46px;
+      }
+      .doc-text-style{
+        display: inline-block;
+      }
+      .company-wrap{
+        // padding: 0px 60px;
+        span{
+          padding-left: 46px;
+          a{
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .filter-checkbox-font{
+      .filter-employee{
+        margin-left: 110px;
+      }
+    }
+    .filter-wrap{
+      label{
+        width: 20%;
+        font-weight: normal;
+      }
+      .filter-dropdown{
+        display: inline-block;
+        width: 50%;
+      }
+    }
+    .download-date-wrapper{
+      .date-checkbox{
+        text-align: left;
+        padding-left: 35px;
+        width: 100%;
+        .cr{
+          margin-right: 20px;
+        }
+        label{
+          width: 78%;
+        }
+      }
+      label{
+        width: 28%;
+        display: inline-block;
+        font-weight: normal;
+      }
+      .date-dropdown{
+        display: inline-block;
+        width: 72%;
+        text-align: right;
+        vertical-align: top;
+        .form-group{
+          margin: 0px;
+        }
+        .input-wrapper{
+          width: 83%;
+        }
+      }
+      .datepicker-to-style{
+        padding: 8px 10px;
+      }
+    }
+    .back-btn-wrap{
+      margin: 20px 0px;
+      .btn-back{
+        background: $color-white;
+        color: $primary-red;
+        border: 1px solid $primary-red;
+      }
+    }
+    .pagination-wrapper{
+      .pagination-content{
+        .custom-pagination{
+          padding-top: 0px;
+          .gird-custom-pagination{
+            ul{
+              li{
+                padding-right: 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .get-access-btn-wrap{
+      text-align: right;
+      margin: 20px 0px;
+      .btn-filter-report{
+        background: $primary-red;
+        color: $color-white;
+      }
+      .btn-reset{
+        background: $color-white;
+        color: $primary-red;
+        border: 1px solid $primary-red;
+      }
+    }
+    .datagrid{
+      #requestdatagrid{
+        margin: 0;
+      }
+    }
+    .user-container{
+      .users-wrap{
+        ol{
+          padding-left: 60px;
+          li{
+            padding: 5px 0;
+            span{
+              &:first-child{
+                padding-left: 8px;
+              }
+              &:last-child{
+                padding-left: 48px;
+              }
+              a{
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+        // padding: 0px 60px;
+
+      }
+    }
+
+    .link-red{
+        color: $primary-red;
+    }
+
+    .font-bold{
+        //font-weight: 600;
+        font-family: $fontFamily-bold;
+    }
+
+    .font-medium{
+        font-family: $fontFamily-medium;
+    }
+
+    .anchor-link{
+        text-decoration: underline;
+        color: $color-link;
+    }
+
+    .pagination-wrapper{
+        .pagination-content{
+                padding: 0px;
+                margin-right: -5px;
+        }
+    }
+
+
+    .page-heading{
+        font-family: $fontFamily-bold;
+        color: $primary-red;
+    }
+
+    .save-report-wrapper{
+
+        .save-report{
+
+            background-color: $primary-red;
+            color: $color-white;
+
+        }
+
+    }
+
+    .document-name-wrapper{
+        hr{
+            margin-top:10px;
+        }
+
+        .document-name-text{
+            font-size: $fontSize-h3;
+        }
+    }
+
+    .save-report-wrapper{
+
+        .label-wrapper {
+            width:25%;
+        }
+
+        .input-wrapper{
+
+            width: 70%;
+        }
+
+        button{
+            padding:10px;
+        }
+    }
+
+    .document-name-wrapper{
+
+        .document-name-text{
+            font-family:$fontFamily-bold;
+        }
+    }
+
+    .document-details{
+
+        .document-details-row{
+
+            display: block;
+
+        }
+    }
+
+    .filter-wrapper{
+
+        .filter-input{
+
+            .label-wrapper {
+                width: 25%;
+            }
+
+            .input-wrapper{
+                width: 75%
+            }
+
+        }
+
+        .filter-button-wrapper{
+
+            button{
+
+                padding: 10px;
+
+            }
+
+            .filter-report{
+                background-color: $primary-red;
+                color: $color-white;
+            }
+
+            .reset-filter{
+                background-color: white;
+                color: $primary-red;
+                border:  $border-red;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+        }
+
+        .filter-checkbox{
+            margin-left: 73px;
+        }
+
+        .contains-checkbox{
+            margin-left: 176px;
+        }
+    }
+
+    .datagrid-wrapper{
+        .ledgen-wrapper{
+            border: 1px solid $primary-gray;
+            padding: 10px;
+            border-radius: 4px;
+            .ledgen{
+                font-family: $fontFamily-medium;
+                color: $primary-red;
+            }
+        }
+    }
+}

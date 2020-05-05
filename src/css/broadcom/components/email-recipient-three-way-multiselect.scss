@@ -1,0 +1,30 @@
+$block-height: 180px;
+
+.three-way-multiselect-component {
+    .right-data {
+        top: 180px;
+    }
+
+    .action-buttons {
+
+        .row {
+            height: $block-height;
+            position: relative;
+
+            .left-right-icons {
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+
+    .email-recipients {
+
+        .row {
+            height: $block-height;
+        }
+    }
+}

@@ -1,0 +1,227 @@
+
+.account-management-form-inputs
+{
+    //margin: 2px -84px 2px 35px;
+    margin-left: 2px;
+    margin-right: 26px;
+    .pad-0{
+        padding: 0px;
+    }
+
+}
+
+a.btn.btn-default.btn-sm.account-management-searchbutton
+{
+background-color: #24d19e;
+    color: $color-white;
+    margin-top: 25px;
+    //margin-left: 29px;
+}
+h2.red.display-inline
+{
+    font-size: 27px;
+}
+
+p.nav-name
+{
+    margin-left: 3px;
+    margin-top: 18px;
+}
+.search-account-label
+{
+font-size: 18px;
+}
+.label-wrapper
+{
+    margin-bottom: 6px;
+}
+.account-management-tabs {
+    position: relative;
+  //  bottom: 23px;
+//Created On 3/26/2018
+bottom: -11px;
+margin-right: -26px;
+}
+
+.account-management-cbox {
+    display: inline;
+    width: 50px;
+}
+.account-management{
+    label {
+        display: -webkit-inline-box;
+    }
+}
+input[type=checkbox] {
+    display: inline;
+}
+
+// .border-bottom-thin.padding-bottom-3x
+// {
+//     //border-bottom-color: #fafafa;
+// }
+p.account-management-below-text
+{
+    color: #2699fb;
+}
+
+.account-management-cbox > .checkbox 
+    {
+       margin-top: 34px;
+    margin-left: 18px;   
+    }
+
+    .border-bottom-thin.padding-bottom-3x.light-grayish-blue
+    {
+        border-bottom-color: $light-grayish-blue;
+        margin-left: 24px;
+    }
+
+    .header-comp
+    {
+        margin-left:23px;
+        margin-right: -35px;
+    }
+
+    .account-management-total-result {
+            margin-top: 16px;
+    margin-right: -39px;
+    }
+    //Created On 26-3-2018
+    .heading-label
+    {
+            margin-left: -13px;
+    }
+     //Created On 26-3-2018
+    .account-management-account-table
+    {
+        margin-left: 0px;
+     //   margin-right: -7px;
+    }
+     //Created On 26-3-2018
+    form#AccountManagement
+    {
+        margin-left: -14px;
+    }
+
+    
+button#searchCompanies {
+    margin-top: 24px;
+    background-color: #0092bc;
+    color: white;
+}
+.grid-wrapper.accountmanagement
+{
+.datagrid 
+{
+    table 
+    {
+        tbody 
+        {
+            tr 
+            {
+                td
+                {
+                     a
+                    { 
+                        svg
+                        {
+                            width: 4%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
+
+.account-management
+{
+h2.red.display-inline
+{
+font-size:24px;
+}
+.pagination-wrapper .custom-pagination .gird-custom-pagination ul li button
+{
+pointer-events:auto;
+}
+.pagination-wrapper .custom-pagination .grid-label-desc ul li svg
+{
+width:14px;
+}
+.pagination-wrapper .custom-pagination
+{
+padding-top:0px;
+}
+.pagination-wrapper .custom-pagination .grid-label-desc ul li
+{
+font-size:12px;
+height: 13px;
+    padding: 0px 0px 0px 8px;
+    float: left;
+}
+.pagination-wrapper .custom-pagination .grid-label-desc ul li label
+{
+font-size:12px;
+}
+.datagrid table thead tr th
+{
+width:16%;
+}
+.col-sm-4.row.grid-label-desc
+{
+padding-left: 24px;
+}
+.datagrid table tbody tr td a svg
+{
+width: 4%;
+height: 18px;
+}
+.search-account {
+    font-size: 18px;
+}
+span.cr
+{
+ border: 1px solid #0092bc;
+    width: 23px;
+    height: 21px;
+    margin-left: -21px;
+    color: #0092bc;
+}
+.pagination-wrapper .custom-pagination .gird-custom-pagination ul li button span 
+			{
+			pointer-events:auto; 
+			}
+
+}
+
+
+//AccountManagement Create CSS
+
+
+//AccountManagement Create CSS
+
+
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        a.btn.btn-default.btn-sm.account-management-searchbutton
+        {
+            margin-left: 14px;
+            padding-left: 14px;
+            padding-right: 10px;
+        }
+        .header-comp
+        {
+        margin-right: -5px;
+        }
+    }
+    
+    @media only screen 
+    and (min-width : 1224px) {
+    
+        .account-management
+        {
+            padding-right: 8px;
+        }
+    }

@@ -1,0 +1,138 @@
+.user-document-check{
+    .page-heading{
+        color: $primary-red;
+    }
+    .input-hint-style{
+        margin-left: 215px;
+        color: $color-blue;
+    }
+    .button-style{
+        margin: 20px 0px;
+        text-align: right;
+    }
+    .multiselect-info{
+        margin-left: 228px;
+        color: $color-blue;
+    }
+    .pagination-wrapper{
+        .custom-pagination{
+            .gird-custom-pagination{
+                ul{
+                    li{
+                        &:last-child{
+                            padding: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .green-box{
+        height: 15px;
+        width: 15px;
+        margin: 0 auto;
+        background-color: $colorBdr-success;
+        border: 1px solid $colorBdr-success;
+    }
+    .grey-box{
+        height: 15px;
+        width: 15px;
+        margin: 0 auto;
+        background-color: $primary-gray-light;
+        border: 1px solid $secondary-gray-light;
+    }
+    .raise-request-btn{
+        margin: 20px 0px;
+    }
+    .company-autocomplete{
+        .form-group{
+            label{
+                &.control-label{
+                    &::after{
+                        content: "";
+                    }
+                }
+            }
+        } 
+    }
+    .multiselect-wrap{
+        .col-xs-5{
+            width: 44%;
+        }
+        .col-xs-2{
+            padding: 0;
+            // margin-right: 12px;
+        }
+        .multiselect-button-wrapper {
+            margin-top: 30px;
+        }
+    }
+    .search-user{
+        .form-group{
+            margin: 0;
+        }
+    }
+    .multiselect-wrap {
+        float: right;
+        padding: 0;
+        margin-bottom: 20px;
+        .row {
+            .col-md-1 {
+                button {
+                    padding: 5px;
+                    background-color: #fff;
+                    border: 1px solid #a7a8aa;
+                    color: #a7a8aa;
+                    outline: 0;
+                    font-size: 10px;
+                }
+            }
+            .col-xs-5{
+                &:first-child{
+                    padding-left: 0;
+                }
+                &:last-child{
+                    padding-right: 0;
+                }
+            }
+        }   
+    }
+        
+    .legend-wrapper{
+        border: 1px solid $color-gray80;
+        border-radius: 2px;
+        .has-access-square{
+            border: 1px solid $colorBdr-success;
+            height: 12px;
+            vertical-align: text-top;
+            margin-right: 4px;
+            width: 12px;
+            background-color: $colorBdr-success;
+        }
+        .no-access-square{
+            border: 1px solid $secondary-gray;
+            height: 12px;
+            width: 12px;
+            background: $primary-gray-light;
+            vertical-align: text-top;
+            margin-right: 4px;
+        }
+        .inline{
+            display: inline-block;
+        }
+        
+        .legend{
+            margin: 10px 8px;
+        }
+        .legend-result-container{
+            margin: 20px 0px;
+        }
+    }
+    .gird-custom-pagination{
+        width: 100%;
+    }
+    .treebtnGroup{
+        padding: 0;
+        margin-right: 8px;
+    }
+}

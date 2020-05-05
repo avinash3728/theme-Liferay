@@ -1,0 +1,126 @@
+/* module: my pending requests */
+
+.module-pending-request {
+    .form-group {
+        margin: 0;
+    }
+    .content-bottom-align {
+        position: relative;
+        .col-bottom-aligned {
+            position: absolute;
+            bottom: 15px;
+            right: 0;
+            &.pending-request {
+                top: 31px;
+            }
+        }
+    }
+    .svg-fitted {
+        &.pending-request-pdf {
+        svg {       
+            width: 16px;
+            height: 12px;
+            fill: #da1a32;
+           }   
+        }
+     }
+
+     .form-group {
+        margin-bottom: 0;
+        &.todate-request {
+            margin-top: 5px;
+            .input-wrapper {
+                &::before {
+                content: "to";
+                position: absolute;
+                left: -22.5px;
+                font-size: 14px;
+                top: 5px;
+                }
+            }
+        }
+    }
+    @media only screen and (min-width: 1440px) {
+    .form-group {
+        margin-bottom: 0;
+        &.todate-request {
+            margin-top: 5px;
+            .input-wrapper {
+                &::before {
+                content: "to";
+                position: absolute;
+                left: -22.5px;
+                font-size: 14px;
+                top: 5px;
+                }
+            }
+        }
+    }
+}
+
+    .pagination-wrapper {
+        .custom-pagination {
+            padding-top: 14px;
+        }
+    }
+
+    .datagrid table thead tr th:last-child {
+        width: 2%;
+    }
+}
+
+/* My pending request history */
+
+.module-request-details {
+    .tab-content {
+        &.content-request-details {
+            border: none;
+        }
+        &.content-request-details-approval{
+            border:none;
+            border-top: 1px solid $secondary-gray;
+        }
+
+    }
+    .pagination-wrapper {
+        .custom-pagination {
+            padding-bottom: 0;
+            padding-top: 0;
+        }
+    }
+    .svg-fitted {
+        &.pending-request-pdf {
+        svg {       
+            width: 16px;
+            height: 12px;
+            fill: #da1a32;
+           }   
+        }
+        svg {       
+            width: 16px;
+            height: auto; 
+        }
+     }
+    .datagrid table tbody tr{
+        td:nth-child(2),
+        td:nth-child(7){ width: 20%; word-break: break-word;}
+        td:nth-child(6){ width: 8%;}
+    }
+}
+
+/* accessing direclty for now, as the other css is affecting, has to be removed while refactoring */
+.datagrid table tbody tr td a.broadcom-link {
+    color: $color-link;
+    text-decoration: underline;
+}
+
+.svg-fitted {
+    &.pending-request-pdf {
+    svg {       
+        width: 16px;
+        height: 12px;
+        fill: #da1a32;
+       }   
+    }
+ }
+

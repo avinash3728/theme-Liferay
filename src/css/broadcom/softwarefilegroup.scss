@@ -1,0 +1,345 @@
+.software-file-group
+{
+    .form-group label
+    {
+        font-weight:bold;
+    }
+    .user-access-N{
+        color: $primary-red;
+     }
+    .subheading-red
+    {
+        font-size: 24px;
+        font-weight: bold;
+        color: $primary-red;
+    }
+    .software-filegroup-legends-container
+    {
+        border: 1px solid #ccc;
+        padding: 10px;
+        float: right;
+        font-size: 11px;
+    }
+    .legends-software-filegroup-block.pull-right
+    {
+     
+        border: solid 1px rgba(208, 208, 206, 0.8);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        span
+        {
+            padding: 2px;
+            font-size: 11px;
+        }
+    }
+    td.actions
+    {
+        span
+        {
+            padding: 5px;
+        }
+    }
+    .margin-top-bottom20px
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .datagrid table thead tr th:last-child
+    {
+        width: 5%;
+    }
+    .margin-bottom-20px
+    {
+        margin-bottom: 20px;
+    }
+    .pagination-wrapper .custom-pagination{
+        padding-top: 8px;
+    }
+    /*.table tr td:first-child, .table tr th:first-child
+	{
+		padding-left: 0px;
+	}*/
+	.pagination-fs-onload
+	{
+		overflow-y: auto;
+		margin-right: 16px;
+		margin-left: 16px;
+	}
+	.software-file-group-tabs.pull-left
+	{
+		margin-left: 3px;
+	}
+	.border-bottom-thin.margin-bottom-20px
+	{
+		margin-left: 16px;
+		margin-right: 18px;
+	}
+    //Modal CSS
+    div#addSoftwareOtherFiles ,div#customize-permission-modal 
+    {
+        overflow: auto;
+        .modal-dialog
+        {
+            width: 80%;
+        }
+    }
+   
+    .text-center-toccbcc
+    {
+        margin-left: 21px;
+    }
+    .checkbox {
+        label {
+            pointer-events: none;
+            span.cr {
+                pointer-events: none;
+                i.cr-icon.glyphicon.glyphicon-ok {
+                    pointer-events: auto;
+                }
+            }
+        }
+    }
+    .datagrid table tbody tr td
+    {
+        .radiobutton
+        {
+            margin-left: 24px;
+        }
+    }
+    .software-other-files-block,.software-file-group-permission,.notification,.new-software-block{
+    border: 1px solid $color-blue;
+    padding: 20px;
+
+    }
+    .red-color
+    {
+        color: $primary-red;
+    }   
+    .gray-color
+    {
+        color: $primary-gray;
+    }
+    .margin-top-6px{
+        margin-top: 6px;
+    }
+    .message-software-file-permission
+    {
+        color: $color-blue;
+        font-size: 10px;
+    }
+    .results-text
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .heading-email-notification
+    {
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    .container-email-notification
+    {
+        border: 1px solid #eee;
+        .subheading-email-notification
+        {
+            margin-left: 33px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .border-bottom-thin
+        {
+            margin-left: 33px;
+            margin-right: 39px;
+            margin-bottom: 10px;
+        }
+        .checkbox{
+            margin-top: 16%;
+			margin-left: 24%;
+        }
+        button{
+            margin-top: 16%;
+        }
+        .form-notification-elements
+        {
+            margin-left: 20px;
+            margin-right: 20px;
+			.form-group.search-box
+			{
+				.label-wrapper
+				{
+					font-weight: bold;
+					input#companynamesfgnotification
+					{
+						    padding: 10px;
+							margin-top: 12px;
+							border-radius: 2px;
+							border-width: 1px 1px 1px 1px;
+							box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+							border: 1px solid #ccc;
+					}
+				}
+			}
+        }
+    }
+    .col-md-12.row.custom-pagination
+    {
+        margin-right: 0px;
+        margin-left: 16px;
+    }
+    .pagination-fs-onload
+    {
+        .pagination-wrapper.pull-right
+        {
+            .col-md-12.row.custom-pagination
+            {
+                padding-left: 0px;
+                margin-left: 15px;
+                padding-right: 0px;
+                margin-right: 15px;
+            }
+        }
+    }
+    .button.btn.btn-primary.cancel
+    {
+        background-color: #FFFFFF;
+        border: 1px solid #CC092F;
+        color: #CC092F;
+    }
+    textarea
+    {
+        height: auto;
+        min-height: 98px;
+        overflow: auto;
+    }
+    div#addSoftwareOtherFiles,
+    div#addPermissionModal,
+    div#customize-permission-modal
+	{
+	width: 90%;
+    height: 100%;
+    top: 10px;
+    left: 5%;
+	.modal-dialog
+	{
+    overflow: hidden;
+    max-height: 90%;
+    .modal-content
+    {
+        overflow-y: auto;
+        max-height: 90%;
+    }
+	}
+	.tree-button-align
+	{
+	    margin-right: 40px;
+	}
+    }
+    .norowcol
+    {
+     
+        .datagrid.col-md-12.row
+        {
+            margin-left: 0px;
+            margin-right: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+    span.below-text
+    {
+        color: #0092bc;
+        font-size: 10px;
+    }
+    .gridpadding
+    {
+        overflow: auto;
+        margin-right: 14px;
+        margin-left: 10px;
+    }
+    .software-file-group-permission
+    {
+        .form-group.inline .label-wrapper
+        {
+            padding-top: 0px;
+        }
+    }
+    div#addPermissionModal ,div#customize-permission-modal
+    {
+        .modal-dialog
+        {
+            width: 100%;
+        }
+    }
+    .radiodropdownalign
+    {
+        .label-wrapper
+        {
+            width: 35%;
+        }
+        .checkbox
+        {
+            position: relative;
+            left: -11px;
+        }
+    }
+    input#companynamesfg
+    {
+        padding: 10px;
+        border-radius: 2px;
+        border-width: 1px 1px 1px 1px;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+        border: 1px solid #ccc;
+    }
+    .searchbox
+    {
+        .label-wrapper
+        {
+            width: 100%;
+            
+        }
+    }
+	.input-wrapper.searchbox
+	{
+		    width: 60%;
+			.form-group.search-box
+			{
+				.input-wrapper
+				{
+					    width: 100%;
+				}
+			}
+	}
+    .checkbox.checkbox-align.to-notification-cb,
+    .checkbox.checkbox-align.cc-notification-cb,
+    .checkbox.checkbox-align.bcc-notification-cb
+    {
+        margin-left: 11px;
+    }
+    .notification-grid
+    {
+        margin-bottom: 0px;
+    }
+    .datagrid .table>thead tr th:first-child>.checkbox, .table>thead tr th:first-child>input[type="checkbox"]
+    {
+        margin-bottom: 9px;
+    }
+    .modal-title
+    {
+        float: left;
+        font-weight: bold;
+    }
+    .modal-body
+    {
+        height: auto;
+        overflow: visible;
+    }
+    .email-id-to{
+        p{
+            word-break: break-all;
+        }
+    }
+}

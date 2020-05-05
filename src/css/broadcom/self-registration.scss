@@ -1,0 +1,172 @@
+.Registration-State-Label{
+  .form-control{
+     font-size: 14px !important;
+  }
+}
+
+// .registration-form{
+//   position: relative;
+// }
+
+.self-registration{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/Self_Reg_BG.jpg");
+  height:125vh;
+  margin: -10px -55px;
+}
+
+.input-size{
+  .form-group{
+    .input-wrapper{
+    width: 70% !important;
+    }
+  }
+}
+
+.stage2DetailsOrg{
+  .form-group{
+    .input-wrapper{
+      width: 65% !important;
+    }
+  }
+}
+
+.required-field::before{
+  content: "*";
+  color: #CC092F;
+}
+
+// .input-wrapper::before {
+//   content: "*";
+//   color: #CC092F;
+// }
+
+.req-input::after{
+  content: "*";
+  color: #CC092F;
+  position: relative;
+  left: 6px;
+  top: -30px;
+}
+
+.infoPage{
+  // .p{
+  //   margin: 3px;
+  // }
+  .form-group {
+  //    height:37px;
+   // margin-bottom: 5px !important;
+    .input-wrapper{
+    width: 90% !important;
+   //   height:30px;
+    }
+    // .select{
+    //   padding:2px 10px;
+    // }
+  }
+  // .form-control{
+  //   height:30px;
+  //   padding:2px 10px;
+  // }
+}
+
+.block-add{
+  width: 45% !important;
+  top: 12% !important;
+}
+
+.block-edit{
+  width: 45% !important;
+  top: 10% !important;
+}
+
+.block-create-account{
+  width: 60% !important;
+  top: 10% !important;
+  td{
+    padding: 5px;
+    font-style: italic;
+  }
+}
+
+.logo-selfReg{
+  background-image: url("../images/Logo-Broadcom.png"); 
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:32px;
+  margin:10px 10px;
+  max-width:200px;
+  max-height:30px;
+}
+
+.block{
+  background-color:white;    
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  //top: 10%;
+  transform: translateX(-50%);
+  width: 35%;
+  text-align: center;
+  padding: 15px;
+}
+
+.show-modal{
+  .container-fluid{
+    padding-top:50px;
+  }
+}
+.no-margin-bottom{
+  margin-bottom: 0px !important;
+}
+
+.sweet-alert {
+
+  &.self-registration-swal-wrapper {
+    width: 300px !important;
+    padding: 10px !important;
+    left: 60% !important;
+    top: 50% !important;
+    .lead{
+      font-size: 12px !important;
+      color:red !important;
+    }
+    .btn{
+      margin-right: 0px !important;
+      padding-left: 12px !important;
+      padding-right: 12px !important;
+    }
+    .btn-lg{
+      font-size: 12px !important;
+    }
+    .sa-body{
+      height:0px !important;
+    }
+    .sa-dot{
+      height:0px !important;
+    }
+    .sa-line{
+      // width:30px !important;
+      // top:30px !important;
+      height: 0px !important;
+    }
+    .sa-icon  {
+      widows: 0px !important;
+      height: 0px !important;
+      border: 0px !important;
+        &.sa-success {
+            &::after {
+                transform-origin: 0 55px;
+            }
+            &::before {
+                transform-origin: 50px 50px;
+            }
+        }
+    }
+  }
+}

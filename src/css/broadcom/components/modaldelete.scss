@@ -1,0 +1,40 @@
+.modal.fade.in.delete-modal
+{
+    .modal-dialog
+    {
+        width: 476px;
+    }
+    .modal-content
+    {
+        width: 476px;
+        border-radius: 3px;
+        height: 149px;
+    
+    }
+    p.text-center
+    {
+        font-size: 16px;
+        margin-top: 16px;
+        margin-bottom: 14px;
+        line-height: 1.75;
+    }
+    .modal-yes
+    {
+        width: 84px;
+        font-size: 16px;
+        height: 32px;
+        line-height: 0.75;
+    }
+
+    .modal-cancel
+    {
+        color: rgba(204, 9, 48, 0.671);
+        border: solid 1px rgba(204, 9, 47, 0.8);
+        background-color: white;
+        width: 84px;
+        line-height: 0.75;
+        height: 32px;
+        font-size: 16px;
+    }
+
+}

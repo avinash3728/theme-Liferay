@@ -1,0 +1,179 @@
+.usageReportByProduct{
+  .pad-0{
+    padding: 0px;
+  }
+  hr{
+      margin-top:5px;
+  }
+  .btn-wrap{
+    text-align: right;
+    // width: 35%;
+    // display: inline-block;
+  }
+  .searchbox-wrap{
+    .input-wrapper{
+      width: 100%;
+    }
+  }
+  #find-soft-from-date, #find-soft-to-date{
+    padding: 6px 10px;
+  }
+  .btn-ok-wrapper{
+    text-align: center;
+    border: none;
+    button{
+      background: $primary-red;
+      color: #fff;
+      border: 1px solid $primary-red;
+    }
+  }
+  #validationPopUp{
+    .content-wrap{
+      text-align: center;
+      margin: 20px 0px 0px 0px;
+    }
+    .modal-header{
+      border: none;
+      padding-bottom: 0;
+    }
+  }
+  .tree-section-wrapper{
+    .col-md-5{
+      &:first-child{
+        padding-right: 0px;
+      }
+      &:last-child{
+        padding-left: 0px;
+      }
+    }
+
+    .treebtnGroup{
+      padding: 0px;
+      margin-top: 68px;
+      margin-left: 15px;
+      margin-right: 15px;
+        button {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 8px;
+        }
+    }
+
+  }
+  .filter-wrapper{
+      // padding-left: 70px;
+
+      .filter-title-hr{
+          margin-bottom: 2px;
+      }
+
+
+      .filter-title-subtext{
+          font-family: $fontFamily-bold;
+          color: $color-blue;
+          font-size: $fontSize-small;
+
+      }
+      .get-usage-btn-wrap{
+        text-align: right;
+        margin: 30px 0px;
+        .get-usage-button{
+          background: $primary-red;
+          color: #fff;
+          margin: 30px 0px;
+        }
+      }
+
+      .filter-multiselect{
+              .datepicker-to-style{
+                padding: 7px 15px;
+              }
+
+              .dropdown-wrap{
+                padding-left: 0;
+                .form-group {
+                  .input-wrapper{
+                    width: 100%;
+                  }
+                }
+              }
+              .multiselect-wrap {
+                .multiselect-button-wrapper{
+                  margin-top: 15px;
+                  button{
+                      font-size: 10px;
+                      padding-left: 10px;
+                  }
+              }
+      
+              .multiselect-info{
+                text-align: right;
+                padding-right: 116px;
+                color: $color-blue;
+                font-size: 12px;
+              }
+              .row {
+                .col-xs-5 {
+                  width: 45.83%;
+                }
+                .col-md-1 {
+                  padding: 0px;
+                  button {
+                    padding: 5px;
+                    background-color: #fff;
+                    border: 1px solid #a7a8aa;
+                    color: #a7a8aa;
+                    outline: 0;
+                  }
+                }
+      
+              }
+            }
+            .flex-layout {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              .dropdown-wrap {
+                margin-right: 12px;
+                .input-wrapper {
+                  width: 100%;
+                }
+              }
+              .start-date {
+                margin-top: 0px;
+              }
+              .date-range-to {
+                padding: 8px;
+              }
+              .end-date {
+                margin: 0px;
+              }
+            }
+
+              .multiselect-label{
+                  margin-top: 20px;
+                  margin-right: 37px;
+              }
+
+      }
+
+      .company-search-wrapper{
+
+          .inline{
+              display:inline;
+          }
+
+          .label-wrapper{
+              width: 16%;
+          }
+          #search-custom-button{
+              padding: 0px;
+              background: $color-white;
+              color: $primary-red;
+              border: $border-red;
+              // margin-left: 31px;
+              padding: 5px;
+          }
+      }
+  }
+}

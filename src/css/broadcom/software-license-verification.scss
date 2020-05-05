@@ -1,0 +1,42 @@
+/* Module Software License SCSS */
+
+.module-software-license {
+    .tab-content-document {
+        border: none;
+    }
+    .pagination-wrapper {
+        .custom-pagination {
+            padding: 0;
+        }
+    }
+
+    .form-group {
+        margin-bottom: 0;
+        &.or {
+            .input-wrapper {
+                &::before {
+                content: "OR";
+                position: absolute;
+                right: 100%;
+                font-size: 14px;
+                top: 5px;
+                margin-right: 4px;
+                }
+            }
+        }
+    }
+
+    .datagrid table
+    {
+        tbody tr td a svg {
+            width: 15px;
+            height: auto;
+        }
+
+        thead tr th:last-child {
+            min-width: 40px;
+            cursor: pointer;
+            width: 2%;
+        }
+    }
+}

@@ -1,0 +1,77 @@
+.module-software-approval {
+    
+    .form-group {
+        margin-bottom: 0;
+        &.todate-request {
+            margin-top: 5px;
+            .input-wrapper {
+                &::before {
+                content: "to";
+                position: absolute;
+                left: -22.5px;
+                font-size: 14px;
+                top: 5px;
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width: 1440px) {
+        .form-group {
+            margin-bottom: 0;
+            &.todate-request {
+                margin-top: 5px;
+                .input-wrapper {
+                    &::before {
+                    content: "to";
+                    position: absolute;
+                    left: -22.5px;
+                    font-size: 14px;
+                    top: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .content-bottom-align {
+        position: relative;
+        .col-bottom-aligned {
+            position: absolute;
+            bottom: 1px;
+            right: 0;
+            &.btn-filter {
+                width: 160px;
+                right: 14px;
+            } 
+        }
+    }
+
+    .svg-fitted {
+        svg {
+            width: 15px;
+            height: auto;
+        }
+    }
+
+    .datagrid table
+    {
+        tbody tr td a svg {
+            width: 15px;
+            height: auto;
+        }
+
+        thead tr th:last-child {
+            min-width: 180px;
+            cursor: pointer;
+        }
+    }
+
+    .pagination-wrapper {
+        .custom-pagination {
+            padding-top: 10px;
+        }
+    }
+
+
+}

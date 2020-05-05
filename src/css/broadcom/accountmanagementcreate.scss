@@ -1,0 +1,379 @@
+.personal-info
+{
+    margin-left: 21px;
+    margin-right: 12px;
+}
+
+p.sub-heading.account-management-create {
+    margin-top: 19px;
+    margin-left: -9px;
+}
+a.customtab , a#customtab
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 130px;
+}
+
+.margin-border-bottom{	
+ margin-right:12px;
+ border-bottom-color: #d0d0ce;
+ margin-left:14px;
+}
+.bottom-color 
+{
+ border-bottom-color:#d0d0ce;
+ padding-bottom:11px
+}
+select#availableDomains
+{
+	width: 297px;
+    float: right;
+    height: 105px;
+    overflow-y: hidden;
+    right: -4px;
+    position: relative;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    border: 1px solid #ccc;
+	
+}
+select#availableDomain
+{
+	width: 60%;
+    float: right;
+    height: 105px;
+    overflow-y: auto;
+    left: 0;
+    right: -4px;
+    position: relative;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    border: 1px solid #ccc;
+}
+select#whitelistedDomain
+{ 
+   width: 60%;
+    float: right;
+    height: 105px;
+    overflow-y: auto;
+    left:0;
+    right: -4px;
+    position: relative;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    border: 1px solid #ccc;
+}
+@media only screen and (max-width: 768px) {
+    select#availableDomain,
+    select#whitelistedDomain{
+        width:100%;
+    }
+}
+select#whitelistedDomains
+{
+width: 297px;
+    float: right;
+    height: 105px;
+    overflow-y: auto;
+    right: -4px;
+    position: relative;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    border: 1px solid #ccc;
+}
+
+.account-section.m6-top.m6-bottom
+{
+    margin-right: 22px;
+}
+
+h4.active-label {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+h4.verified-label
+{
+    font-weight: 100;
+    font-size: 14px;
+}
+
+button.btn.btn-available-domain
+{
+padding-left: 13px;
+    background-color: #0092bc;
+    border: 1px solid #0092bc;
+    color: #fff;
+    float: right;
+    margin-top: -9px;
+    width: 64px;
+    font-size: 14px;
+}
+
+button.btn.whitelistedDomains
+{
+    
+padding-left: 13px;
+    background-color: #0092bc;
+    border: 1px solid #0092bc;
+    color: #fff;
+    float: right;
+    margin-top: -9px;
+    width: 64px;
+    font-size: 14px;
+}
+
+span.glyphicon.glyphicon-plus.availableDomains
+{
+    float: right;
+   left: -4px;
+	margin-bottom: -14px;
+    color: #0092bc;
+	top: 9px;
+}
+span.glyphicon.glyphicon-plus.whitelistedDomains
+{
+	float: right;
+    left: -4px;
+    color: #0092bc;
+    top: 9px;
+    margin-bottom: -14px;
+}
+.linked-companies{
+    .black-subheading-user-count{
+        &.user-count-style{
+            margin: 0;
+        }
+    }
+}
+.accountmanagementedit
+{
+	
+    margin-left: -13px;
+    margin-right: -13px;
+	.heading-label {
+    margin-left: 0px;
+	}
+	p.black-subheading-user-count 
+	{
+	    margin: -1% 0% 41px -28px;
+		color:#97999b;
+    }
+    .m2-top{
+        p{
+            &.black-subheading-user-count{
+                &.user-count-style{
+                    margin: -10px 0px 10px -28px;
+                }
+            }
+        }
+    }
+   
+	p.nav-name
+	{
+	    margin-left: 16px;
+	}
+	h2.red.display-inline
+	{
+	font-size: 24px;
+	    font-weight: normal;
+	}
+	.account-management-tabs
+	{
+	position: relative;
+    bottom: 0px;
+	right: 17px;
+    margin-right: -22px;
+	}
+	p.sub-heading.account-management-create
+	{
+	    margin-top: 19px;
+    margin-left: -30px;
+	}
+	ul.nav.nav-tabs.navbar-right {
+    font-size: 13px;
+    margin-right: 0px;
+    margin-left: 8px;
+	}
+	.btn.btn-primary
+	{
+    background-color: #cc092f;
+    border: 1px solid #cc092f;
+    color: #fff;
+    width: 104px;
+	padding-left: 17px;
+    font-size: 16px;
+    line-height: 1.5em;
+	}
+	button.btn.btn-cancle.m2-left
+	{
+	width: 104px;
+    background-color: #ffffff;
+    color: rgba(204, 9, 47, 0.8);
+    border: solid 1px rgba(204, 9, 47, 0.8);
+    line-height: 1.5em;
+    font-size: 16px;
+	}
+	ul.nav.nav-tabs.editaccount
+	{
+		li{
+		margin-bottom: -2px;
+		margin-right: 8px;
+		// margin-left: 6px;
+		width: 14%;
+		border-radius: 4px;
+		// -webkit-transform: perspective(100px) rotateX(30deg);
+		// -moz-transform: perspective(100px) rotateX(30deg);
+		// -ms-transform: perspective(100px) rotateX(30deg);
+		}
+	}
+	span.cr
+	{
+	border: 1px solid #0092bc;
+    width: 23px;
+    height: 21px;
+    margin-left: -21px;
+    color: #0092bc;
+	}
+	svg.viewuser {
+    position: relative;
+    width: 12px;
+    right: -22px;
+    top: 2px;
+    fill: white;
+}
+.text-right
+{
+    margin-top: 6px;
+}
+.editacount-users
+{
+margin-right: 8px;
+    padding-left: 34px;
+	padding-right:0px;
+}
+	
+}
+
+.addedpadgrid
+{
+margin-left:30px;
+}
+
+.viewusers {
+    padding-left: 20px;
+    width: 125px!important;
+    line-height: 1.3em!important;
+}
+.padding-bottom-35x
+{
+padding-bottom: 35px;
+}
+#portlet_AccountManagement{
+    .account-management-tabs
+    {
+        &.linked-companies {
+            margin-top: 0px;
+        }
+    }
+}
+
+
+//Account Management Create
+.accountmanagementcreate
+{
+	
+svg.viewuser {
+    position: relative;
+    width: 12px;
+    right: -22px;
+    top: 3px;
+    fill: white;
+	height: 14px;
+}
+button.btn.btn-primary.viewusers
+{
+    margin-right: -29px;
+    padding-right: 10px;
+	
+}
+span.cr {
+    border: 1px solid #0092bc;
+    width: 23px;
+    height: 21px;
+    margin-left: -21px;
+    color: #0092bc;
+}
+span.glyphicon.glyphicon-plus.availableDomain
+{
+	float: right;
+    left: -4px;
+    color: #0092bc;
+    top: 9px;
+    margin-bottom: -14px;
+}
+span.glyphicon.glyphicon-plus.whitelistedDomain
+{
+   float: right;
+    left: -4px;
+    color: #0092bc;
+    top: 9px;
+    margin-bottom: -14px;
+}
+select#availableDomains{
+    //width: 304px;
+    width: 100%;
+}
+select#whitelistedDomains
+{
+    //width: 304px;
+    width: 100%;
+}
+.tab-content
+{
+    margin-left: -15px;
+    margin-right: -8px;
+}
+.account-management-tabs
+{
+ position: relative;
+    bottom: -8px;
+    margin-right: -13px;
+    margin-top: 11px;
+    
+}
+
+.text-right {
+      margin-top: 8px;
+}
+.sub-heading-label
+{
+    margin-top: 11px;
+       margin-left: -22px;
+}
+button.btn.btn-primary
+{
+    background-color: #cc092f;
+    border: 1px solid #cc092f;
+    color: #fff;
+    width: 104px;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+button.btn.btn-cancle.m2-left
+{
+	width: 104px;
+    background-color: #fff;
+    color: rgba(204,9,47,0.8);
+    border: solid 1px rgba(204,9,47,0.8);
+    line-height: 1.5em;
+    font-size: 16px;
+
+}
+h2.red.display-inline
+{
+font-size:24px;
+}
+}

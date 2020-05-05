@@ -1,0 +1,243 @@
+#softwaregroupContainer{
+    .grpinfo-button-wrapper{
+        text-align: center;
+        padding:20px 0px;
+    }
+    .grps-label-wrapper{
+        width: 88%;
+    }
+    .button-wrapper{
+        text-align: right;
+    }
+    .exportUserwrap{
+        text-align: right;
+        padding-right: 20px;
+    }
+    .left-right-icons{
+        padding-top: 8%;
+    }
+    .align-right{
+        text-align: right;
+    }
+    .tab-content{
+        border:none;
+    }
+    .box-border-blue {
+        border: 1px solid #0092BC;
+    }
+    .component-header-sgm {
+        font-size: 18px;
+        padding:25px 0px 15px 0px;
+    }
+    .alert-padding-sgm {
+        padding:20px 0px 0px 0px;
+    }
+    .tab-top-element-padding-sgm {
+        padding:30px 0px 0px 0px;
+    }
+    .button-padding-sgm {
+        padding: 50px 0px 40px 0px;
+    }
+    .inline-button-top-padding-sgm {
+        padding-top:5px;
+    }
+    .nav-tabs>li {
+     border-radius: 4px;
+    //  -webkit-transform: perspective(100px) rotateX(30deg);
+    //  -moz-transform: perspective(100px) rotateX(30deg);
+        margin-left: 8px;
+    //  margin-right: 8px;
+    }
+    .margin-top-0{
+        margin-top:0px; 
+    }
+
+    .padding-left-right-4x{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .padding-right-4x{
+        padding-right: 16px;
+    }
+
+    .margin-top-10{
+        margin-top:10px;
+    }
+    #editUserGroup{
+        #EditgroupTabs{
+            li{
+                margin-right: 8px;
+                margin-left: 0;
+            }
+        }
+        .software-group{
+            .tab-content{
+                border: 1px solid $color-link !important;
+            }
+        }
+    }
+    #newUserGroups{
+        #newGroupTabs{
+            li{
+                margin-right: 8px;
+                margin-left: 0;
+            }
+        }
+    }
+    .blue-subtext {
+        
+      color: #0092bc;
+      font-size: 1.2rem;
+    }
+    .blue-text{
+      color: #0092bc;
+    }
+    .no-padding-sgm{
+        padding: 0px;
+    }
+    
+    #AddNewSlaDatagridScroll {
+        height:500px;
+        overflow:auto;  
+        margin-top:20px;
+    }
+
+    .datagrid table tbody tr td:last-child button{
+        padding:1px 3px 1px 3px;
+    }
+    .pagination-wrapper .custom-pagination{
+        padding-right:0px;
+    }
+    
+    .typeahead__container {
+		.typeahead__field{
+			.form-control {
+	    		font-size: 14px;
+            }
+            .typeahead__button{
+                z-index: initial;
+                .form-control-feedback {
+                    top: 2px;
+                    fill: #999;
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+            
+		}
+	
+		.typeahead__result{
+			ul{
+				li{
+					a{
+						font-size: 13px !important;
+					}
+				}
+				
+			}
+		}
+	}
+    
+    #softwareGroupMgtGrid, #UserdataGrid, #AddUserdataGrid{
+        .sorting_asc{
+            background: url(../images/sortingSVG/Ascending.svg) no-repeat center left 5px;
+            vertical-align: middle;
+            padding: 0px 25px;
+            background-size: 15px;
+        }
+        
+        .sorting_desc{
+            background: url(../images/sortingSVG/Descending.svg) no-repeat center left 5px;
+            vertical-align: middle;
+            padding: 0px 25px;
+            background-size: 15px;
+        }
+        table#datagrid tr td a.incomplete-link {
+            color: $color-link;
+            text-decoration: underline;
+        }
+    }
+
+    #file-upload-modal-group{
+
+        #file-upload-modal{
+
+            .modal-body{
+                height: auto;
+                .confirm-message{
+                    p{
+                        font-size: $fontSize-h2;
+                    }
+                   
+                }
+
+                .file-picker-wrapper{
+                    .file-picker-button{
+
+                        padding-right: 10px;
+                        padding-left: 10px;
+                        font-size: 1.4rem;
+                        border-radius: 4px;
+                        font-weight: bold;
+                    }
+                    .file-picker-label-wrapper{
+                            label{
+
+                                font-size: 14px;
+                                color: $color-text;
+                                font-weight: normal;
+                            }
+                    }
+                    
+                }
+                .file-picker-meta-text-wrapper{
+                    margin-top: 5px;
+                    margin-left: 2px;
+                    .file-picker-meta-text{
+                        color: #0092bc;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    #confirm-modal-file-upload-group{
+
+        #confirm-modal-file-upload{
+
+            .modal-body{
+                height: auto;
+                .confirm-message{
+                    p{
+                        font-size: 15px;
+                    }
+                   
+                }
+            }
+        }
+    }
+    
+    // Button Icons
+    .ic-export-user{
+        background: #0092bc url(../images/buttonsSVG/Export.svg) no-repeat center left 20px;
+        padding-left: 45px;
+        background-size: 18px 18px;
+    }
+    .ic-back{
+        background: #0092bc url(../images/buttonsSVG/BackToUsers.svg) no-repeat center left 20px;
+        padding-left: 45px;
+        background-size: 18px 18px;
+    }
+    .ic-add-user{
+        background: #0092bc url(../images/buttonsSVG/AddUsers.svg) no-repeat center left 20px;
+        padding-left: 45px;
+        background-size: 18px 18px;
+    }
+    #editUserGroup, #duplicateSection{
+        .padding-top-multiselect{
+            padding: 50px 30px 0 20px;
+        }
+    }
+}

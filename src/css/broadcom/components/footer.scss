@@ -1,0 +1,51 @@
+/* component code*/
+footer{
+	color:$primary-black;
+	.footer-main-menu {
+		margin-right: 0px;
+		margin-left: 0px;
+		ul{
+		margin: 0px;
+		padding: 0px;
+			li{
+				list-style-type: none;
+				float: left;
+				padding:5px 10px 5px 0px;
+				text-transform: uppercase;
+				font-weight: bold;
+				a{
+					color: $primary-black;
+				}
+				a:hover{
+					text-decoration: none;
+				}
+			}
+		}
+	}	
+	.copyright-msg{
+		margin-right: 0px;
+		margin-left: 0px;
+		padding:5px 0px;
+	}
+	.footer-second-menu{
+		margin-right: 0px;
+		margin-left: 0px;
+		ul{
+			margin: 0px;
+			padding: 0px;
+			li{
+				list-style-type: none;
+				float: left;
+				padding: 5px 15px 5px 0px;
+				font-size: $fontSize-small;
+				a{
+					color: $primary-black;
+				}
+				a:hover{
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+

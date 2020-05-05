@@ -1,0 +1,302 @@
+.usage-report-company-result-container {
+
+    .page-heading {
+        font-family: $fontFamily-bold;
+        color: $primary-red;
+    }
+
+    .link-red {
+        color: $primary-red;
+    }
+
+    .pad-left-0 {
+        padding-left: 0px;
+    }
+
+    .pad-0 {
+        padding: 0px;
+    }
+
+    .anchor-link {
+        text-decoration: underline;
+        color: $color-link;
+    }
+
+    .access-form-wrapper {
+        margin-top: 20px;
+
+        .save-report-wrapper {
+            .save-report {
+                background-color: $primary-red;
+                color: $color-white;
+            }
+
+        }
+    }
+
+    .company-container {
+        padding: 10px 0px 10px 0px;
+
+        .doc-style {
+            display: inline-block;
+            width: 9.5%;
+        }
+
+        .doc-text-style {
+            display: inline-block;
+        }
+
+        .company-wrap {
+
+            // padding: 0px 60px;
+            span {
+                padding-left: 46px;
+
+                a {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .user-container {
+        .users-wrap {
+            ol {
+                padding-left: 60px;
+
+                li {
+                    padding: 5px 0;
+
+                    span {
+                        &:first-child {
+                            padding-left: 8px;
+                        }
+
+                        &:last-child {
+                            padding-left: 48px;
+                        }
+
+                        a {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+            // padding: 0px 60px;
+
+        }
+    }
+
+    .margin-left-10 {
+        margin-left: 10px;
+    }
+
+    .margin-top-15 {
+        margin-top: 15px;
+        display: block;
+    }
+
+
+    .clear {
+        clear: both;
+    }
+
+    .get-user-btn {
+        padding-right: 10px;
+    }
+
+    .pagination-wrapper {
+        .pagination-content {
+            padding: 0px;
+            margin-right: -5px;
+            .gird-custom-pagination{
+                ul{
+                    li{
+                        padding: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    .search-box-filter {
+
+        .label-wrapper {
+            width: 23%;
+        }
+
+        .input-wrapper {
+            width: 55%;
+
+            .form-control {
+                border-radius: 4px;
+            }
+        }
+    }
+
+    .usage-user-report-input {
+        .label-wrapper {
+            width: 24%;
+        }
+
+        .input-wrapper {
+            width: 73%;
+        }
+    }
+
+    .user-data {
+        .user-data-id {
+            font-weight: bold;
+        }
+
+        .company-requester-name {
+            padding-left: 60px;
+        }
+
+        .user-card-end {
+            margin-bottom: 15px;
+        }
+    }
+
+    .filter-wrap {
+        label {
+            width: 20%;
+            font-weight: normal;
+        }
+
+        .filter-dropdown {
+            display: inline-block;
+            width: 50%;
+        }
+    }
+
+    .filter-wrapper {
+
+        .filter-input {
+
+            .label-wrapper {
+                width: 25%;
+            }
+
+            .input-wrapper {
+                width: 75%
+            }
+
+        }
+
+        .filter-button-wrapper {
+
+            button {
+
+                padding: 10px;
+
+            }
+
+            .filter-report {
+                background-color: $primary-red;
+                color: $color-white;
+            }
+
+            .reset-filter {
+                background-color: white;
+                color: $primary-red;
+                border: $border-red;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+        }
+
+
+        .filter-checkbox {
+            margin-left: 73px;
+        }
+
+        .contains-checkbox {
+            margin-left: 176px;
+        }
+    }
+
+    .checkbox-wrapper {
+        .employee-checkbox-wrapper {
+            margin-left: 128px;
+
+            label {
+                width: 80%
+            }
+        }
+
+        .product-brief-checkbox-wrapper {
+            label {
+                width: 80%
+            }
+        }
+    }
+
+    .download-date-wrapper {
+        #find-soft-from-date, #find-soft-to-date{
+            padding: 6px 10px;
+        }
+        .date-checkbox {
+            text-align: left;
+            padding-left: 35px;
+
+            label {
+                width: 78%;
+            }
+        }
+
+        label {
+            width: 28%;
+            display: inline-block;
+            font-weight: normal;
+        }
+
+        .date-dropdown {
+            display: inline-block;
+            width: 72%;
+            text-align: right;
+            vertical-align: top;
+
+            .form-group {
+                margin: 0px;
+            }
+
+            .input-wrapper {
+                width: 83%;
+            }
+        }
+
+        .datepicker-to-style {
+            padding: 8px 10px;
+        }
+    }
+
+    .get-access-btn-wrap {
+        text-align: right;
+        margin: 20px 0px;
+
+        .btn-filter-report {
+            background: $primary-red;
+            color: $color-white;
+        }
+
+        .btn-reset {
+            background: $color-white;
+            color: $primary-red;
+            border: 1px solid $primary-red;
+        }
+    }
+}
+
+.export-excel-reports-screen {
+    text-align: right;
+    cursor: pointer;
+    text-decoration: underline;
+    .ic-export-user {
+    background: url(../images/buttonsSVG/Export.svg) no-repeat center left 40%;
+    padding-left: 25px;
+    background-size: 18px 18px;
+    }
+}

@@ -1,0 +1,140 @@
+#idSLAPermissionTabs{
+    .tab-content{
+        padding:15px;
+    }
+    .subheading{
+        font-size: 20px;
+        margin-top: 16px;
+        margin-bottom: 3px;
+    }
+    .popover{
+        max-width: 500px;
+        h3{
+            color: $primary-black;
+            border-bottom: 1px solid $secondary-gray-light;
+        }
+        .popover-content{
+            font-size: 12px;
+            height: 250px;
+            overflow: auto;
+        }
+    }
+    .quick-sla-width .form-group.inline .label-wrapper{
+        width: 10%;
+        text-align: center;
+    }
+    .quick-sla-width .form-group.inline .input-wrapper{
+        width: 90%;
+    }
+    
+    .accordion {
+        color: #444;
+        cursor: pointer;
+        padding: 13px;
+        width: 100%;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        margin-left: 0px;
+        border-bottom: 1px solid #d0d0ce;
+        font-size: 20px;
+    }
+    
+    .active, .accordion:hover {
+        border-bottom: none;
+    }
+    .accordion:after {
+        content: '\02C4';
+        color: #eee;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .accordion.active:after{
+        content: '\02C5';
+        color: $color-blue;
+    }
+    .panel {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+    #viewSla-datagrid{
+        thead tr th:last-child
+       {   
+           width: 3%;
+       }
+       tbody tr td:last-child
+       {   
+           text-align: center;
+       }
+   }
+   .checkbox + .checkbox, .radio + .radio{
+    margin-top:10px;
+}
+
+.scroll-class .datagrid{
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover{
+    background-color: $color-blue;
+}
+
+.pill-button-border{
+    border: 1px solid $color-blue;
+}
+.pill-button-margin-left{
+    margin-left: 0px;
+}
+.pill-button-margin-right{
+    margin-right: 0px;
+}
+.align-right{
+    text-align: right;
+}
+.restrict-subheading{
+    font-size:$fontSize-html;
+}
+.restrict-heading{
+    font-size: $fontSize-medium;
+}
+.width-search-btn{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.activeUser-m15-top{
+    margin-top: -15px;
+}
+.pd-left-0px{
+    padding-left: 0px;
+}
+.top-margin-20{
+    margin-top: -20px;
+}
+.top-margin-40{
+    margin-top: -40px;
+}
+#confirm-modal-delete-sla{
+    .modal-body{
+        height: 145px;
+    }
+}
+.user-permission-active-N{
+    color: $primary-red;
+ }
+ .message-sds-permission-pgp{
+    color: #0092bc;
+    font-size: 10px;
+ }
+ .red-color{
+     color: $primary-red;
+ }
+ .bottom-padding-45{
+    padding-bottom: 45px;
+ }
+}

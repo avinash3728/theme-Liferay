@@ -1,0 +1,240 @@
+#document-types{
+	.bottom-pagination-padding{
+        margin-top: -40px;
+        padding-right: 0px;
+    }
+    .img-legend-dimension{
+        width: 10px;
+        height: 25px;
+    }
+    .margin-botton-pagination{
+        margin-top: -35px;
+    }
+    .doc-heading{
+        font-size: 24px;
+        margin-bottom:-25px;
+    }
+    .tab-sub-heading{
+        font-size: 20px;
+    }
+    .nav-tabs>li {
+        -webkit-transform: perspective(100px) rotateX(30deg);
+        -moz-transform: perspective(100px) rotateX(30deg);
+        margin-right: 8px;
+       }
+    .form-group{
+        margin-bottom: 0px;
+    }
+    .tab-content{
+        border:none;
+    }
+    .button-padding-doc-type {
+        padding: 20px 0px 40px 0px;
+    }
+    .align-right{
+        text-align: right;
+    }
+    #doctype-datagrid{
+         thead tr th:nth-child(3)
+        {   
+            width: 1%;
+        }
+    }
+    .datagrid table tbody tr td:last-child button{
+        padding:1px 3px 1px 3px;
+    }
+    .found-data-font{
+        font-size: 1.5rem;
+    }
+    .found-data-padding{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 0px;
+    }
+    .pagination-wrapper .custom-pagination .grid-label-desc{
+        padding: 8px 10px 6px 10px;
+    }
+    .padding-bottom-breadcrumbs{
+        padding-bottom: 44px;
+    }
+    .red{
+        color: $primary-red;
+    }
+    .padding-left-0px{
+        padding-left:0px;
+    }
+    #doc-type-input{
+        .form-group.inline .label-wrapper{
+            width: 10%;
+        }
+        .form-group.inline .input-wrapper{
+            width: 36%;
+        }
+    }
+}
+#document-audience{
+    .blue-text{
+        color: $color-blue;
+    }
+    .doc-heading{
+        font-size: 24px;
+        margin-bottom:-25px;
+    }
+    .tab-sub-heading{
+        font-size: 20px;
+    }
+    .form-group{
+        margin-bottom: 0px;
+    }
+    .nav-tabs>li {
+        border-radius: 4px;
+        -webkit-transform: perspective(100px) rotateX(30deg);
+        -moz-transform: perspective(100px) rotateX(30deg);
+        margin-right: 8px;
+       }
+    .button-padding-doc-aud {
+        padding: 50px 0px 40px 0px;
+    }
+    .padding-bottom-breadcrumbs{
+        padding-bottom: 44px;
+    }
+    .align-right{
+        text-align: right;
+    }
+    .datagrid table tbody tr td:last-child button{
+        padding:7px 10px 1px 10px;
+    }
+    
+    .padding-4px {
+        padding: 4px;
+    }
+    .padding-top-4px {
+        padding-top: 4px;
+    }
+    .margin-left-15px {
+        margin-left: 15px;
+    }
+    .margin-left-20px {
+        margin-left: 15px;
+    }
+    .padding-left-5px{
+        padding-left:0px 0px 0px 3px;
+    }
+    .padding-0px{
+        padding:0px;
+    }
+    .padding-right-0px{
+        padding:0px;
+    }
+    .padding-left-0px{
+        padding-left:0px;
+    }
+    .padding-left-0px{
+        padding-left:0px;
+    }
+    .table tr td:first-child, .table tr th:first-child{
+        width:50%;
+    }
+    .found-data-font{
+        font-size: 1.5rem;
+    }
+    .found-data-padding{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 0px;
+    }
+    #idselectedCompanies_edit{
+        height: 170px;
+        option{
+            padding: 10px;
+        }
+    }
+    #idselectedCompanies_new{
+        height: 170px;
+        option{
+            padding: 10px;
+        }
+    }
+
+}
+#document-field-approvers{
+    .align-right{
+        text-align: right;
+    }
+    .button-padding-doc-aud {
+        padding: 50px 73px 40px 0px;
+    }
+    .blue-text{
+        color: $color-blue;
+    }
+    .approver-dropdown .form-group .label-wrapper{
+        width: 17%;
+    }
+    .approver-dropdown .form-group .input-wrapper{
+        width: 31%;
+    }
+    #idApproverFields{
+        .label-bold{
+            font-weight: bold;
+        }
+    }
+    .padding-bottom-breadcrumbs{
+        padding-bottom: 30px;
+    }
+    .padding-bottom-10px{
+        padding-bottom: 10px;
+    }
+}
+
+#manage-doc-files{
+    .align-right{
+        text-align: right;
+    }
+    .padding-bottom-breadcrumbs{
+        padding-bottom: 44px;
+    }
+    .btn-upload{
+        background-color: #fff;
+        color: #0092bc;
+        border: 1px solid #0092bc;
+    }
+    .datagrid table tbody tr td:last-child button{
+        padding:7px 10px 1px 10px;
+    }
+    .button-padding-doc-type {
+        padding: 20px 0px 40px 0px;
+    }
+    .error-upload{
+        color: #a6192e;
+        font-size: 14px;
+    }
+    .doc-heading{
+        font-size: 24px;
+        margin-bottom:-20px;
+    }
+    .nav-tabs>li {
+        -webkit-transform: perspective(100px) rotateX(30deg);
+        -moz-transform: perspective(100px) rotateX(30deg);
+        margin-right: 8px;
+       }
+       
+    .found-data-font{
+        font-size: 1.5rem;
+    }
+    .found-data-padding{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 0px;
+    }
+    .width-upload-label-11{
+        width:11%;
+    }
+    .width-upload-label-13{
+        width:13%;
+    }
+    .fileupload{
+        .text-color-err{
+            color: $primary-gray;
+        }
+    }
+}

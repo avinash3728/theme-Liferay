@@ -1,0 +1,298 @@
+/* ..................Utilit Classes.............*/
+
+.sub-heading-small {
+  font-size: 1.5rem;
+  color: #CC092F; 
+}
+
+.center-block {
+  float: none;
+  margin: 0 auto;
+}
+
+.center-aligned {
+  display: block;
+  margin: 0 auto;
+}
+
+.right-float {
+  h3 {
+      display: inline;
+  }
+}
+
+.border-none {
+  border: none;
+  button {
+      float: right;
+  }
+}
+
+.panel {
+  .panel-red {
+      background: $primary-red;
+  }
+}
+
+a {
+  &.accordion-toggle {
+      color: $colorLink;
+      span {
+          &.glyphicon-plus {
+              float: none;
+              top: 0;
+              left: 0;
+          }
+      }
+  }
+}
+
+.bottom-align {
+  display: table;
+  [class*="col-"] {
+      display: table-cell;
+      float: none;
+  }
+}
+
+.vertical-align-bottom {
+  vertical-align: bottom;
+}
+
+.border {
+  border: 1px solid $secondary-gray;
+}
+
+.border-none {
+  border: none;
+  button {
+      float: right;
+  }
+}
+
+.no-border {
+  border: none;
+}
+
+.no-padding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.tab-angular {
+  border-radius: 4px;
+  -webkit-transform: perspective(100px) rotateX(20deg);
+  -moz-transform: perspective(100px) rotateX(20deg);
+  margin-right: 8px;
+}
+
+/* use this class for hiding the element on page load as "hidden" is already defined in aui.css*/
+
+.visibility-none {
+  display: none;
+}
+
+.inline-element {
+  display: inline-block;
+}
+
+.gray-background {
+  background: $secondary-gray-light2;
+}
+
+.border-full {
+  border: 1px solid $primary-gray;
+}
+
+.border-ligth-gray {
+  border: thin solid $secondary-gray-light;
+}
+
+.text-info {
+color: $color-link;
+font-size: $fontSize-html;
+font-weight: 700;
+&.text-info-medium {
+  font-size: 12px;
+}
+}
+.label-msg {
+  color: $color-blue;
+  font-size: $fontSize-small;
+}
+
+/* added by manikanta for sgm*/
+
+.paddOption {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.table-fixed {
+table-layout: fixed;
+}
+.black {
+color: $primary-black;
+}
+/* bottom aligning the content */
+
+.content-bottom-align {
+  position: relative;
+  .col-bottom-aligned {
+      position: absolute;
+      bottom: 15px;
+      right: 0;
+  &.pending-request {
+    bottom: 32px;
+  }
+}
+}
+.svg-fitted {
+svg {
+  width: 15px;
+  height: auto;
+}
+}
+// for mandatory fields
+.astrisk {
+  &.red {
+    color: #cc092f;
+  }
+  &::after {
+    content: "*";
+  }
+}
+.svg-generic-file {
+svg {
+  width: 40px;
+  height: 40px;
+  fill: #069bbb;
+  .cls-1 {
+    fill: #e1fbff;
+  }
+}
+}
+/* List Multi Select */
+.tree-multiselect .panel-body .list-group {
+outline: 0;
+width: 100%;
+border: 0;
+overflow-y: auto;
+}
+/* For stopping the wrapping of text in table header */
+.table-revamped {
+  th {
+    white-space: nowrap;
+  }
+}
+/* card panel: need to add shadow */
+.card-container {
+  background-color: white;
+  padding: 30px 30px 10px 30px;
+}
+.font-medium {
+  font-size: 20px;
+}
+.font-xl {
+  font-size: 36px;
+}
+.font-h3 {
+  font-size: $fontSize-h3;
+}
+.text-yellow {
+  color: #de7c00;
+}
+text-pink {
+  color: #cc092f;
+}
+.error-message {
+  //    background: './../assets/images/error.png';
+  background-image: url("../images/error.png");
+  width: 50%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.panel {
+  &.panel-broadcom {
+    border-width: 2px 2px 2px 2px;
+    box-shadow: 0 4px 20px #a3a3a3;
+  }
+}
+  .list-no-padding {
+  padding: 0 0 0 12px;
+  }
+.h2 {
+  &.no-margin-top {
+    margin-top:0;   
+  }
+}
+
+.san-health-home {
+  header.portlet-topper {
+   opacity: 0;
+  }
+
+  .portlet:hover>.portlet-topper, .portlet.focus>.portlet-topper {
+    opacity: 0;
+  }
+  .portlet-content-editable{
+    border:none;
+  }
+}
+
+/* portlet wecontent pop up issue */
+.dialog-iframe-modal.yui3-widget.modal-dialog.modal.yui3-widget-positioned.yui3-widget-stacked.yui3-widget-modal.modal-focused {
+  display: block
+} 
+
+/* sweet alert text break */
+.sweet-alert {
+  p {
+    &.lead{
+      word-break: break-word !important;
+    }
+  }
+}
+.red{
+  color: $primary-red;
+}
+.word-break{
+word-break: break-word;
+}
+
+.captcha{
+	.hidden-from-user{
+		display: none;
+	}
+	.captcha-box{
+		border: 1px solid #d3d3d3;
+		background: #f9f9f9;
+		color: #000;
+		width: 50%;
+		padding: 10px;
+	}
+	.bg-white{
+		background-color: white;
+	}
+	.vertical-margin-top{
+		margin-top: -7px;
+	}
+	.padding-bottom-20{
+		padding-bottom: 20px;
+	}
+	.captcha-box-assist{
+		border: 1px solid #d3d3d3;
+		background: #f9f9f9;
+		color: #000;
+		width: 100%;
+		padding: 10px;
+  }
+  
+.swal-modal{
+	display: block;
+    margin-top: -300px !important;
+    overflow-y: scroll;
+    height: 700px;
+}
+  
+}

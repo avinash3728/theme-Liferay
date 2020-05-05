@@ -1,0 +1,732 @@
+.top-container {
+    padding: 30px;
+    &.prdocut-container {
+        padding: 0px;
+    }
+    span.glyphicon.glyphicon-plus {
+        display: inline;
+    }
+    .tree-section {
+        .tab-content {
+            border: 0;
+            padding: 20px 10px 10px;
+        }
+        border:1px solid $secondary-gray-light;
+        padding:10px;
+        .nav.nav-tabs {
+            border-bottom: 0;
+            width: 100%;
+            padding: 0 9px 0 9px;
+            li.tree-tab,
+            li.search-tab {
+                width: 50%;
+                margin-top: 10px;
+                text-align: center;
+            }
+        }
+        .nav-tabs>li>a.tab-links {
+            font-size: $fontSize-body;
+            border: 1px solid $primary-red;
+            border-radius: 0;
+            margin-right: 0;
+            padding: 10px 0;
+            color: $primary-red;
+            &.division-link {
+                border-top-left-radius: 4px;
+                border-bottom-left-radius: 4px;
+            }
+            &.search-link {
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+            }
+        }
+        .nav-tabs>li.active>a.tab-links,
+        .nav-tabs>li.active>a.tab-links:focus,
+        .nav-tabs>li.active>a.tab-links:hover {
+            color: $color-white;
+            cursor: default;
+            background-color: $primary-red;
+            word-wrap: normal;
+        }
+        .search-button {
+            margin: 20px 0 0;
+            border: 0;
+            background: $color-blue;
+        }
+        .search-button:hover {
+            background: $color-blue;
+        }
+        .product-name-search,
+        .product-plm-search {
+            margin: 20px 0;
+        } // .tree-container {
+        //     padding: 20px;
+        //     ul {
+        //         margin: 0;
+        //         padding: 0;
+        //         margin-left: 10px;
+        //         li {
+        //             margin: 0;
+        //             padding: 0 7px;
+        //             line-height: 20px;
+        //             color: $primary-black;
+        //         }
+        //     }
+        // }
+        // .tree-container ul li:last-child {
+        //     border-left: none;
+        // }
+        // .tree-container ul li:before {
+        //     position: relative;
+        //     top: -0.3em;
+        //     height: 1em;
+        //     width: 12px;
+        //     color: $color-white;
+        //     border-bottom: 1px solid $primary-black;
+        //     border-left: 1px solid $primary-black;
+        //     content: "";
+        //     display: inline-block;
+        //     left: -15px;
+        // }
+        // .tree-container ul li div.jqtree-element {
+        //     margin-top: -20px;
+        // }
+        /*.tree-container ul li:last-child:before {
+			border-left:1px solid $primary-black; 
+		}*/
+    }
+    .content-section {
+        .delete-product {
+            margin-left: 4px;
+        }
+        margin: 0px;
+        .top-section {
+            .new-product {
+                position: relative;
+                padding: 2px 10px;
+                top: 32px;
+                // right: -3px;
+                border: 1px solid $secondary-gray-light;
+                color: $color-blue;
+                border-bottom: 0;
+                border-radius: 0px;
+                // -webkit-transform: perspective(100px) rotateX(20deg);
+                // -moz-transform: perspective(100px) rotateX(20deg);
+                // margin-right: 5px;
+                .new-product-icon {
+                    font-size: $fontSize-small
+                }
+                .new-product-text {
+                    font-size: $fontSize-small;
+                    padding-left: 5px;
+                }
+            }
+            .rect-tab{
+                margin-left: 8px;
+            }
+            hr {
+                margin-top: 0;
+                border-top: 1px solid $secondary-gray-light;
+            }
+        }
+        
+        .division-notification {
+            border: 1px solid green;
+            width: 100%;
+            height: 40px;
+            padding: 10px;
+            margin-top: 10px;
+            color: green;
+        }
+        .division-title {
+            color: $primary-red;
+            display: inline-block;
+        }
+        .add-divisions {
+            padding: 10px;
+            margin: 10px 0; // height: 35px;
+            background: $secondary-gray;
+            color: $color-white;
+            .input-aligned {
+                margin-top: 3px;
+            }
+        }
+        .add-new-division {
+            background: $secondary-mild-grey;
+            color: $primary-black;
+            padding: 5px;
+        }
+        .btn-primary.save-division,
+        .btn-primary.cancel-division,
+        .btn-primary.save-edit-division,
+        .btn-primary.cancel-edit-division {
+            min-width: 94px;
+            max-width: 94px;
+            padding: 4px 0;
+        }
+        .btn-primary.cancel-division,
+        .btn-primary.cancel-edit-division {
+            background: $color-white;
+            color: $primary-red;
+            border: 1px solid $primary-red;
+        }
+        .save-division:hover,
+        .cancel-division:hover,
+        .save-edit-division:hover,
+        .cancel-edit-division:hover {
+            border: 0;
+            background: $primary-red;
+        }
+        .cancel-division:hover,
+        .cancel-edit-division:hover {
+            color: $color-white;
+        }
+        .show-divisions {
+            padding: 10px;
+            margin: 20px 0;
+            height: auto;
+            background: $secondary-mild-grey;
+        }
+        .action-icon {
+            padding: 0 15px;
+        }
+        .division-text {
+            padding-left: 10px;
+        }
+        .pagination-container {
+            text-align: center;
+            color: $secondary-gray;
+            .show-previous-icon,
+            .show-next-text,
+            .show-last-text,
+            .items-value,
+            .page-value,
+            .page-number,
+            .show-first-icon {
+                margin-left: 8px;
+            }
+            .items-value,
+            .page-value {
+                height: 20px;
+                position: relative;
+                top: 3px;
+            }
+        }
+        .element-space {
+            margin-top: 35px;
+            &.form-group {
+                margin-bottom: 0px;
+            }
+        }
+    }
+    #groups-section {
+        display: none;
+        .group-notification {
+            border: 1px solid green;
+            width: 100%;
+            height: 40px;
+            padding: 10px;
+            margin-top: 10px;
+            color: green;
+        }
+        .group-title {
+            color: $primary-red;
+            display: inline-block;
+        }
+        .add-groups {
+            padding: 10px;
+            margin: 10px 0; // height: 35px;
+            background: $secondary-gray;
+            color: $color-white;
+            .input-aligned {
+                padding-top: 2px;
+            }
+        }
+        .add-new-group {
+            background: $secondary-mild-grey;
+            color: $primary-black;
+            padding: 5px;
+        }
+        .btn-primary.save-group,
+        .btn-primary.cancel-group,
+        .btn-primary.save-edit-group,
+        .btn-primary.cancel-edit-group {
+            max-width: 94px;
+            min-width: 94px;
+            margin-left: 4px;
+            padding: 4px 0;
+        }
+        .btn-primary.cancel-group,
+        .btn-primary.cancel-edit-group {
+            background: $color-white;
+            color: $primary-red;
+            border: 1px solid $primary-red;
+        }
+        .save-group:hover,
+        .cancel-group:hover,
+        .save-edit-group:hover,
+        .cancel-edit-group:hover {
+            border: 0;
+            background: $primary-red;
+        }
+        .cancel-group:hover,
+        .cancel-edit-group:hover {
+            color: $color-white;
+        }
+        .show-groups {
+            padding: 9px;
+            margin: 20px 0;
+            height: auto;
+            background: $secondary-mild-grey;
+        }
+        .action-icon {
+            padding: 0 15px;
+        }
+        .group-text {
+            padding-left: 10px;
+        }
+    }
+    #subgroups-section {
+        display: none;
+        .subgroup-notification {
+            border: 1px solid green;
+            width: 100%;
+            height: 40px;
+            padding: 10px;
+            margin-top: 10px;
+            color: green;
+        }
+        .subgroup-title {
+            color: $primary-red;
+            display: inline-block;
+        }
+        .add-subgroups {
+            padding: 10px;
+            margin: 10px 0; //height: 35px;
+            background: $secondary-gray;
+            color: $color-white;
+            .input-aligned {
+                padding-top: 2px;
+            }
+        }
+        .add-new-subgroup {
+            background: $secondary-mild-grey;
+            color: $primary-black;
+            padding: 5px;
+        }
+        .btn-primary.save-subgroup,
+        .btn-primary.cancel-subgroup,
+        .btn-primary.save-edit-subgroup,
+        .btn-primary.cancel-edit-subgroup {
+            max-width: 94px;
+            min-width: 94px;
+            margin-left: 4px;
+            padding: 4px 0;
+        }
+        .btn-primary.cancel-subgroup,
+        .btn-primary.cancel-edit-subgroup {
+            background: $color-white;
+            color: $primary-red;
+            border: 1px solid $primary-red;
+        }
+        .save-subgroup:hover,
+        .cancel-subgroup:hover,
+        .save-edit-subgroup:hover,
+        .cancel-edit-subgroup:hover {
+            border: 0;
+            background: $primary-red;
+        }
+        .cancel-subgroup:hover,
+        .cancel-edit-subgroup:hover {
+            color: $color-white;
+        }
+        .show-subgroups {
+            padding: 9px;
+            margin: 20px 0;
+            height: auto;
+            background: $secondary-mild-grey;
+        }
+        .action-icon {
+            padding: 0 15px;
+        }
+        .subgroup-text {
+            padding-left: 10px;
+        }
+    }
+    #products-section {
+        display: none;
+        .product-notification {
+            border: 1px solid green;
+            width: 100%;
+            height: 40px;
+            padding: 10px;
+            margin-top: 10px;
+            color: green;
+        }
+        .product-title {
+            color: $primary-red;
+            display: inline-block;
+        }
+        .add-products {
+            padding: 10px;
+            margin: 10px 0; // height: 35px;
+            background: $secondary-gray;
+            color: $color-white;
+            .input-aligned {
+                padding-top: 2px;
+            }
+        }
+        .add-new-product {
+            background: $secondary-mild-grey;
+            color: $primary-black;
+            padding: 5px;
+        }
+        .btn-primary.save-product,
+        .btn-primary.cancel-product,
+        .btn-primary.save-edit-product,
+        .btn-primary.cancel-edit-product {
+            max-width: 94px;
+            min-width: 94px;
+            margin-left: 4px;
+            padding: 4px 0;
+        }
+        .btn-primary.cancel-product,
+        .btn-primary.cancel-edit-product {
+            background: $color-white;
+            color: $primary-red;
+            border: 1px solid $primary-red;
+        }
+        .save-product:hover,
+        .cancel-product:hover,
+        .save-edit-product:hover,
+        .cancel-edit-product:hover {
+            border: 0;
+            background: $primary-red;
+        }
+        .cancel-product:hover,
+        .cancel-edit-product:hover {
+            color: $color-white;
+        }
+        .show-products {
+            padding: 10px;
+            margin: 10px 0; //height: 35px;
+            background: $secondary-mild-grey;
+        }
+        .action-icon {
+            padding: 0 15px;
+        }
+        .product-text {
+            padding-left: 10px;
+        }
+    }
+    #search-section {
+        display: none;
+        .searchProduct-title {
+            color: $primary-red;
+            display: inline-block;
+        }
+        .btn-primary.save-product,
+        .btn-primary.cancel-product,
+        .btn-primary.save-edit-product,
+        .btn-primary.cancel-edit-product {
+            max-width: 94px;
+            min-width: 94px;
+            margin-left: 4px;
+            padding: 4px 0;
+        }
+        .btn-primary.cancel-product,
+        .btn-primary.cancel-edit-product {
+            background: $color-white;
+            color: $primary-red;
+            border: 1px solid $primary-red;
+        }
+        .save-product:hover,
+        .cancel-product:hover,
+        .save-edit-product:hover,
+        .cancel-edit-product:hover {
+            border: 0;
+            background: $primary-red;
+        }
+        .cancel-product:hover,
+        .cancel-edit-product:hover {
+            color: $color-white;
+        }
+        .show-products {
+            padding: 10px;
+            margin: 10px 0; //height: 35px;
+            background: $secondary-mild-grey;
+        }
+        .action-icon {
+            padding: 0 15px;
+        }
+        .product-text {
+            padding-left: 10px;
+        }
+    }
+    #addProduct-section {
+        display: none;
+    }
+    .checkbox {
+        label {
+            pointer-events: none;
+            span.cr {
+                pointer-events: none;
+                i.cr-icon.glyphicon.glyphicon-ok {
+                    pointer-events: auto;
+                }
+            }
+        }
+    }
+}
+
+.prodHierarchyWrap {
+    [type="radio"]:checked,
+    [type="radio"]:not(:checked) {
+        position: static;
+        left: 0;
+    }
+    .radio-product {
+        display: inline-block;
+    }
+}
+
+span.glyphicon.glyphicon-pencil.pull-right.edit-division,
+span.glyphicon.glyphicon-trash.pull-right.delete-division,
+span.glyphicon.glyphicon-pencil.pull-right.edit-group,
+span.glyphicon.glyphicon-trash.pull-right.delete-group,
+span.glyphicon.glyphicon-pencil.pull-right.edit-subgroup,
+span.glyphicon.glyphicon-trash.pull-right.delete-subgroup,
+span.glyphicon.glyphicon-pencil.pull-right.edit-product.edit-product-text,
+span.glyphicon.glyphicon-trash.pull-right.delete-product,
+span.new-copyreplace-text,
+span.new-nda-text,
+span.new-product-text,
+    {
+    cursor: pointer;
+    margin-right: 3px;
+}
+
+span.new-product-text {
+    cursor: pointer;
+}
+
+div#editProduct-section {
+    h4.sub-heading.black {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    h6.sub-heading-notes {
+        font-size: 10px;
+        font-weight: bold;
+        color: $color-blue;
+    }
+    .row.prodHierarchyWrap {
+        border: 1px dashed $secondary-mild-grey;
+        margin-left: 1px;
+        margin-right: 1px;
+        background-color: $color-hexgray;
+        select.form-control.input-control {
+            color: $color-darkgray;
+        }
+        .form-group.inline {
+            margin-top: 15px;
+        }
+    }
+    .row.element-space {
+        h4.sub-heading.black {
+            font-size: 14px;
+            font-weight: bold;
+        }
+        h5.sub-heading-notes {
+            font-size: 10px;
+            color: $color-blue;
+            font-weight: bold;
+        }
+        textarea#productDescriptionEdit {
+            border-radius: 3px;
+            width: 100%;
+            overflow-y: hidden;
+            line-height: 1.5;
+            font-size: 12px;
+            color: $color-darkgray;
+            padding-left: 7px;
+            padding-top: 6px;
+        }
+    }
+    .multiSelectWrap {
+        .btn.btn-multi-select {
+            background-color: $color-white;
+            border: 1px solid $secondary-gray;
+            color: $secondary-gray;
+        }
+    }
+    p.lefttext {
+        margin-bottom: 5px;
+        margin-top: 10px;
+        color: $color-blue;
+    }
+    .multiSelectWrap {
+        select#alternatePLMsAvailableEdit_to::-webkit-scrollbar-track,
+        select#NDAPresetsAvailableEdit_to::-webkit-scrollbar-track,
+        select#contactEngineersAvailableEdit_to::-webkit-scrollbar-track,
+        select.form-control.multiSelect::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
+            border-radius: 0px;
+            background-color: $secondary-mild-grey;
+        }
+        select#alternatePLMsAvailableEdit_to::-webkit-scrollbar,
+        select#NDAPresetsAvailableEdit_to::-webkit-scrollbar,
+        select#contactEngineersAvailableEdit_to::-webkit-scrollbar,
+        select.form-control.multiSelect::-webkit-scrollbar {
+            width: 12px;
+            background-color: $color-white;
+        }
+        select#alternatePLMsAvailableEdit_to::-webkit-scrollbar-thumb,
+        select#NDAPresetsAvailableEdit_to::-webkit-scrollbar-thumb,
+        select#contactEngineersAvailableEdit_to::-webkit-scrollbar-thumb,
+        select.form-control.multiSelect::-webkit-scrollbar-thumb {
+            border-radius: 0px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+            background-color: $secondary-gray;
+        }
+        select.form-control.multiSelect option {
+            margin-left: 8px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        .btn.btn-multi-select {
+            background-color: $color-white;
+            border: 1px solid $secondary-gray;
+            color: $secondary-gray;
+        }
+    }
+    input.form-control.input-control,
+    select#primaryPlmEdit {
+        color: $color-darkgray;
+    }
+    .row.element-space {
+        h5.sub-heading-notes {
+            font-size: 10px;
+            color: $color-blue;
+            font-weight: bold;
+        }
+    }
+    button.btn.btn-primary.cancel-edit-button {
+        background-color: $color-white;
+        color: $primary-red;
+    }
+}
+
+.row.top-container.prdocut-container downloads-home {
+    label.input-control {
+        font-weight: bold;
+    }
+    .form-group.row.element-space {
+        label.control-label.col-sm-12 {
+            font-weight: bold;
+        }
+    }
+}
+
+span.new-product-text {
+    cursor: pointer;
+}
+
+div#addProduct-section {
+    .row.prodHierarchyWrap {
+        border: 1px dashed $secondary-mild-grey;
+        margin-left: 1px;
+        margin-right: 1px;
+        background-color: $color-hexgray;
+        select.form-control.input-control {
+            color: $color-darkgray;
+        }
+        .form-group.inline {
+            margin-top: 15px;
+        }
+    }
+    h4.sub-heading.black {
+        font-weight: bold;
+        font-size: 14px;
+    }
+    h6.sub-heading-notes,
+    h5.sub-heading-notes {
+        color: $color-blue;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    select.form-control.input-control,
+    input#productName,
+    input#contactName,
+    input#contactEmail {
+        color: $color-darkgray;
+    }
+    button.btn.btn-primary.cancel-create-button {
+        background-color: $color-white;
+        color: $primary-red;
+    }
+    .multiSelectWrap {
+        select#alternatePLMsAvailableEdit_to::-webkit-scrollbar-track,
+        select#NDAPresetsAvailableEdit_to::-webkit-scrollbar-track,
+        select#contactEngineersAvailableEdit_to::-webkit-scrollbar-track,
+        select.form-control.multiSelect::-webkit-scrollbar-track,
+        select#NDAPresetsAvailable_to::-webkit-scrollbar-track,
+        select#contactEngineersAvailable_to::-webkit-scrollbar-track,
+        select#alternatePLMsAvailable_to::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
+            border-radius: 0px;
+            background-color: $secondary-mild-grey;
+        }
+        select#alternatePLMsAvailableEdit_to::-webkit-scrollbar,
+        select#NDAPresetsAvailableEdit_to::-webkit-scrollbar,
+        select#contactEngineersAvailableEdit_to::-webkit-scrollbar,
+        select#NDAPresetsAvailable_to::-webkit-scrollbar,
+        select.form-control.multiSelect::-webkit-scrollbar,
+        select#contactEngineersAvailable_to::-webkit-scrollbar,
+        select#alternatePLMsAvailable_to::-webkit-scrollbar {
+            width: 12px;
+            background-color: $color-white;
+        }
+        select#alternatePLMsAvailableEdit_to::-webkit-scrollbar-thumb,
+        select#NDAPresetsAvailableEdit_to::-webkit-scrollbar-thumb,
+        select#contactEngineersAvailableEdit_to::-webkit-scrollbar-thumb,
+        select#NDAPresetsAvailable_to::-webkit-scrollbar-thumb,
+        select.form-control.multiSelect::-webkit-scrollbar-thumb,
+        select#contactEngineersAvailable_to::-webkit-scrollbar-thumb,
+        select#alternatePLMsAvailable_to::-webkit-scrollbar-thumb {
+            border-radius: 0px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+            background-color: $secondary-gray;
+        }
+        select.form-control.multiSelect option {
+            margin-left: 8px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+    }
+    product-field-label-bold {
+        font-weight: bold;
+    }
+    .btn.btn-multi-select {
+        background-color: $color-white;
+        border: 1px solid $secondary-gray;
+        color: $secondary-gray;
+    }
+    p.lefttext {
+        margin-bottom: 5px;
+        margin-top: 10px;
+        color: $color-blue;
+    }
+}
+
+.row.top-container.prdocut-container
+{
+	.pagination-wrapper .custom-pagination .gird-custom-pagination ul li button
+	{
+	margin-top: 0px;
+	}
+	.pagination-wrapper .custom-pagination .gird-custom-pagination ul li select
+	{
+	margin-top: -4px;
+	}
+}

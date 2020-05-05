@@ -1,0 +1,46 @@
+.btn-add-company {
+    border: none;
+    background-color: white;
+    color: #2699fb;
+    font-size: large
+}
+textarea {
+    overflow-y: scroll;
+    height: 100px;
+    resize: none; /* Remove this if you want the user to resize the textarea */
+}
+
+#IdNewProgramNDAtable {
+    height:150px;
+  overflow:auto;  
+  margin-top:20px;
+}
+#manageProgramContainer{
+    #listNDA{
+        svg.pdf-icon-step1{
+            width: 2%;
+        }
+    }
+}
+
+.box-border-blue {
+    border: 1px solid #2699fb;
+}
+
+#add-company {
+    focus {outline:0;}
+}
+
+.manage-program-table-align{
+    .datagrid table thead tr th{
+        border-right: 1px solid #d0d0ce;
+        width:10%;
+        cursor:pointer;
+    }
+
+}
+
+.user-access-align{
+margin-top: -8px;
+margin-bottom: -13px;
+}

@@ -1,0 +1,60 @@
+
+.config-sales-rep-wrapper{
+    .display-hide{
+        display: none;
+    }
+    .checkbox{
+        margin: 0px;
+    }
+    .form-control-feedback{
+        right:8px;
+    }
+    .checkbox label, 
+    .radio label{
+        min-height: 10px;
+    }
+    .mirror-config-wrapper{
+        border:1px solid $primary-red;
+        padding: 20px;
+        .label-wrapper{
+            display: block;
+        }
+        .form-group{
+            display: inline;
+        }
+        .inline{
+            button{
+                margin-left: 10px;
+            }
+        }
+    }
+    p.sub-heading{
+        border-bottom: 1px solid $primary-red;
+        padding-bottom: 25px;
+    }
+    .back-to-config{
+        padding-bottom: 20px;
+    }
+    .search-box{
+        width: 100%;
+        display: inline-block;
+        position: relative;
+        .input-wrapper{
+            padding-right: 10px;
+        }
+        .glyphicon{
+            top:24px;
+            right: 8px;
+        }
+    }
+    .find-nda-wrapper{
+        border: 1px solid $primary-red;
+        padding:20px;
+    }
+    .gridDisplay{
+        display: none;
+    }
+    .btn-wrapper{
+        text-align: center;
+    }
+}

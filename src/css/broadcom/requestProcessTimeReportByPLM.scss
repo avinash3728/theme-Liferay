@@ -1,0 +1,99 @@
+#request-process-time{
+    .date-hint{
+        color: $color-blue;
+    }
+    .btn-view{
+        border: 1px solid #a7a8aa;
+        padding: 10px 0px;
+        background: #fff;
+        outline: 0;
+        padding-left: 36px;
+        margin: 0;
+        width: 100%;
+        color: #000;
+        border-radius: 2px;
+        padding-right: 12px;
+    }
+    .plmName-wrapper{
+        cursor:pointer;
+        .plmName-style{
+            &:hover{
+                color:$primary-red;
+            }
+        }
+    }
+    .usage-user-table-container{
+        #usage-user-datagrid{
+            margin: 0px;
+            tr{
+                td{
+                    &:first-child{
+                        svg{
+                            height: 15px;
+                            width: 16px;
+                            vertical-align: top;
+                            margin: 0px 2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .pagination-wrapper{
+        .pagination-content{
+            .custom-pagination{
+                padding: 0px;
+            }
+        }
+    }
+    .svg-wrapper{
+        padding-left: 0px;
+        svg{
+            height: 20px;
+            margin: 0px 5px;
+            width: 20px;
+            vertical-align: middle;
+        }
+        .excel-download-style{
+            cursor: pointer;
+        }
+    }
+    .view-btn-wrapper{
+        .open-eye-svg-wrap{
+            height: 20px;
+            width: 18px;
+            position: relative;
+            top: -27px;
+            left: 18px;
+        }
+    }
+    .pagination-content{
+        .custom-pagination{
+            .col-md-12{
+                &:nth-child(2){
+                    padding: 0px;
+                }
+            }
+            .gird-custom-pagination{
+                ul{
+                    li{
+                        &:last-child{
+                            padding: 0px;
+                            button{
+                                padding: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .to-date-style{
+        .input-wrapper{
+            width: 100%;
+        }
+    }
+    .button-style{
+        margin: 20px 0px;
+    }
+}

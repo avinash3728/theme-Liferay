@@ -1,0 +1,32 @@
+#pending-plm{
+    .legend-section{
+        ul{
+            float: right;
+            border: 1px solid $secondary-gray-light;
+            color: $color-text;
+            border-radius:3px;
+            padding: 6px; 
+            li{
+                display: contents;
+            }
+            svg{
+                width: 4%;
+                margin-right: 4px;
+            }
+            label{
+                font-size: 11px;
+            }
+            .glyphicon-pencil{
+                margin-right: 4px;
+                color: $primary-black;
+            }
+        }
+    }
+    #AllrequestdataGrid{
+        td{
+            a,button{
+                padding-right: 8px!important;
+            }
+        }
+    }
+}

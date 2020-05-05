@@ -1,0 +1,17 @@
+#idNotifyFile{
+    .border-bottom-blue{
+        border-bottom: 1px solid $color-blue;
+    }
+    .border-right-thin{
+        border-right: 1px solid $secondary-gray-light;
+    }
+    .border-top-thin{
+        border-top: 1px solid $secondary-gray-light;
+    }
+    .normal-font-weight{
+        font-weight:normal;
+    }
+    .user-notify-inactive{
+        color: $primary-red;
+    }
+}

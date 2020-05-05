@@ -1,0 +1,98 @@
+.softwareforexisitngusers{
+    #datagridStep4, .datagridStep4User {
+        .checkbox {
+            .cr {
+                margin-left: -15px;
+            }
+        }
+    }
+    .soft-tab-wizard{
+        .custom-padding{
+            span{
+                display: block;
+            }
+            padding: 0px;
+        }
+    }
+    .slalist{
+        padding: 0px;
+        list-style: none;
+        svg{
+            fill: $primary-red;
+            width: 5%;
+            padding-right: 4px;
+        }
+
+    } 
+    #step5-sw{
+        .notify-step5{
+            .input-wrapper{
+                width: 100%;
+            }
+        }
+        #userslist{
+            #user-group-li{
+                list-style: none;
+            }
+        }
+    }
+    .popover{
+        max-width: 500px;
+        h3{
+            color: $primary-black;
+            border-bottom: 1px solid $secondary-gray-light;
+        }
+        .popover-content{
+            font-size: 12px;
+            height: 250px;
+            overflow: auto;
+        }
+    } 
+    #step4-sw{
+        span.custom-request{
+            color: $color-blue;
+        }
+    }
+    .step1-pdf{
+        width: 1%;
+        fill: $primary-red;
+    }
+    .pdf-showmore{
+        width: 2%;
+        fill: $primary-red;
+        margin-right: 4px;
+    }
+    #step1-sw{
+        table{
+            svg.pdf-icon-step1{
+                width: 13px;
+                margin-right: 8px;
+                fill: $primary-red
+            }
+        }
+    }
+    dl{
+        dt{
+            padding: 0px;
+            font-weight: normal;
+        }
+        dd{
+            padding: 0px;
+            font-weight: normal;
+        }
+    }
+	
+	.custom-req-wrapper {
+		position: inherit;
+	}
+	
+	#datagridStep1{
+		thead{
+			tr{
+				th:last-child{
+					cursor:default;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,238 @@
+/* 
+.............this contains download module relates scss
+*/
+
+.module-downloads {
+    .search-product {
+        position: relative;
+        .glyphicon {
+            position: absolute;
+            padding: 10px;
+            pointer-events: none;
+            right: 0;
+        }
+    }
+}
+
+.search-downloads {
+    .search {
+        background-image: url("/assets/images/searchdownloadsbackground.png");
+        background-repeat: no-repeat;
+        color: white;
+        background-size: 100%;
+    }
+    .form-search-downloads {
+        opacity: 1.7;
+        background-color: #f7f3f2;
+        border-radius: 6px;
+        background-image: none;
+        margin-bottom: 31px;
+        color: black;
+        .advanced-search-text.pull-right {
+            left: 31px;
+            position: relative;
+            color: #0694bd;
+        }
+    }
+    .advanced-search {
+        opacity: 1.7;
+        background-color: #f7f3f2;
+        border-radius: 6px;
+        background-image: none;
+        margin-bottom: 31px;
+        color: black;
+        .basic-search.pull-right {
+            margin-top: 0px;
+            left: -12px;
+            position: relative;
+            color: #0694bd;
+        }
+        span.glyphicon.glyphicon-menu-up {
+            position: relative;
+            left: -3px;
+            top: 3px;
+        }
+    }
+    button#searchDownloads {
+        top: 31px;
+        position: relative;
+        color: white;
+        left: -12px;
+        background-color: #0092bd;
+    }
+    .table-downloads {
+        table-layout: fixed;
+        th.column-check {
+            width: 25px !important;
+            text-align: center
+        }
+    }
+}
+
+.edit-grid-tools {
+    background-color: #53565a;
+    color: $colorBg-container;
+    .multi-dropdown-container {
+        margin-top: 5px;
+        .multi-dropdown-items {
+            .multi-dropdown-items-data {
+                color: #000;
+            }
+        }
+    }
+    .checkbox {
+        display: inline-block;
+    }
+    .right-section {
+        margin-top: 5px;
+        .mybookmark-dropdown {
+            .form-group {
+                display: inline;
+                .label-wrapper {
+                    display: none;
+                    width: 0;
+                }
+                .input-wrapper {
+                    display: inline-block;
+                    width: 30%;
+                }
+            }
+        }
+        .btn {
+            &.btn-search {
+                background-color: transparent;
+                border: 1px solid #FFFFFF;
+            }
+        }
+    }
+}
+
+h3 {
+    font-size: 27px;
+    color: white;
+}
+
+.search {
+    margin: 20px;
+    background-image: none;
+}
+
+.hidden {
+    display: none;
+}
+
+button.btn.btn-default.dropdown-toggle {
+    border-style: solid;
+    border-color: white;
+}
+
+.datagrid {
+    table {
+        tbody {
+            tr {
+                td {
+                    color: black;
+                }
+                a {
+                    svg {
+                        width: 5%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+///
+p.search-downloads-below-text {
+    font-size: 10px;
+}
+
+.advanced-search {
+    padding-left: 16px;
+    padding-top: 11px;
+    padding-right: 13px;
+}
+
+.search-downloads.search {
+    padding-bottom: 1px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 0px;
+}
+
+.form-search-downloads {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 67px;
+}
+
+.advanced-search-filter {
+    padding-right: 50px;
+}
+
+.pad14px {
+    padding-top: 14px;
+}
+
+.right-section {
+    position: relative;
+    left: 57px;
+    top: 4px;
+}
+
+.row.edit-grid-tools {
+    padding-bottom: 10px;
+}
+
+.filters-searchdownloads {
+    position: relative;
+    left: 93px;
+    top: 6px;
+}
+
+.found-documents-text {
+    font-size: 22px;
+}
+
+.padleft75 {
+    float: right;
+    padding-left: 75px;
+}
+
+.showing-numberresult {
+    top: 20px;
+    left: -28px;
+    position: relative;
+}
+
+.result.searchdownloads {
+    font-size: 21px;
+    left: -27px;
+    position: relative;
+}
+
+.result.searchdownloads>a {
+    position: relative;
+    right: -10px;
+}
+
+.search-downloads-legend {
+    left: -8px;
+}
+
+.filters-searchdownloads {
+    .checkbox {
+        span.cr {
+            left: 14px;
+        }
+    }
+}
+
+/* Eula modal css */
+.custom-modal-eula {
+    top: 6% !important;
+    right: 0% !important;
+    left: 0% !important;
+    bottom: 0% !important;
+}

@@ -1,0 +1,42 @@
+#idPendingNDARequest{
+    .to-text-style{
+        padding-top:35px;
+        width: 3%;
+    }
+    .padding-top-30{
+        padding-top:30px;
+    }
+    .align-right{
+        text-align: right;
+    }
+    #findpendNDAGrid{
+        .datagrid table thead tr th:last-child{
+            width: 8%;
+        }
+        .datagrid table tbody tr td:last-child button{
+            padding: 0px 5px 0px 5px;
+        }
+    }
+}
+
+#idPendingNDARequestTabs{
+    .doc-heading{
+        font-size: 24px;
+        margin-bottom:-25px;
+    }
+    .red{
+        color: $primary-red;
+    }
+    .ndalist-users-request{
+        padding-left: 12px;
+    }
+    .align-right{
+        text-align: right;
+    }
+    .margin-left-10x{
+        margin-left: -10px;
+    }
+    .margin-left-8x{
+        margin-left: -8px;
+    }
+}

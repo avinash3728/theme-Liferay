@@ -1,0 +1,280 @@
+.usage-report-user-container{
+
+    .link-red {
+        color: $primary-red;
+      }
+
+    .pad-left-0{
+        padding-left: 0px;
+    }
+    .pad-0{
+      padding: 0px;
+    }
+
+    .margin-left-10{
+        margin-left: 10px;
+    }
+
+    .margin-top-15{
+        margin-top: 15px;
+        display: block;
+    }
+    .user-name{
+        color:red; 
+        display:inline-block;
+        cursor: pointer;
+    }
+    .deactivated-user-style{
+        color:red; 
+    }
+    .deactivated-user-legend-wrap{
+        border: 1px solid #dfdfdf;
+        padding: 7px;
+        margin: 10px 0;
+        float: right;
+        border-radius: 3px;
+        .ic-detailView{
+            path{
+                fill: #999;
+            }
+        }
+        .view-access{
+            padding-right: 15px;
+        }
+    }
+    
+    .user-name-style{
+        display: inline-block;
+        cursor: pointer;
+        width: 80%;
+        vertical-align: top;
+    }
+    .ic-detailView{
+        height: 12px;
+        width: 12px;
+        margin-right: 5px;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+    .img-detailView{
+        display: inline-block;
+        margin: 0 3px;
+        overflow: hidden;
+        background: url(../images/icn_master.png) no-repeat;
+        cursor: pointer;
+        border: none;
+        background-position: -126px -97px;
+        vertical-align: middle;
+        width: 20px;
+        height: 14px;
+    }
+    .usage-report-table{
+        #usage-user-datagrid{
+            th{
+                &.column-check{
+                    width: 25px !important;
+                }
+            }
+        }
+    } 
+    .clear{
+        clear: both;
+    }
+    .get-user-btn{
+        padding-right: 10px;
+    }
+    .pagination-wrapper{
+        
+        margin-left: 11px;
+        .pagination-content{
+                padding: 0px;
+                margin-right: -5px;
+        }
+    }
+
+    .page-heading {
+        font-family: $fontFamily-bold;
+        color: $primary-red;
+      }
+
+    .search-box-filter{
+        
+        .label-wrapper{
+            width: 23%;
+        }
+        .input-wrapper{
+            width: 55%;
+            .form-control{
+                border-radius: 4px;
+            }
+        }
+    }
+
+    .export-excel{
+        text-align: right;
+    }
+    .usage-user-report-input{
+        .label-wrapper{
+            width: 24%;
+        }
+        .input-wrapper{
+            width: 73%;
+        }
+    }
+
+    .user-data{
+        .user-data-id{
+            font-weight: bold;
+        }
+        .company-requester-name{
+            padding-left: 60px;
+        }
+        .user-card-end{
+            margin-bottom: 15px;
+        }
+    }
+
+    .filter-wrap{
+        label{
+          width: 20%;
+          font-weight: normal;
+        }
+        .filter-dropdown{
+          display: inline-block;
+          width: 50%;
+        }
+      }
+
+    .filter-wrapper{
+
+        .filter-input{
+
+            .label-wrapper {
+                width: 25%;
+            }
+
+            .input-wrapper{
+                width: 75%
+            }
+
+        }
+
+        .filter-button-wrapper{
+
+            button{
+
+                padding: 10px;
+
+            }
+
+            .filter-report{
+                background-color: $primary-red;
+                color: $color-white;
+            }
+
+            .reset-filter{
+                background-color: white;
+                color: $primary-red;
+                border:  $border-red;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+        }
+
+
+        .filter-checkbox{
+            margin-left: 73px;
+        }
+
+        .contains-checkbox{
+            margin-left: 176px;
+        }
+    }
+
+    .checkbox-wrapper{
+        .employee-checkbox-wrapper{
+            margin-left: 128px;
+            label{
+                width:80%
+            }
+        }
+
+        .product-brief-checkbox-wrapper{
+            label{
+                width:80%
+            }
+        }
+    }
+    
+    .download-date-wrapper{
+        #find-soft-from-date, #find-soft-to-date{
+            padding: 6px 10px;
+        }
+        .date-checkbox{
+          text-align: left;
+          padding-left: 30px;
+          label{
+            width: 100%;
+          }
+        }
+        label{
+          width: 28%;
+          display: inline-block;
+          font-weight: normal;
+        }
+        .date-dropdown{
+          display: inline-block;
+          width: 72%;
+          text-align: right;
+          vertical-align: top;
+          .form-group{
+            margin: 0px;
+          }
+          .input-wrapper{
+            width: 83%;
+          }
+        }
+        .datepicker-to-style{
+          padding: 8px 10px;
+        }
+      }
+
+    .get-access-btn-wrap{
+        text-align: right;
+        margin: 20px 0px;
+        .btn-filter-report{
+          background: $primary-red;
+          color: $color-white;
+        }
+        .btn-reset{
+          background: $color-white;
+          color: $primary-red;
+          border: 1px solid $primary-red;
+        }
+      }
+
+    // .filter-details{
+    //     .label-wrapper{
+    //         width: 30%;
+    //     }
+    //     .input-wrapper{
+    //         width: 70%;
+    //     }
+    //     .usage-user-dates{
+    //         .input-wrapper{
+    //             width: 95%;
+    //         }
+    //     }
+    //     .include-broadcom{
+    //         margin-left: 118px;
+    //         & .checkbox{
+    //             margin-top: 0px;
+    //         }
+    //     }
+    //     .filter-buttons{
+    //         text-align: center;
+    //     }
+    // }
+    
+}

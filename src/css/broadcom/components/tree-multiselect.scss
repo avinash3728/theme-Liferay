@@ -1,0 +1,64 @@
+/*multiselect tree style*/
+.tree-multiselect{
+    .panel-heading{
+        background:#CC092F;
+        color: $color-white;
+        p{
+            margin: 6px 0 6px;
+        }
+}
+.panel-body{
+    padding: 5px;
+    border: 1px solid $secondary-gray;
+    border-top: none;
+    select.list-group{
+        width: 100%;
+        border:none;
+        overflow-y: auto;
+        outline: none;
+        height: 225px;
+        option{
+            padding: 4px;
+        }
+    }
+    .jstree-default{
+        height: 200px;
+    }
+    ul{
+        width: 100%;
+        object-fit: cover;
+    }
+    .move-all{
+        padding: 4px 10px 4px 10px;
+    }
+    .move-prod{
+        padding: 4px 14px 4px 14px;
+    }
+}
+    .tree-button-section{
+        margin-top: 75px;
+        .btn-select-all, .btn-multi-select{
+            background: none;
+            border: 1px solid $secondary-gray;
+            color: $secondary-gray;
+          }
+          .btn-select-all{
+            padding: 5px 10px;
+          }
+    }
+ .tree-button-wrapper {
+	height: 200px;
+    	margin-top: 75px;
+    	position: relative;
+   }
+
+   .tree-button-center-container {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+}

@@ -1,0 +1,171 @@
+.permission-downloads-wrapper{
+    .download-info-style{
+        color: $primary-gray;
+        top: -25px;
+        right: -125px;
+    }
+    // .inline{
+    //     display: inline-block;
+    // }
+    .download-grid-hint{
+        color: $primary-red;
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+    .download-hint-wrap{
+        padding-left: 0;
+        margin: 0;
+    }
+    .permission-info-style{
+        color: $primary-gray;
+        top: -25px;
+        right: -134px;
+    }
+
+    .select-periods{
+        padding-left: 0px;
+        .input-wrapper{
+            width: 100%;
+        }
+    }
+    .svg-wrapper{
+        svg{
+            height: 20px;
+            margin: 0px 5px;
+            width: 20px;
+            vertical-align: middle;
+        }
+        .excel-download-style{
+            cursor: pointer;
+        }
+    }
+    .pagination-content{
+        .custom-pagination{
+            .gird-custom-pagination{
+                width: 100%;
+                ul{
+                    li{
+                        &:last-child{
+                            padding: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .found-result{
+        margin-top: 0px;
+    }
+    .view-wrapper{
+        padding: 0;
+        margin: 20px 0px 0px 0px;
+        p{
+            margin: 0px;
+        }
+    }
+    .hint-wrap{
+        margin: 0px 0px 20px 0px;
+        .star{
+            color: $primary-red;
+            padding: 0px 3px;
+        }
+        .input-hint-style{
+            color: $color-blue;
+        }
+    }
+    .tree-wrapper{
+        .tree-title{
+            margin: 0px 0px 10px 0px;
+        }
+    }
+    .doc-num-wrap{
+        .form-group{
+            margin: 0px;
+        }
+        .input-hint-style{
+            padding-left: 309px;
+            color: $color-blue;
+        }
+    }
+    .tree-section-wrapper{
+        .col-md-5 {
+            &:last-child{
+                padding-right: 0;
+            }
+        }
+        .col-md-1{
+            padding: 0;
+            button{
+                padding: 8px 20px;
+            }
+        }
+    }
+    .pad-left-0{
+        padding-left: 0px;
+    }
+    .pad-right-0{
+        padding-right: 0px;
+    }
+    .required-style{
+        padding: 0 0 20px 0px;
+        color: $color-blue;
+    }
+    .name-wrap{
+        padding-left: 0px;
+        .company-wrapper{
+            .label-wrapper{
+                label{
+                    &:after{
+                        content: "";
+                    }
+                }
+            }
+            .typeahead__button{
+                color: $primary-gray;
+            }
+        }
+    }
+    .email-wrap{
+        padding-right: 0px;
+    }
+    .doc-type-container{
+        .form-group{
+            margin: 0px 0px 8px 0px;
+        }
+        .label-wrapper{
+            width: 32%;
+        }
+        .input-wrapper{
+            width: 49%;
+        }
+    }
+    .date-container{
+        margin: 8px 0px;
+        .download-title{
+            padding: 0;
+            width: 16%;
+        }
+        .date-range-to{
+            padding: 8px 12px;
+        }
+    }
+    .filter-style{
+        margin-left: 210px;
+    }
+    .filter-checkbox-font{
+        .checkbox {
+            .cr{
+                border: 1px solid $primary-gray;
+            }
+        }
+    }
+    .view-report-wrapper{
+        padding: 0;
+        margin: 20px 0px;
+    }
+
+    .permission-grid-link{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}

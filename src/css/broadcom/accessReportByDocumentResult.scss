@@ -1,0 +1,160 @@
+.access-report-by-document {
+  .pad-0 {
+    padding: 0px;
+  }
+  .pad-left-0 {
+    padding-left: 0px;
+  }
+  .margin-left-10 {
+    margin-left: 10px;
+  }
+  .margin-top-15 {
+    margin-top: 15px;
+    display: block;
+  }
+  #usage-doc-from-date, #usage-doc-to-date{
+    padding: 6px 10px;
+  }
+  .link-red {
+    color: $primary-red;
+  }
+  .font-bold {
+    //font-weight: 600;
+    font-family: $fontFamily-medium;
+  }
+  .font-medium {
+    font-family: $fontFamily-medium;
+  }
+  .anchor-link {
+    text-decoration: underline;
+    color: $color-link;
+  }
+  .pagination-wrapper {
+    .pagination-content {
+      padding: 0px;
+      margin-right: -15px;
+    }
+  }
+  .page-heading {
+    font-family: $fontFamily-medium;
+    color: $primary-red;
+  }
+  .save-report-wrapper {
+    .save-report {
+      background-color: $primary-red;
+      color: $color-white;
+    }
+  }
+  .document-name-wrapper {
+    hr {
+      margin-top: 10px;
+    }
+    .document-name-text {
+      font-size: $fontSize-h3;
+    }
+  }
+  .save-report-wrapper {
+    .label-wrapper {
+      width: 25%;
+    }
+    .input-wrapper {
+      width: 70%;
+    }
+    button {
+      padding: 10px;
+    }
+  }
+  .document-name-wrapper {
+    .document-name-text {
+      font-family: $fontFamily-medium;
+    }
+  }
+  .document-details {
+    margin: 10px 0px;
+    .document-details-header{
+        margin-bottom: 10px;
+        font-family: $fontFamily-medium;
+    }
+    .document-details-row{
+        margin-bottom: 5px;
+        display: block;
+    }
+    .font-medium,.font-bold{
+        margin-bottom: 5px;
+    }
+  }
+  .filter-wrapper-result {
+    .filter-wrap{
+      label{
+        width: 20%;
+        font-weight: normal;
+      }
+      .filter-dropdown{
+        display: inline-block;
+        width: 50%;
+      }
+
+      .brief-checkbox-wrapper{
+        margin-left: 12px;
+      }
+    }
+    .filter-checkbox-wrapper{
+      .include-broad-emp-align {
+        margin-left: 117px;
+      }
+    }
+    .download-date-wrapper{
+      .date-checkbox{
+        text-align: left;
+        padding-left: 35px;
+        label{
+          width: 100%;
+        }
+      }
+      label{
+        width: 28%;
+        display: inline-block;
+        font-weight: normal;
+      }
+      .date-dropdown{
+        display: inline-block;
+        width: 72%;
+        text-align: right;
+        vertical-align: top;
+        .form-group{
+          margin: 0px;
+        }
+        .input-wrapper{
+          width: 83%;
+        }
+      }
+      .datepicker-to-style{
+        padding: 8px 10px;
+      }
+    }
+    .get-access-btn-wrap{
+      text-align: right;
+      margin: 20px 0px;
+      .btn-filter-report{
+        background: $primary-red;
+        color: $color-white;
+      }
+      .btn-reset{
+        background: $color-white;
+        color: $primary-red;
+        border: 1px solid $primary-red;
+      }
+    }
+  }
+  .datagrid-wrapper {
+    .ledgen-wrapper {
+      border: 1px solid $primary-gray;
+      padding: 10px;
+      border-radius: 4px;
+      .ledgen {
+        font-family: $fontFamily-medium;
+        color: $primary-red;
+      }
+    }
+  }
+}

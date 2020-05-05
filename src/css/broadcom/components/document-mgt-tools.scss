@@ -1,0 +1,153 @@
+.module-dm-tools {
+    .doc-ul-border {
+        width: 74%;
+        border-bottom: 1px solid $secondary-gray;
+        margin-left: 26%;
+    }
+    #document-tab,
+    #new-document-tab {
+        .tab-content {
+            border: none;
+        }
+    }
+    .doc-product-finder {
+        .panel-body {
+            border: 1px solid $secondary-gray;
+            border-radius: 3px;
+        }
+        .nav-tabs {
+            >li {
+                width: 50%;
+                text-align: center;
+                &.active {
+                    >a {
+                        background-color: $primary-red;
+                        border-color: $primary-red;
+                        color: $color-white;
+                        border-bottom-color: $primary-red;
+                    }
+                }
+                &>a {
+                    padding: 10px 4px;
+                    border-color: $primary-red;
+                    color: $primary-red;
+                    margin: 1px 0px 1px 0px;
+                    border-bottom-color: $primary-red;
+                    &.advanced-search-link {
+                        border-bottom-right-radius: 2px;
+                        border-top-right-radius: 2px;
+                        border-radius: none;
+                    }
+                    &.product-finder-link {
+                        border-bottom-left-radius: 2px;
+                        border-top-left-radius: 2px;
+                        border-radius: none;
+                    }
+                }
+            }
+        }
+    }
+    .doc-card {
+        display: flex;
+        flex-direction: column;
+        .card {
+            .card-container {
+                padding: 2px 16px;
+            }
+            .document {
+                width: 21%;
+            }
+            svg {
+                fill: $primary-red;
+                width: 24%;
+                padding: 16px;
+            }
+        }
+    }
+    .source-doc-list, .target-doc-list {
+        width: 100%;
+        .source-buttons, .target-buttons {
+            width: 15%;
+            float: left;
+            .btn-multi-select {
+                display: block;
+                margin: 2px auto;
+                text-align: center;
+                padding: 3px 12px;
+            }
+            .btn-select-all {
+                display: block;
+                margin: 2px auto;
+                text-align: center;
+                padding: 3px 8px;
+            }
+        }
+        .source-list {
+            width: 85%;
+            float: left;
+            select {
+                overflow: auto;
+                width: 100%;
+            }
+        }
+        .target-list {
+            width: 85%;
+            float: left;
+            select {
+                overflow: auto;
+                width: 100%;
+                height: 130px;
+            }
+        }
+    }
+    .permission-restore {
+        .permission-box {
+            padding: 10px;
+            width: 85%;
+            float: right;
+        }
+    }
+
+    .list-group {
+        margin-bottom: 10px;
+    }
+
+    .tree-panel {
+        height: 80vh;
+    }
+
+    .restrict-company {
+        width: 85%;
+        float: right;
+        padding: 10px;
+    }
+
+    .text-info {
+        font-size: 12px;
+    }
+
+    #document-management {
+        .border-bottom-thin.red {
+            border-bottom: 0.25px solid $secondary-gray-light;
+            padding-bottom:5px;
+        }
+    } 
+
+    .permission-product-tree {
+        border: none;
+        height: auto;
+        .tree-search {
+            .dropdown-menu {
+                width: 100% ;
+                max-height: 100px;
+                .form-group {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .hidden {
+        display:none;
+    }
+}

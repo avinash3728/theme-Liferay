@@ -1,0 +1,54 @@
+.captcha{
+	.hidden-from-user{
+		display: none;
+	}
+	.captcha-box{
+		border: 1px solid #d3d3d3;
+		background: #f9f9f9;
+		color: #000;
+		width: 50%;
+		padding: 10px;
+	}
+	.bg-white{
+		background-color: white;
+	}
+	.vertical-margin-top{
+		margin-top: -7px;
+	}
+	.padding-bottom-20{
+		padding-bottom: 20px;
+	}
+	.captcha-box-assist{
+		border: 1px solid #d3d3d3;
+		background: #f9f9f9;
+		color: #000;
+		width: 100%;
+		padding: 10px;
+	}
+}
+
+#capthaVefication{
+	#formCaptcha{
+		.captcha{
+			.hidden-from-user{
+				display: none;
+			}
+			.bg-white{
+				background-color: white;
+			}
+			.vertical-margin-top{
+				margin-top: -7px;
+			}
+			.padding-bottom-20{
+				padding-bottom: 20px;
+			}
+			.captcha-box-assist{
+				border: 1px solid #d3d3d3;
+				background: #f9f9f9;
+				color: #000;
+				width: 100%;
+				padding: 10px;
+			}
+		}
+	}
+}

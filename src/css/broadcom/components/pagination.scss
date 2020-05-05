@@ -1,0 +1,242 @@
+.paddingTop0P{
+	padding-top: 0px!important;
+}
+
+.paddgTop25p{
+	padding-top: 25px!important;
+}
+.pagination-wrapper{
+	.custom-pagination{
+		padding-bottom: 25px;
+		padding-top: 25px;
+		&.product-pagination {
+			.custom-pagination {
+				padding-bottom: 0;
+				padding-top: 0;
+			}		
+		} 
+		.gird-custom-pagination{
+			padding-top: 12px;
+			ul{
+				margin: 0px;
+				padding: 0px;
+				li{
+					float: left;
+					list-style-type: none;
+					padding-right: 10px;
+					select{
+						padding: 5px;
+						margin-right: 5px;
+					}
+					label{
+						font-weight: normal;
+						font-size: $fontSize-pagination;
+						padding-right: 5px;
+					}
+					button{
+						background: none;
+						border: 0px;
+						margin-top: 5px;
+						span{
+							font-weight: normal;
+						}
+						label{
+							font-weight: normal;
+							font-size: $fontSize-pagination;
+						}
+					}
+				}
+			}
+		}
+		.grid-label-desc{
+			padding: 10px;
+			margin-right: 10px;
+			border: 1px solid $color-gray80;
+			float: right;
+			ul{
+				margin: 0px;
+				padding:0px;
+				li{
+					list-style-type: none;
+					font-size: $fontSize-legend;
+					padding: 0px 15px;
+					font-weight: normal;
+					display: contents;
+					svg{
+						width:2.8%;
+						height: auto;
+					}
+					label{
+						padding: 0px 10px;
+						font-weight: normal;
+					}
+				}
+			}
+		}
+	}
+}
+
+#divisions-section, #groups-section, #subgroups-section, #search-section, #products-section {
+	.info-text {
+		color: #0092bc;
+		font-weight: 550;
+		font-style: italic;
+		svg {
+			width: 16px;
+			height: 16px;
+			vertical-align: text-bottom;
+			margin-right: 5px;
+			path {
+				fill: #0092bc;
+			}
+		}
+	}
+	.division-legend {
+		text-align: right;
+		ul {
+			border: 1px solid #ccc;
+			padding: 10px;
+			display: inline-block;
+			vertical-align: top;
+			margin: 0;
+			margin-bottom: 10px;
+			li {
+				display: inline-block;
+				vertical-align: middle;
+				.glyphicon {
+					font-size: 0.8em;
+				}
+				label {
+					font-size: 11px;
+					font-weight: normal;
+					padding: 0 10px;
+					margin-bottom: 0px;
+				}
+			}
+		}
+	}
+	.pagination-wrapper{
+		.help-icon-wrapper {
+			color: #0092bc;
+			font-weight: 550;
+			svg {
+				width: 16px;
+				height: 16px;
+				display: inline-block;
+				margin-right: 10px;
+				fill: #0092bc;
+				vertical-align: middle;
+				path {
+					fill: #0092bc;
+				} 
+			}
+		}
+		.custom-pagination{
+			float:none;
+			padding-top:0;
+			padding-bottom:0;
+		}
+		.col-md-12 {
+			&.row {
+				width: inherit !important;
+				margin: 0px;
+				float: right;
+				padding-left: 0px;
+				padding-right: 0px;
+				ul {
+					li {
+						&:last-child {
+							padding-right: 0px;
+						}
+					}
+				}
+			}
+		}
+		
+	}
+}
+#groups-section{
+	.pagination-wrapper{
+		.custom-pagination{
+			float:none;
+			padding-top:0;
+			padding-bottom:0;
+		}
+		
+	}
+}
+#subgroups-section{
+	.pagination-wrapper{
+		.custom-pagination{
+			float:none;
+			padding-top:0;
+			padding-bottom:0;
+		}
+		
+	}
+}
+#search-section{
+	.pagination-wrapper{
+		.custom-pagination{
+			float:none;
+			padding-top:0;
+			padding-bottom:0;
+		}
+		
+	}
+}
+.search-downloads{
+	.search-dowload-result{
+		.pagination-wrapper{
+			.search-downloads-legend{
+				.legend-searchdownloads{
+					li{
+						padding: 0px 5px;
+						display: inline;
+					}
+				}
+			}
+		}
+	}
+}
+
+.searchdownloads{
+    .table-downloads{
+        tr{
+            th{
+                width: 55px;
+            }
+            td{
+                &.actions{
+					padding-right: 12px;
+                    a{
+                        svg{
+                            height: 20px;
+                            width: 12%;
+                        }
+                    }
+				}
+			}
+        }
+    }
+}
+#portlet_ProductManagementPortlet {
+	.popover {
+		left: 0px !important;
+		min-width: 98.4% !important;
+		.arrow {
+			left: 2.5% !important;
+		}
+		.popover-title {
+			font-size: 18px;
+			border-bottom: solid 1px #ccc;
+			margin: 0 12px;
+			padding-left: 0px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		.popover-content {
+			color: #000;
+		}
+	}
+}

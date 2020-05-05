@@ -1,0 +1,357 @@
+.btn-add-company {
+    border: none;
+    background-color: white;
+    color: #0092BC;
+    font-size: large
+}
+textarea {
+    overflow-y: scroll;
+    height: 100px;
+    resize: none; /* Remove this if you want the user to resize the textarea */
+}
+
+#IdNewProgramNDAtable {
+height:250px;
+  overflow:auto;  
+  margin-top:20px;
+}
+
+.box-border-blue {
+    border: 1px solid #0092BC;
+}
+
+#add-company {
+    focus {outline:0;}
+}
+
+#manageProgramContainer {
+	.tab-content {
+	    border:none;
+	}
+	textarea, select[multiple], ul.custom-ul {
+		overflow-y: auto;
+	}
+	.program-header {
+		p {
+			color: #97999b;
+		}
+	}
+	.red {
+		color: #cc092f;
+	}
+	.grey {
+		color: #97999b;
+	}
+	.blue {
+		color: #0092BC;
+	}
+	
+	.nda-box {
+		margin-left:0;
+		margin-right:0;
+		padding-top: 6px;
+	
+		ul.listNDAul {
+			position: absolute;
+		    top: 8px;
+		    left: 16px;
+		    list-style-type: none;
+		    width:100%;
+		    
+		    a, a:link {
+		    	color: #231f20;
+		    }
+		    
+		    li {
+		    	display: inline;
+    			margin-right: 16px;
+		    }
+		}
+	}
+	
+	.row.tree-multiselect, .multi-select {
+		button {
+			background: #fff;
+		    border: #eee 1px solid;
+		    color: #97999b;
+		}
+	}
+	
+	.checkbox {
+		.cr.checked {
+			border: 1px solid #0092BC;
+    		color: #0092BC;
+		}
+	}
+}
+
+.sub-header-profile {
+    font-size: 10px;
+}
+
+.nda-subhead {
+   color : #0092BC;
+}
+
+.bold-text {
+    font-weight: bold !important;
+}
+#idChkActiveProgram {
+    .label-spacing {
+        padding-right: 30px;
+    }
+}
+.label-msg {
+    color : #0092BC;
+}
+
+.product-criteia-subtext {
+    font-size: 10px;
+    display: inline-block;
+    padding-left:27px;
+}
+
+.padding-top-NDAedit {
+    padding-top:16px;
+}
+
+#ProductAccordian {
+    .panel {
+        label {
+            &.control-label {
+                &::after {
+                    content: "";
+                }
+            }
+        }
+    }
+    .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 13px;
+        width: 100%;
+        border: none;
+        outline: none;
+        font-size: 12px;
+        transition: 0.4s;
+        margin-left: 0px;
+        
+        .acc-title {
+        	visibility: visible;
+        }
+    }
+    .active {
+    	.acc-title {
+        	visibility: hidden;
+        }
+    }
+    
+    .active, .accordion:hover {
+        background-color: #ccc;
+    }
+    
+    .accordion:after {
+        content: '\2b';
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+        font-size: 15px;
+        margin-top: -20px !important;
+    }
+    
+    .active:after {
+        content: '\f106' !important;
+    }
+    .panel {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+
+    .product-name {
+        font-size:15px;
+    }
+
+    .product-accordian-label {
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    .prod-criteria-display {
+        display: inline-block;
+    }
+
+    .prod-approved-font {
+        font-size: 11px;
+    }
+
+    .prod-criteria-padding {
+        padding-left:43px;
+    }
+
+    .rightButton-position{
+        text-align: right;
+        padding-right: 20px;
+    }
+    
+    
+    .multi-select {
+    	.col-md-1 {
+    		width: 16.66667%;
+    		
+    		.btn-block {
+    			padding-left: 12px;
+    		}
+    	}
+    }
+    
+    .comments-box {
+    	.label-wrapper {
+	        width: 26% !important;
+	    }
+	    .input-wrapper {
+	    	width: 74% !important;
+	    }
+    }
+    
+    .del-icon {
+    	padding: 0;
+    	color: #231f20;
+    }
+    
+    .accordian {
+    	&:after {
+    		margin-top: -20px !important;
+    	}
+    }
+}
+
+
+.programInformation {
+    .multi-select {
+        padding-left:18px;
+        
+        .col-md-1 {
+    		.btn-block {
+    			padding-left: 14px;
+    		}
+    	}
+    }
+    .company-name {
+    
+        .btn-add-company {
+            padding: 0px 10px;
+            font-size: 22px;
+        }
+        
+        .search-box {
+            display: inline;
+        
+            .input-wrapper {
+                width: 50% !important;
+                
+                svg {
+                	color: #ccc;
+                	fill: currentColor;
+                }
+            }
+        }
+    }
+    
+    .additional-cc {
+        .label-msg {
+            display: block;
+            width: 200px;
+            margin-top: 5px;
+            /* color: #66afe9; */
+        }
+    }
+
+    .custom-available {
+    	padding-left:18px
+    }
+    .label-wrapper {
+        width: 36% !important;
+    }
+    .editScreen {
+    	.multi-select {
+	    	.col-md-1 {
+	    		width: 16.66667%;
+	    		
+	    		.btn-block {
+	    			padding-left: 20px;
+	    		}
+	    	}
+	    }
+        .company-box {
+            .search-box {
+                display: inline;
+                .input-wrapper {
+                    width: 53%;
+                    svg {
+	                	color: #ccc;
+	                	fill: currentColor;
+	                }
+                }
+            }
+            .btn-add-company {
+                background: #0092BC;
+                color: $color-white;
+                padding: 4px;
+                margin-left: 12px;
+                line-height: 1;
+                font-size: 8px;
+                margin-top: 6px;
+                border-radius: 50%;
+                border: none;
+            }
+        }
+        #editCompany {
+            margin-left: 36%;
+            margin-top: 15px;
+            .custom-ul {
+                border: solid 1px #cccccc;
+                padding: 4px;
+                margin-right: 22px;
+                height: 143px;
+                overflow-y: scroll;
+                margin-bottom: 15px;
+                .custom-li {
+                    border: none;
+                }
+            }
+        }
+        .active-flag {
+            .checkbox {
+                margin-top: 0px;
+            }
+        }
+    }
+}
+
+
+/*
+SGM Fixes
+*/
+#softwaregroupContainer {
+	.tab-content {
+		#sla {
+			#AddSla, #AddNewSla {
+				.table {
+					tr {
+						td, th {
+							&:last-child {
+								word-break: break-word;
+							}
+						}
+						
+					}
+				}
+			}
+		}
+	}
+}

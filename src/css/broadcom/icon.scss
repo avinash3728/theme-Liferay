@@ -1,0 +1,228 @@
+.icon{
+	height: 16px;
+    width: 16px;
+    display: inline-block;
+    margin: 0 3px;
+    overflow: hidden;
+	background: url("../images/icn_master.png") no-repeat;
+	border: none;
+}
+.icn_Home{
+	background-position: -111px -32px;
+}
+.icn_Order{background-position:-97px -112px;}
+.icn_EditIcon{
+	background-position: -80px -16px;
+}
+.icn_DeleteIcon{
+	background-position: -49px -16px;
+}
+.icn_Trash {
+    background-position: -32px -80px;
+}
+.icn_DocumentDownload{
+	background-position: -15px -32px;
+}
+.icn_WindowEdit{
+	background-position: -96px -80px;
+}
+.icn_CommentAdd{
+	background-position: -112px -144px;
+}
+.icn_Collapse{
+	background-position: -48px -176px;
+}
+.icn_Close{
+	background-position: -80px -144px;
+}
+.icn_LaunchMod{
+	background-position: 0px -176px;
+}
+.icn_Help{
+	background-position: -80px -32px;
+}
+.icn_View{
+	background-position: -64px -80px;
+}
+.icn_Approve{
+	background-position: -48px 0px;
+}
+.icn_Decline{
+	background-position: -32px -16px;
+}
+.icn_MoreInfo{
+	background-position: 0px -160px;
+}
+.icn_History{
+	background-position: -97px -31px;
+}
+.icn_Error{
+	background-position: -95px -16px;
+}
+.icn_Reset{
+	background-position: 0px -64px;
+}
+.icn_Info{
+	background-position: -128px -31px;
+}
+.icn_NonFavorite{
+	background-position: -49px -160px;
+}
+.icn_Print{
+	background-position: -144px -48px;
+}
+.icn_Mail{
+	background-position: -144px -32px;
+}
+.icn_Copy{
+	background-position: -16px -16px;
+}
+.icn_Favorite{
+	background-position: -80px -160px;
+}
+.icn_ScrollRun{
+	background-position: -48px -64px;
+}
+.icn_UpMinus{
+	background-position: -48px -80px;
+}
+.icn_Expand{
+	background-position: -64px -176px;
+}
+.icn_Software{
+	background-position: -96px -64px;
+}
+.icn_Permission{
+	background-position: -128px -48px;
+}
+.icn_Clone{
+	background-position: -144px -80px;
+}
+.icn_PDF{
+	background-position: -16px -144px;
+}
+.icn_Excel{
+	background-position: -111px -16px;
+}
+.icn_ReadMore{
+	background-position: -32px -176px;
+}
+.icn_Calendar{
+	background-position: -144px 0px;
+}
+.icn_MenuOn{
+	background-position: 0px -48px;
+}
+.icn_Search{
+	background-position: -64px -64px;
+}
+.icn_Password{
+	background-position: -80px -48px;
+}
+.icn_Attachment{
+	background-position: -128px -176px;
+}
+.icn_NodeExpand{
+	background-position: -64px -48px;
+}
+.icn_SortDown{
+	background-position: 0px -192px;
+}
+.icn_NodeCollapse{
+	background-position: -32px -48px;
+}
+.icn_Table{
+	background-position: -16px -80px;
+}
+.icn_MSWord {
+    background-position: -128px -144px;
+}
+.icn_SortUp {
+    background-position: -144px -176px;
+}
+.icn32_Warning{
+	background-position: -64px 0px;
+}
+.icn32_Error{
+	background-position: -32px 0px;
+}
+.icn_Delete, .icn_Remove {
+    background-position: -48px -16px;
+}
+.icn_NodeCollapse, .IconMinus, .IconNodeCollapsed {
+    background-position: -32px -48px;
+    cursor: pointer;
+}
+.icn_Deactivate {
+    background-position: -128px -16px;
+}
+.icn_Add {
+    background-position: -32px 0px;
+}
+.icn_Edit, .IconEditSmall {
+    background-position: -80px -16px;
+}
+.icn_User{
+	background-position: -16px 0px;
+}
+.icn_Link{background-position:-112px -160px;}
+.icn_FourSquare{background-position: -128px 256px;}
+.icn_ThreeSquare{background-position: -128px -128px;}
+.icn_TwoSquare{background-position: -96px -94px;}
+.icn_Document{background-position: 0px -32px;}
+.icn_ConfSalesRep{background-position: -17px -97px;height: 15px;width: 15px;}
+.icn_PGPDelete{background-position: -16px -128px;height: 16px;width: 15px;}
+.icn_PGPKey{background-position: 0 -128px;height: 16px;width: 16px;} 
+
+[class^="icn_"], [class*=" icn_"] {
+    height: 15px;
+    width: 16px;
+    display: inline-block;
+    margin: 0 3px;
+    overflow: hidden;
+    // background: url("../images/icn_master.png");
+    cursor: pointer;
+    border: none;
+   // background-position: -81px -32px;
+}
+
+span.icn_User {
+    background-position: -16px 0px;
+}
+span.icn_Link
+{
+	background-position: -112px -160px;
+}
+span.icn_Edit
+{
+	background-position: -80px -16px;
+}
+
+a.icn_User {
+    background-position: -16px 0px;
+}
+a.icn_Link
+{
+	background-position: -112px -160px;
+}
+a.icn_Edit
+{
+	background-position: -80px -16px;
+}
+
+a.icn_Delete, a.icn_Remove {
+    background-position: -48px -16px;
+}
+
+
+span.icn_Remove, span.icn_Delete {
+    background-position: -48px -16px;
+}
+
+.edit-user-cls-1 {
+	fill:none;
+}
+
+.edit-user-cls-2 {
+	fill:#fff;
+}

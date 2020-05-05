@@ -1,0 +1,30 @@
+.custom-legend {
+    padding: 10px;
+    border: 1px solid $color-gray80;
+    .list-legend {
+        margin: 0;
+        padding: 0;
+        color: $color-text;
+        font-size: $fontSize-pagination;
+        li {
+            list-style-type: none;
+            font-size: $fontSize-pagination;
+            display: inline-block;
+            padding-left: 10px;
+            &:nth-child(1) {
+                padding-left: 0;
+            }
+        }
+        label {
+            line-height: 1;
+            font-weight: normal;
+            margin-bottom: 0;
+        }
+    }
+    .svg-fitted {
+        svg {
+            width: 10px;
+            height: auto;
+        }
+    }
+}

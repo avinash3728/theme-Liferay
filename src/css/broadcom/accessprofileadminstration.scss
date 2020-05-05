@@ -1,0 +1,17 @@
+.accessprofile-wrapper {
+
+.tab-content{
+    margin-top: 100px;
+}
+
+.panel-heading .accordion-toggle:after {
+    font-family:'Glyphicons Halflings';
+    content: "\e260";
+    float: right;
+    color: grey;   
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    content: "\e259";
+}
+
+}

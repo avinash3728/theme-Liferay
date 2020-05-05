@@ -1,0 +1,422 @@
+.uploadnewsoftware{
+  .input-as-text-field{
+    border: none;
+    background-color: white;
+    cursor: default;
+    box-shadow: none;
+  }
+  .navtabs{
+      margin: 20px 15px;
+      text-align: center;
+  }
+  .nav-pills{
+      display: inline-block;
+      float: left;
+  }
+  .nav-pills.nav-wizard > li{
+      width: auto;
+      min-width: 300px;
+  }
+  .tabcontent{
+      //border: 1px solid #0092bc;
+      margin-bottom: 20px;
+      float: left;
+      width: 100%;
+      padding-top: 15px;
+      padding-bottom: 20px;
+  }
+  .subheading{
+      font-size: 18px;
+      text-transform: capitalize;
+      font-family: $fontFamily-Gotham;
+  }
+  .subheading.inline{
+    border-bottom: 1px solid $secondary-gray-light;
+    display: inline-block;
+    padding-bottom: 2px;
+    float: none;
+    margin-bottom: 5px;
+  }
+  .border-bottom-thin{
+      margin-bottom: 15px;
+  }
+  .form-group.inline .input-wrapper{
+    word-break: break-all;
+    .checkbox span.cr{
+      left: 0;
+      margin-right: 0.5em;
+    }
+  }
+
+  /*START of custom styles for Tree Multiselect*/
+  .tree-multiselect{
+    > :nth-child(1), > :nth-child(3){
+      width: calc(50% - 20px);
+    }
+    > :nth-child(2){
+      width: 40px;
+      margin-top: 75px;
+    }
+    .jstree-container-ul ul{
+      height: auto !important;
+      overflow: inherit;
+    }
+    .panel{
+      box-shadow: none;
+    }
+    .panel-heading{
+      background-color: $primary-red;
+      z-index: 1;
+      position: relative;
+      margin-bottom: -1px;
+      p{
+        margin: 2px 0 1px 0;
+      }
+    }
+    .panel-body{
+      border: 1px solid $color-gray80;
+      border-radius: 0 0 2*$input-border-radius 2*$input-border-radius;
+      padding:0;
+      overflow: hidden;
+      ul{
+        margin-bottom:0;
+      }
+      select{
+        margin-bottom: 0;
+        border: none;
+        outline: none;
+        float: left;
+        height: 250px;
+        overflow-y: auto;
+      }
+      .list-group option,
+      #lstBox2 option{
+        padding: 3px 6px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        min-height: 23px;
+        font-weight: 500;
+      }
+    }
+    .tree-button-align{
+      padding:0;
+      .btn{
+        width: 30px;
+        height: 30px;
+        border: 1px solid $color-gray80;
+        border-radius: 2*$input-border-radius;
+        color: $primary-gray;
+        padding: 0;
+        background-color: $color-white;
+      }
+    }
+    .search-product{
+      .form-group.stacked {
+        margin:6px 6px 8px 6px;
+      }
+    }
+  }
+  /*END of custom styles for Tree Multiselect*/
+
+  .multiple-inline{
+    margin-bottom: 0;
+    .label-wrapper, .radiobutton {
+      display: inline-block;
+    }
+    .label-wrapper{
+      margin-right:5px;
+    }
+    .radiobutton{
+      margin-right:15px;
+    }
+  }
+
+  .inputfield-info{
+    &.input-wrapper{
+      width: 65%;
+      float: right;
+      margin-top: -10px;
+      @include media-responsive(handhelds) {
+        width: 100%;
+      }
+    }
+    p{
+      font-size: 1.2rem;
+      color: $color-blue;
+    }
+    a{
+      color: $color-text;
+      text-decoration: underline;
+    }
+    a:hover, a:active{
+      text-decoration: none;
+    }
+  }
+  .form-group label{
+    font-weight: bold;
+  }
+  [type="radio"][disabled] + label{
+    color: $color-gray80;
+    cursor: default;
+    pointer-events: none;
+  }
+  [type="radio"][disabled] + label:before{
+    border-color: $color-gray80;
+  }
+  [type="radio"][disabled] + label:after{
+    background-color: $color-gray80;
+  }
+  .form-controls{}
+  .btn,
+  .btn:active{
+    outline:none;
+    color: $color-white;
+    background-color: $primary-red;
+    border-color: $primary-red; 
+    font-weight: normal;
+  }
+  .btn-cancel,
+  .btn-cancel:active,
+  .btn-default,
+  .btn-default:active{
+    background-color: $color-white;
+    color: $primary-red;
+    border: 1px solid $primary-red;
+  }
+  .pull-right{
+    .btn{
+      margin-right: 8px;
+      font-weight: normal;
+    }
+    .btn:last-child{
+      margin-right: 0;
+    }
+  }
+  .fileuploadbutton, .fileuploadbutton:active{
+    background-color: $color-white;
+    color: $color-gray80;
+    border: 1px solid $color-gray80;
+    margin-bottom: 4px;
+    padding: 4px 12px;
+  }
+
+  .questionnaire-wrapper{
+    p{
+      font-weight: 700;
+    }
+    .list-group{
+      min-height: 35px;    
+    }
+   .list-group-item{
+      border-top-width: 0;
+      margin-bottom: 0;
+     p{
+       margin-bottom:0;
+     }
+     .activeLink{
+      color: $color-blue;
+      cursor: pointer;
+      display:inline;
+      &:hover{
+        text-decoration: underline;
+      }
+     }
+     [data-qastatus="finished"]{
+       color: $color-text;
+       cursor: text;
+       &:hover{
+        text-decoration: none;
+      }
+     }
+
+      p[data-qalevel="1"]{
+        padding-left: 0;
+      }
+      p[data-qalevel="2"],
+      p[data-qalevel="3"]{
+        padding-left: 20px;
+      }
+      p[data-qalevel="4"]{
+        padding-left: 40px;
+      }
+      p[data-qalevel="5"]{
+        padding-left: 60px;
+      }
+      p[data-qalevel="6"]{
+        padding-left: 80px;
+      }
+      p[data-qalevel="7"]{
+        padding-left: 100px;
+      }
+      p[data-qalevel="8"]{
+        padding-left: 120px;
+      }
+      p[data-qalevel="9"]{
+        padding-left: 140px;
+      }
+      p[data-qalevel="10"]{
+        padding-left: 160px;
+      }
+   }
+   .questionnaire-result{
+      margin-bottom: 25px;
+   }
+   #eccnCode{
+     padding-left:10px;
+     padding-right: 10px;
+   }
+  }
+
+  #checkedusesoftwareftp .form-group + p {
+    font-size: 1.2rem;
+    color: $color-blue;
+  }
+  #checkedusesoftwareftp .form-group + p > a {
+    text-decoration: underline;
+  }
+
+  .form-group{
+    label.control-label::after{
+      content: '';
+    }
+    label.input-required::after{
+      content: '*';
+      color: $primary-red;
+    }
+    .radiobutton p{
+      margin-bottom: 0;
+      margin-top: 8px;
+    }
+    .fileupload + p{
+      font-size: 1.2rem;
+      color: $color-blue;
+    }
+    textarea{
+      resize:none;
+      overflow: auto;
+    }
+  }
+  .no-border-modal{
+    padding: 0 !important;
+    .modal-header{
+      border-bottom: 0;
+      padding: 25px 30px 0 30px;
+    }
+    .modal-content{
+      box-shadow: none;
+      border: none;
+    }
+    .modal-footer{
+      text-align: center !important;
+      border-top: none; 
+    }
+    .btn{
+      padding-right: 12px;
+      padding-left: 12px;
+      line-height: 1.1;
+      min-width: 80px;
+    }
+    @media only screen and (min-width: 768px) {
+      .modal-dialog{
+        width: 500px;
+        margin-top: 10%;
+      }
+      .modal-body{
+        padding: 25px 30px 15px 30px;
+      }
+      .modal-footer{
+        padding: 0 30px 30px 30px;
+      }
+    }
+  }
+  .answeredQuiz-wrapper{
+    p{
+      font-weight: 700;
+      margin-bottom: 0;
+    }
+    .list-group-item{
+      margin-bottom: 0;
+      border-width: 1px 0 0;
+      .inactiveLink{
+        color: $primary-red;
+        font-size: 1.3rem;
+        a{
+          color: $color-text;
+        }
+      }
+    }
+    .question-item{
+      margin-top: 0;
+      a{
+        color: $color-text;
+        text-decoration: underline;
+      }
+      a:hover, a:active{
+        text-decoration: none;
+      }
+    }
+  }
+
+  .ctlicense .panel .panel-heading{
+    background-color: $tab-wizard-color;
+  }
+  .panel-title{
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .changeQuiz-wrapper{
+    p{
+      font-weight: 700;
+    }
+    margin-bottom: 30px;
+    .panel-title{
+      margin-bottom: 8px;
+    }
+    a{
+      color: $color-text;
+      text-decoration: underline;
+      font-size: 1.3rem;
+    }
+    a:hover, a:active{
+      text-decoration: none;
+    }
+  }
+}
+
+.softwaredraft{
+  .greyout{
+    opacity: 0.4;
+    cursor: default;
+  }
+  .datagrid table{
+    thead tr{
+      th{
+        width: 12.5%;
+        cursor: default;
+      }
+      th:first-child{width: 20%;}
+      th:nth-child(2){width: 15%;}
+      th:nth-child(3){width: 8%;}
+      th:nth-child(4){width: 12%;}
+      th:nth-child(5){}
+      th:nth-child(6){}
+      th:nth-child(7){width: 8%;}
+      th:last-child{width: 12%;}
+    }
+    tbody tr td:last-child button{ margin-right:8px;}
+  }
+  .pagination-wrapper .custom-pagination{
+    padding-top: 0;
+    padding-bottom: 15px;
+  }
+  .pagination-wrapper.pagination-bottom .custom-pagination{
+    .gird-custom-pagination{
+      padding-top:0;
+    }
+  }
+  
+}
+#uploadnewsoftware #dialog-input-modal .modal-body,
+#editnewsoftware #dialog-input-modal .modal-body{
+  height: auto;
+}

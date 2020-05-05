@@ -1,0 +1,63 @@
+.usage-margins {
+    .margin-top-50 {
+        margin-top: 50px;
+    }
+    .margin-top-10 {
+        margin-top: 10px;
+    }
+    .margin-top-30 {
+        margin-top: 30px;
+    }
+    .margin-bottom-30 {
+        margin-bottom: 30px;
+    }
+    .margin-bottom-100 {
+        margin-bottom: 100px;
+    }
+    .pad-0 {
+        padding: 0px;
+    }
+
+    .padding-0{
+        padding:0px;
+      }
+    
+    .pad-r-0{
+        padding-right: 0px;
+    }
+
+    .pad-l-0{
+        padding-left: 0px;
+      }
+      
+    .treebtnGroup {
+        padding: 0px;
+        margin-top: 68px;
+        button {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 8px;
+        }
+    }
+}
+
+ 
+.usage-access-font-template{
+    .link-red{
+      color: $primary-red;
+  }
+
+  .font-bold{
+      //font-weight: 600;
+      font-family: $fontFamily-bold;
+  }
+
+  .font-medium{
+      font-family: $fontFamily-medium;
+  }
+
+  .page-heading{
+    font-family: $fontFamily-bold;
+    color: $primary-red; 
+}
+}

@@ -1,0 +1,323 @@
+.productconfiguration
+{
+    .subheading
+    {
+        font-size: 24px;
+        color:$primary-red;
+    }
+    .navtabs
+    {
+        margin: 20px;
+        
+    }
+    .border-bottom-thin
+    {
+    margin: 10px 17px 0px 17px;
+    }
+    .productconfiguration-tabcontent
+    {
+        border: 1px solid $color-blue;
+        .subtext-productconfig
+        {
+            margin-left: 36px;
+            margin-right: 20px;
+            color: $color-blue;
+            margin-top: 10px;
+			margin-bottom: 20px;
+        }
+    }
+    .subheading-tree
+    {
+        margin-left: 21px;
+    }
+    .row.tree-multiselect
+    {
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .tree-multiselect .panel-heading{
+        background: $primary-red;
+    }
+    .btn.btn-secondary
+    {
+        background-color: $color-white;
+        color: $primary-gray;
+        border: 1px solid #97999B;
+    }
+    .tree-button-align
+    {
+        margin-right: 16px;
+    }
+    button.btn.btn-secondary.move-all.center-aligned,
+	button.btn.btn-secondary.move-prod.center-aligned 
+    {
+    padding-right: 16px;
+	width: 30px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    color: #97999B;
+    padding: 0;
+    background-color: #FFFFFF;
+    }
+	.breadcrumb
+	{
+        background-color: inherit; 
+		color: #cc092f;
+		padding: 0px;
+		.pagename
+		{
+			color: #53565a;
+		}
+			
+	}
+
+    .button-alignment
+    {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    }
+    .product-config-grid-left-align
+    {
+    margin-left:36px;
+    }
+    .pagination-wrapper .custom-pagination .gird-custom-pagination ul li button label
+    {
+        font-size: 12px;
+    }
+    .col-md-12.row.custom-pagination
+    {
+        margin-left: 15px;
+        margin-right: 0px;
+    }
+        .product-tags
+        {
+            
+            .product-list-tag-conf
+            {
+                
+                float: left;
+                padding: 6px;
+                margin-left: 25px;
+                border: 1px solid $secondary-mild-grey;
+                margin-right: -16px;
+                margin-top: 7px;
+                span.product-tag-conf,span.glyphicon.glyphicon-remove
+                {
+                    color:$secondary-gray;
+                }
+                span.glyphicon.glyphicon-remove
+                {
+                    cursor: pointer;
+                }
+                
+            }
+        }
+        .product-tagcontainer
+        {
+            border: 1px dashed $secondary-mild-grey;
+            margin: 10px 24px 10px 24px;
+        .anchor-list
+        {
+            margin-right: 40px;
+            a.show-all-anchor
+            {
+                margin-right: 10px;
+            }
+        }
+        
+        }
+        .typeahead-search-block
+        {
+            margin-left: 25px;
+            label.control-label.input-control
+            {
+                font-weight: none;
+                font-size: 12px;
+            }
+            input#companylist
+            {
+            padding: 10px;
+            }
+        }
+        .button-container-product-config
+        {
+            margin-left: 30px;
+            margin-right: 37px;
+        }
+    }
+    .modal-open .modal
+    {
+     overflow-y: hidden;   
+    }
+    div#productmodal
+    {
+        
+        .modal-dialog
+        {
+            height: 100%;
+            width: 90%;
+            .modal-content
+            {
+                height: auto;
+                width: auto;
+                .product-list-tag-conf
+                {
+                    float: left;
+                    margin: 3px;
+                    border: 1px solid $secondary-mild-grey;
+                    padding: 4px;
+                }
+                span.product-tag-conf,span.glyphicon.glyphicon-remove
+                {
+                    color:$secondary-gray;
+                }
+                span.glyphicon.glyphicon-remove
+                {
+                    cursor: pointer;
+                }
+                .modal-body
+                {
+                    max-height: 195px;
+                    padding: 15px;
+                    overflow-y: auto;
+                }
+            }
+            .modal-body::-webkit-scrollbar-track
+            {
+                -webkit-box-shadow: inset 0 0 6px $secondary-gray;
+                border-radius: 10px;
+                background-color: #F5F5F5;
+            }
+            
+            .modal-body::-webkit-scrollbar
+            {
+                width: 6px;
+                background-color: #F5F5F5;
+            }
+            
+            .modal-body::-webkit-scrollbar-thumb
+            {
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px $secondary-gray;
+                background-color: $secondary-gray;
+            }
+        }
+        
+    }
+      .checkbox-product-config 
+      {
+          float: left;
+          margin-left: 10px;
+          margin-top: 0px;
+      }
+      .checkbox-product-config + .checkbox-product-config
+      {
+          margin-top: 0px;
+      }
+      .productconfiguration
+      {
+      .backtoproducts
+      {
+        border: 1px solid $color-blue;
+        color: $color-blue;
+        background-color: $color-white;   
+      }
+      .searchbutton
+      {
+        border: $color-blue;
+        color:$color-white;
+        background-color: $color-blue;
+      }
+      .assign-sla-block
+      {
+        margin-right: 26px;
+        margin-bottom: 20px;
+        button.btn.btn-cancle.m2-left
+        {
+            border: 1px solid $primary-red;
+            background-color: $color-white;
+            color: $primary-red;
+        }
+      }
+      .searchsla
+      {
+        border: $color-blue;
+        color:$color-white;
+        background-color: $color-blue;
+      }
+      .showalldetails
+      {
+        border: 1px solid $primary-red;
+        background-color: $color-white;
+        color: $primary-red;
+      }
+      a.morelink {
+        text-decoration:none;
+        outline: none;
+    }
+    .morecontent span {
+        display: none;
+    }
+    p.found-result-product-config-text
+    {
+        margin-left: 36px;
+    }
+    .complete-incomplete-sla-button
+    {
+        margin-right: 28px;
+        margin-top: 44px;
+    }
+    .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover{
+        background-color: $color-blue;
+    }
+
+    .pill-button-border{
+        border: 1px solid $color-blue;
+    }
+
+    .pill-button-margin-left{
+        margin-left: 0px;
+    }
+    .pill-button-margin-right{
+        margin-right: 0px;
+    }
+	.checkbox-product-config
+	{
+	
+        >label {
+            /* it can be used to disable click or any anchor */
+            pointer-events: none;
+            cursor: default;
+            span.cr {
+                pointer-events: auto;
+                cursor: pointer;
+            }
+        }
+        span.cr {
+            left: 12px;
+        }
+    
+	}
+	td.column-check
+	{
+	.data-grid-checkbox
+	{
+	 >label {
+            /* it can be used to disable click or any anchor */
+            pointer-events: none;
+            cursor: default;
+            span.cr {
+                pointer-events: auto;
+                cursor: pointer;
+            }
+        }
+        span.cr {
+            left: 12px;
+        }
+	}
+	}
+	
+	
+	
+}

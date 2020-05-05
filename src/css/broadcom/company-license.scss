@@ -1,0 +1,46 @@
+.company-license-container {
+  .pad-0 {
+    padding: 0px;
+  }
+
+  .mar-0 {
+    margin: 0px;
+  }
+
+  .link-red,
+  .page-heading {
+    color: $primary-red;
+  }
+
+  .excel-extract {
+    cursor: pointer;
+    .ic-export-user {
+      background: url(../images/buttonsSVG/Export.svg) no-repeat center left;
+      padding-left: 25px;
+      background-size: 18px 18px;
+    }
+  }
+
+  .anchor-link {
+    text-decoration: underline;
+    color: $color-link;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  .btn-search {
+    text-align: right;
+  }
+
+  .search-wrap {
+    margin: 0px 0px 15px 0px;
+  }
+
+  .partial-search-style {
+    font-size: 11px;
+    color: $color-blue;
+    margin-left: 380px;
+  }
+}

@@ -1,0 +1,12 @@
+.search-product {
+    position: relative;
+    .glyphicon {
+        position: absolute;
+        padding: 10px;
+        pointer-events: none;
+        right: 0;
+    }
+}
+.jstree{
+    overflow: auto;
+}

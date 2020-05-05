@@ -1,0 +1,94 @@
+.popup-header {
+    font-size: 18px;
+    margin: 5px 0px;
+    color: #cc0033;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#popupTNCLogin {
+    font-size: 13px;
+}
+.popupForm {
+    border-top: 2px solid #ccc;
+    padding: 15px 0px;
+}
+table.TNCtaglib-search-iterator {
+    border: 0px solid #ccc;
+    width: 100%;
+}
+.icn_red_arrow
+{
+//    background-image: url("./assets/images/red arrow-8.png");
+    
+}
+.icn_print
+{
+  //  background-image: url("./assets/images/print-8.png");
+}
+
+.submitbtns {
+    text-align: center;
+}
+td.space5
+{
+    //background-image: url('./assets/images/redarrow-8.png');
+    width: 18px;
+    background-repeat: no-repeat;
+}
+table.TNCtaglib-search-iterator th:nth-child(1), table.TNCtaglib-search-iterator td:nth-child(1), table.TNCtaglib-search-iterator th:nth-child(11), table.TNCtaglib-search-iterator td:nth-child(11)
+{
+    overflow-wrap: break-word;
+    max-width: 160px;
+    word-break: break-all;
+}
+
+.redButton, .ndadocumentContainer .redButton, input[type=submit].redButton
+{
+    background: #cc092f;
+    border: solid 1px #9C0707;
+    background: -webkit-gradient(linear, left top, left bottom, from(#cc092f), to(#d20202));
+    background: -moz-linear-gradient(top, #cc092f, #d20202);
+    background: -ms-linear-gradient(top, #cc092f, #d20202);
+    background-image: linear-gradient(to bottom, #cc092f, #d20202);
+    font : 12px Arial, Helvetica, sans-serif;
+    border-radius: 4px !important;
+    padding : 5px 10px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: none;
+
+}
+.grayButton, .ndadocumentContainer .grayButton
+{
+    border: solid 1px #cccccc;
+    background: #969696;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F7F5F6), to(#DDDDDD));
+    background: -moz-linear-gradient(top, #f4f5f5, #dfdddd);
+    background: -ms-linear-gradient(top, #f4f5f5, #dfdddd);
+    background-image: linear-gradient(to bottom, #f4f5f5, #dfdddd);
+    font: 12px Arial, Helvetica, sans-serif;
+    border-radius: 4px !important;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-shadow: none;
+    color: #444444;
+}
+#license-modal {
+    overflow-y: scroll;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+    height: 400px;
+    .modal-dialog{
+        width:100% !important;
+    }
+    .modal-body{
+        height: auto;
+    }
+}
+
+#license-modal .modal-content {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+}

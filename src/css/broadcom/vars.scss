@@ -1,0 +1,90 @@
+// MAJOR LAYOUT
+$containerWidth:       960px; // Width of actual page area, not body.
+$divPadding-large:     20px;
+$divPadding-medium:    15px;
+$divPadding-small:     10px;
+
+// TYPOGRAPHY
+$fontSize-html:        10px; // Root, pixel-based font-size to support rem-sizes (root-relative em).
+$fontSize-body:        1.2rem; // Base rem-font-size for entire page.
+$fontSize-small-medium:     1.3rem;
+$fontSize-small:       1.2rem;
+$fontSize-medium:      1.8rem;
+$fontSize-h1:          2.4rem;
+$fontSize-h2:          2rem;
+$fontSize-h3:          1.6rem;
+$fontSize-legend:      1.1rem;
+$fontSize-pagination:  1.1rem;
+$fontFamily-Gotham:     'Gotham',
+                       Arial,
+                       Helvetica,
+                       sans-serif; // Non-header family.
+$fontFamily-medium:     'GothamMedium',
+                       Arial,
+                       Helvetica,
+                       sans-serif; // Non-header family.
+$fontFamily-bold:     'GothamBold',
+                       Arial,
+                       Helvetica,
+                       sans-serif; // Non-header family.
+$fontFamily-base:     'Gotham Light',
+                       Arial,
+                       Helvetica,
+                       sans-serif; // Non-header family.
+$fontFamily-hdrs:     'Gotham Light',
+                       Arial,
+                       Helvetica,
+                       sans-serif; // Headers family.
+
+$btn-font-weight:      normal;
+
+// COLORS
+$primary-red:          #CC092F;
+$secondary-red:        #A6192E;
+$primary-black:        #231F20;
+$primary-gray:         #97999B;
+$colorBdr-success:     #009933;
+$primary-gray-light:   #eeeeee;
+$secondary-gray:       #A7A8AA;
+$secondary-gray-light: #d0d0ce;
+$secondary-gray-light2: #F8F8F8;
+$secondary-mild-grey : #E5E7E9;
+$color-white:          #FFFFFF;
+$color-white-gray:     #f5f5f5;
+$color-gray80:         #cccccc;
+$color-blue:           #0092bc;
+$color-hexgray: 	   #fafafa;
+$color-darkgray:	   #a5a5a5;
+//BackGround 
+$colorBg-body:         #333; // Background-color OUTSIDE page container.
+$colorBg-container:    #FFFFFF;
+$color-link :          #0092bc;
+$colorBg-1:            #333;
+$colorBg-2:            #000;
+$colorBdr-1:           #333;
+$colorBdr-2:           #999;
+$colorFont-base:       #000;
+$colorFont-hdrs:       #093;
+$colorLink:            #000;
+$colorLink-visited:    #000;
+$colorLink-hover:      #009;
+$colorLink-active:     #0F0;
+$color-text:           #53565a;
+$light-grayish-blue:   #d2eafd;
+$secondary-gray-light2: #F8F8F8;
+$yellow-highlight: #FFFF00;
+/* Line height */
+$line-height-base:     1.428571429 !default;
+
+/* Margin and Padding */
+$margin-base:          8px;
+$padding-base:         8px;
+
+/* extras */
+$input-border-radius:  2px;
+$border-red:           1px solid #ff0000;
+$input-max-width:      300px;
+$list-style:           none;
+$success-alert-color:  #007367;
+$panel-color:          #eeefef;
+$tab-wizard-color:     #d5d7d7;

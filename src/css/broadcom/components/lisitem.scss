@@ -1,0 +1,47 @@
+.listitem {
+	svg {
+		width: 30px;
+		position: relative;
+		top: 6px;
+
+		.cls-1 {
+			fill: #e1fbff;
+		}
+
+		.cls-2 {
+			fill: #009cbc;
+		}
+		cursor: pointer;
+	}
+
+	.svg-doclist {
+		width: 7%;
+		float: left;
+	}
+
+	.listitem-wrapper {
+		width: 93%;
+
+		.listitem-text {
+            font-size: 16px;
+            color: black;
+			cursor: pointer;
+			margin-left: 42px;
+		}
+
+		.listitem-subtext {
+            font-size: 13px;
+            margin-left: 42px;
+            color: #939393;
+		}
+	}
+	.gotomydocuments
+	{
+		font-size: 14px;
+		color: #2ea3f2;
+	}
+}
+.heading-mybrocade
+{
+	font-size: 24px;
+}
