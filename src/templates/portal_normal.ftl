@@ -12,16 +12,16 @@
 	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta�http-equiv="X-UA-Compatible"�content="IE=EmulateIE7"�/>
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 
 	<#if !permissionChecker.isOmniadmin()>
-	<#assign 
+	<#assign
 	css_class = css_class?replace("has-control-menu ", "") />
 	<#assign
-    css_class = css_class?replace("open", "closed") /> 
-	</#if> 	
-	
+    css_class = css_class?replace("open", "closed") />
+	</#if>
+
 
 <@liferay_util["include"] page=top_head_include />
 
@@ -33,13 +33,14 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="https://support.broadcom.com/broadcom-theme/v1/app.css" />
 <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-tagsinput/1.3.6/jquery.tagsinput.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-	<![endif]--> 
+	<![endif]-->
 
-	
+
 </head>
 
 <body class="${css_class}">
@@ -50,7 +51,7 @@
 
 <#if permissionChecker.isOmniadmin()>
 	<@liferay.control_menu />
-</#if> 
+</#if>
 
 <div class="container-fluid" id="wrapper">
 	<header id="banner" role="banner">
@@ -67,16 +68,16 @@
 				</#if>
 			</h1>
 		</div> -->
-		
+
 		<!-- <#include "${full_templates_path}/header.ftl" />
 
 		<#if !is_signed_in>
 			<a data-redirect="${is_login_redirect_required?string}" href="${sign_in_url}" id="sign-in" rel="nofollow">${sign_in_text}</a>
 		</#if> -->
-		
+
 		<@liferay_portlet["runtime"]
             portletName="Broadcom_Navigation"
-        /> 
+        />
 
 		<!-- <#if has_navigation && is_setup_complete>
 			<#include "${full_templates_path}/navigation.ftl" />
@@ -86,7 +87,7 @@
 	<section id="content" class="container">
 		<h1 class="hide-accessible">${the_title}</h1>
 
-		
+
 
 		<#if selectable>
 			<@liferay_util["include"] page=content_include />
@@ -99,7 +100,7 @@
 				<@liferay_util["include"] page=content_include />
 			</@>
 		</#if>
-		
+
 	</section>
 
 	<footer id="footer" role="contentinfo">
@@ -115,7 +116,7 @@
 <script>
     define._amd = define.amd;
     define.amd = false;
-</script> 	
+</script>
 
 
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
@@ -130,7 +131,7 @@
 <script src="${javascript_folder}/jquery.typeahead.js"></script>
 <script src="${javascript_folder}/jquery.richtext.min.js"></script>
 <script src="https://support.broadcom.com/broadcom-theme/v1/app.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-tagsinput/1.3.6/jquery.tagsinput.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-tagsinput/1.3.6/jquery.tagsinput.min.js"></script>
 
 
 

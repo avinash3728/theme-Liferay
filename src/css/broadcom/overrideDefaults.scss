@@ -1,0 +1,73 @@
+// To overwrite Liferay 7.2 base styles as per our page requirements
+
+
+//portlet changes START
+.portlet-boundary{
+  clear: both;
+}
+//portlet changes END
+
+
+
+
+body{
+  font-size: 1.2rem;
+}
+.btn{
+  padding: 6px 24px;
+  border:none;
+}
+.row,
+.form-horizontal > .form-group,
+.navbar .container,
+.navbar .container-fluid{
+  display: inherit;
+  flex-wrap: inherit;
+}
+.row [class*="col-"]{ }
+
+
+// Header styles START
+.brdcm-standard-header .brdcm-header-top .brdcm-navigation-primary .brdcm-primary-nav-container .brdcm-primary-nav-links-wrapper .brdcm-primary-nav-links{
+  flex-direction: inherit;
+  li > a{
+    padding: 4px 15px;
+  }
+}
+.searchComp #searchBox::-webkit-input-placeholder {
+  color: #231F20;
+}
+.searchComp #searchBox:-ms-input-placeholder {
+  color: #231F20;
+}
+.searchComp #searchBox::placeholder {
+  color: #231F20;
+}
+// Header styles END
+
+
+// Navbar styles START
+@media (min-width: 1280px){
+  header nav.navbar-inverse .container{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 55px;
+  }
+}
+// Navbar styles END
+
+
+//downloads landing START
+#content.container{
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 55px;
+}
+.downloads-landing .search-options{
+  .advance-search-section{
+    margin-left: 25% !important;
+  }
+}
+//downloads landing END
