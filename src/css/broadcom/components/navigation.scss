@@ -12,6 +12,8 @@ header{
     align-items:normal;
 		width:auto;
 		display:none;
+		max-width: inherit;
+		color: $color-white;
 		.display-mandatory{
 			display:block;
 		}

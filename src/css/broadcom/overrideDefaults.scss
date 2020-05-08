@@ -10,8 +10,9 @@
 
 
 
-body{
+body, footer{
   font-size: 1.2rem;
+  line-height: 1.42857;
 }
 .btn{
   padding: 6px 24px;
@@ -25,6 +26,19 @@ body{
   flex-wrap: inherit;
 }
 .row [class*="col-"]{ }
+
+select.form-control:not([multiple]):not([size]), 
+.form-control-select{
+  background-image: none;
+}
+@media (min-width: 1280px){
+  .document-access-enquiry-container.container {
+    width: 100%;
+    padding: 0 55px;
+    max-width: 100%;
+  }
+}
+
 
 
 // Header styles START
@@ -57,6 +71,11 @@ body{
 }
 // Navbar styles END
 
+//Navigation START
+.navbar-nav>li>.dropdown-menu.mega-menu{
+  margin-top:14px;
+}
+//Navigation END
 
 //downloads landing START
 #content.container{
@@ -68,6 +87,26 @@ body{
 .downloads-landing .search-options{
   .advance-search-section{
     margin-left: 25% !important;
+    font-size: 1.2rem;
+    line-height: 1.42857;
+  }
+}
+.search-downloads{
+  .advanced-search .basic-search{
+    padding: 7px 15px;
+  }
+}
+.search-downloads{
+  button#searchDownloads{
+    padding: 6px 24px;
   }
 }
 //downloads landing END
+
+//catalog START
+.document-access-enquiry-container .col-md-offset-4{
+  margin-left: 33.33333333% !important;
+}
+//catalog END
+
+

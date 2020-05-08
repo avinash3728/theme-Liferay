@@ -109,6 +109,7 @@ header {
                     flex-shrink: 0;
                     padding: 0 10px !important;
                     margin-right: 0 !important;
+                    vertical-align: top;
                     ul {
                         padding: 0px;
                         li:nav-header {
@@ -262,6 +263,7 @@ header {
                 }
                 a:hover {
                     color: $color-white;
+                    background:transparent;
                 }
             }
             li:first-child {
@@ -298,6 +300,7 @@ header {
         top: 14px;
         left: 42%;
         position: absolute;
+        display:none;
         &.highlight-menu {
             top: 4px !important;
             left: 27% !important;
@@ -306,6 +309,9 @@ header {
         &.highlight-menu-item {
             display: inline !important;
         }
+    }
+    .show .glyphicon-triangle-top{
+        display: block;
     }
     .mega-menu .nav-header {
         padding: 0;
