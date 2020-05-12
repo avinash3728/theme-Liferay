@@ -27,6 +27,7 @@ body, footer{
 }
 .row [class*="col-"]{ }
 
+
 select.form-control:not([multiple]):not([size]), 
 .form-control-select{
   background-image: none;
@@ -95,11 +96,17 @@ select.form-control:not([multiple]):not([size]),
   .advanced-search .basic-search{
     padding: 7px 15px;
   }
-}
-.search-downloads{
   button#searchDownloads{
     padding: 6px 24px;
   }
+  .table-downloads tr th{
+    background: transparent;
+    color: $color-white;
+  }
+}
+.filters-searchdownloads .checkbox > label,
+td.column-check .checkbox > label{
+  padding-left: 0;
 }
 //downloads landing END
 
