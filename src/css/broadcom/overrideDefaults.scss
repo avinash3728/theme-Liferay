@@ -7,25 +7,122 @@
 }
 //portlet changes END
 
-
-
-
-body{
+// Base styels START
+body.override-clay-theme, footer{
   font-size: 1.2rem;
+  line-height: 1.42857;
 }
-.btn{
-  padding: 6px 24px;
+button.btn{
   border:none;
 }
-.row,
-.form-horizontal > .form-group,
-.navbar .container,
-.navbar .container-fluid{
-  display: inherit;
-  flex-wrap: inherit;
+.text-red{
+  color: $primary-red !important;
 }
-.row [class*="col-"]{ }
+.override-clay-theme{
+  h1,.h1{font-size:2.4rem}
+  h1.red,.h1.red{color:$primary-red}
+  h2,.h2{font-size:2rem}
+  h2.red,.h2.red{color:$primary-red}
+  h2.display-inline,.h2.display-inline{display:inline}
+  h3,.h3{font-size:1.6rem;margin:20px 0 20px 0}
+  h3.red,.h3.red{color:$primary-red}
+  h3.black,.h3.black{color:$primary-black}
+  input.form-control,select.form-control,button.form-control,textarea.form-control{border-radius:2px}
+  input.parsley-error,select.parsley-error,button.parsley-error,textarea.parsley-error{border:1px solid $secondary-red}
 
+  .box-border-blue{ border: 1px solid $color-blue; }
+  .checkbox label, .radio label{ padding-left:0; }
+
+  .btn{ padding: 6px 24px; }
+  .btn.btn-multi-select{ 
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+
+  .row,
+  .form-horizontal > .form-group,
+  .navbar .container,
+  .navbar .container-fluid{
+    display: block;
+    flex-wrap: inherit;
+  }
+  .row [class*="col-"]{ }
+
+  select.form-control:not([multiple]):not([size]), 
+  .form-control-select{
+    background-image: none;
+    -webkit-appearance: listbox;
+  }
+  .selectdiv select.form-control:not([multiple]):not([size]), 
+  .selectdiv .form-control-select{
+    -webkit-appearance: none;
+  }
+  @media (min-width: 1280px){
+    .document-access-enquiry-container.container {
+      width: 100%;
+      padding: 0 55px;
+      max-width: 100%;
+    }
+  }
+
+  .table>thead tr td:first-child>.checkbox, 
+  .table>thead tr td:first-child>input[type="checkbox"], 
+  .table>tbody tr td:first-child>.checkbox, 
+  .table>tbody tr td:first-child>input[type="checkbox"], 
+  .table>tfoot tr td:first-child>.checkbox, 
+  .table>tfoot tr td:first-child>input[type="checkbox"]{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  @media (min-width: 992px){
+    .col-md-offset-12 { margin-left: 100% !important; }
+    .col-md-offset-11 { margin-left: 91.66666667% !important; }
+    .col-md-offset-10 { margin-left: 83.33333333% !important; }
+    .col-md-offset-9 { margin-left: 75% !important; }
+    .col-md-offset-8 { margin-left: 66.66666667% !important; }
+    .col-md-offset-7 { margin-left: 58.33333333% !important; }
+    .col-md-offset-6 { margin-left: 50% !important; }
+    .col-md-offset-5 { margin-left: 41.66666667% !important; }
+    .col-md-offset-4 { margin-left: 33.33333333% !important; }
+    .col-md-offset-3 { margin-left: 25% !important; }
+    .col-md-offset-2 { margin-left: 16.66666667% !important; }
+    .col-md-offset-1 { margin-left: 8.33333333% !important; }
+    .col-md-offset-0 { margin-left: 0% !important; }
+  }
+
+  @media (min-width: 1280px){
+    .container {
+      width: 100%;
+      max-width: 100%;
+      padding: 0 55px;
+    }
+  }
+
+  .margin-0x{margin:0}
+  .m0-top{margin-top:0}
+  .m0-left{margin-left:0}
+  .m0-right{margin-right:0}
+  
+  .panel-title{
+    font-size: 1em;
+  }
+  .view-role-tab.visibility-none{
+    display: none;
+  }
+  .visibility-none{
+    display: none !important;
+  }
+  .modal{
+    top: 25%;
+  }
+
+  .nav-pills.nav-wizard > li.active a {
+    background-color: $color-blue;
+  }
+
+}
+//Base styles END
 
 // Header styles START
 .brdcm-standard-header .brdcm-header-top .brdcm-navigation-primary .brdcm-primary-nav-container .brdcm-primary-nav-links-wrapper .brdcm-primary-nav-links{
@@ -35,13 +132,13 @@ body{
   }
 }
 .searchComp #searchBox::-webkit-input-placeholder {
-  color: #231F20;
+  color: $primary-black;
 }
 .searchComp #searchBox:-ms-input-placeholder {
-  color: #231F20;
+  color: $primary-black;
 }
 .searchComp #searchBox::placeholder {
-  color: #231F20;
+  color: $primary-black;
 }
 // Header styles END
 
@@ -57,6 +154,17 @@ body{
 }
 // Navbar styles END
 
+//Navigation START
+.navbar-nav>li>.dropdown-menu.mega-menu{
+  margin-top:14px;
+}
+.navbar-nav>li>.dropdown-menu.mega-menu.show{
+  display:flex !important;
+}
+.portlet-layout .portlet-header{
+  margin-bottom: 0;
+}
+//Navigation END
 
 //downloads landing START
 #content.container{
@@ -68,6 +176,155 @@ body{
 .downloads-landing .search-options{
   .advance-search-section{
     margin-left: 25% !important;
+    font-size: 1.2rem;
+    line-height: 1.42857;
   }
 }
+.search-downloads{
+  .advanced-search .basic-search{
+    padding: 7px 15px;
+  }
+  button#searchDownloads{
+    padding: 6px 24px;
+  }
+  .table-downloads tr th{
+    background: transparent;
+    color: $color-white;
+  }
+}
+.filters-searchdownloads .checkbox > label,
+td.column-check .checkbox > label{
+  padding-left: 0;
+}
+.override-clay-theme{
+  .heading-title{
+    font-size: 27px;
+  }
+}
+body.override-clay-theme > .dropdown.inline.multi-dropdown-container{
+  display:none;
+}
 //downloads landing END
+
+//catalog START
+.document-access-enquiry-container .col-md-offset-4{
+  margin-left: 33.33333333% !important;
+}
+//catalog END
+
+//docsafe/administration START
+#idPendingNDARequest{
+  .typeahead__field input {
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+}
+.datagrid table thead tr th{
+  background:transparent;
+  color: $color-white;
+}
+.pagination-wrapper .custom-pagination{
+  font-size: 1.2rem;
+}
+
+#doc-management-ul,
+#new-doc-management-ul,
+#DocTypeTabs,
+#doc-audience-ul,
+#slaExceptionsTabs,
+#programTabs,
+#newProgramTabs{
+  &.nav{ display:block; }
+  &.nav-tabs>li>a{
+    border-color: $secondary-gray-light;
+    border-bottom-color: $secondary-gray-light;
+    border-radius: 0;
+    padding: 4px 15px;
+  }
+  &.nav-tabs>li.active>a,
+  &.nav-tabs>li.active>a:focus,
+  &.nav-tabs>li.active>a:hover{
+    background-color: $color-blue;
+    border-color: $color-blue;
+    color: $color-white;
+    border-bottom-color: $color-blue;
+  }
+}
+.accessprofile-wrapper,
+.software-file-group-tabs,
+.softwareotherfile-tabs,
+.softwaredraftstabs{
+  .nav{ display:block; }
+  .nav-tabs>li>a{
+    border-color: $secondary-gray-light;
+    border-bottom-color: $secondary-gray-light;
+    border-radius: 0;
+    padding: 4px 15px;
+  }
+  .nav-tabs>li.active>a,
+  .nav-tabs>li.active>a:focus,
+  .nav-tabs>li.active>a:hover{
+    background-color: $color-blue;
+    border-color: $color-blue;
+    color: $color-white;
+    border-bottom-color: $color-blue;
+  }
+}
+
+#editPromo{
+  >.row{
+    margin-left: 10px;
+    margin-right: 10px;
+    >.panel{
+      width: 100%;
+    }
+  }
+}
+#userPromo,
+#editPromo{
+  >.row{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+#typeahead-container .typeahead__query input[type='text']{
+  height: 34px;
+}
+//docsafe/administration END
+
+//Software/File delivery START
+.master-grid table thead tr th{
+  background-color: transparent;
+  color: $color-white;
+}
+.software-file-group .software-file-group-tabs .nav-tabs{
+  & > li > a{
+    color: $color-blue;
+  }
+  & > li.active > a{
+    color: $color-white;
+  }
+}
+
+//Software/File delivery END
+
+
+//Usage & Access START
+.override-clay-theme .permission-downloads-wrapper .filter-style{
+  margin-left: 210px !important;
+}
+.access-report-by-product .filter-wrap label{
+  white-space: nowrap;
+}
+//Usage & Access END
+
+//Request & Approval START
+.docforexisitnguser .search-mirror #typeahead-user-button{
+  height:34px;
+}
+#documentRemoval ul.nav{ display:block; }
+#frm-new-auto-approvals-prd .control-label.required{ white-space: nowrap; }
+#findProgram h3,
+.request-approval-breadcrumbs h3{font-size: 27px;}
+//Request & Approval END
