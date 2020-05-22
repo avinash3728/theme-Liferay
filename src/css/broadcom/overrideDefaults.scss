@@ -34,6 +34,10 @@ button.btn{
   .checkbox label, .radio label{ padding-left:0; }
 
   .btn{ padding: 6px 24px; }
+  .btn.btn-multi-select{ 
+    padding-right: 14px;
+    padding-left: 14px;
+  }
 
   .row,
   .form-horizontal > .form-group,
@@ -48,6 +52,10 @@ button.btn{
   .form-control-select{
     background-image: none;
     -webkit-appearance: listbox;
+  }
+  .selectdiv select.form-control:not([multiple]):not([size]), 
+  .selectdiv .form-control-select{
+    -webkit-appearance: none;
   }
   @media (min-width: 1280px){
     .document-access-enquiry-container.container {
@@ -83,6 +91,14 @@ button.btn{
     .col-md-offset-0 { margin-left: 0% !important; }
   }
 
+  @media (min-width: 1280px){
+    .container {
+      width: 100%;
+      max-width: 100%;
+      padding: 0 55px;
+    }
+  }
+
   .margin-0x{margin:0}
   .m0-top{margin-top:0}
   .m0-left{margin-left:0}
@@ -96,6 +112,13 @@ button.btn{
   }
   .visibility-none{
     display: none !important;
+  }
+  .modal{
+    top: 25%;
+  }
+
+  .nav-pills.nav-wizard > li.active a {
+    background-color: $color-blue;
   }
 
 }
@@ -209,7 +232,9 @@ body.override-clay-theme > .dropdown.inline.multi-dropdown-container{
 #new-doc-management-ul,
 #DocTypeTabs,
 #doc-audience-ul,
-#slaExceptionsTabs{
+#slaExceptionsTabs,
+#programTabs,
+#newProgramTabs{
   &.nav{ display:block; }
   &.nav-tabs>li>a{
     border-color: $secondary-gray-light;
@@ -293,3 +318,13 @@ body.override-clay-theme > .dropdown.inline.multi-dropdown-container{
   white-space: nowrap;
 }
 //Usage & Access END
+
+//Request & Approval START
+.docforexisitnguser .search-mirror #typeahead-user-button{
+  height:34px;
+}
+#documentRemoval ul.nav{ display:block; }
+#frm-new-auto-approvals-prd .control-label.required{ white-space: nowrap; }
+#findProgram h3,
+.request-approval-breadcrumbs h3{font-size: 27px;}
+//Request & Approval END
