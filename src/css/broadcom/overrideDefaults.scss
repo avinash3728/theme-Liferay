@@ -18,13 +18,163 @@ button.btn{
 .text-red{
   color: $primary-red !important;
 }
+// Override clay theme START
 .override-clay-theme{
+  @mixin maring-and-padding-spacing( $spacing) {
+    @for $i from 0 to 12 {
+        // Margin
+        %margin-#{$i}x {
+            margin: $spacing * $i;
+        }
+        %margin-top-#{$i}x,
+        %margin-vertical-#{$i}x {
+            margin-top: $spacing * $i;
+        }
+        %margin-bottom-#{$i}x,
+        %margin-vertical-#{$i}x {
+            margin-bottom: $spacing * $i;
+        }
+        %margin-left-#{$i}x,
+        %margin-horizontal-#{$i}x {
+            margin-left: $spacing * $i;
+        }
+        %margin-right-#{$i}x,
+        %margin-horizontal-#{$i}x {
+            margin-right: $spacing * $i;
+        } // Padding
+        %padding-#{$i}x {
+            padding: $spacing * $i;
+        }
+        %padding-top-#{$i}x,
+        %padding-vertical-#{$i}x {
+            padding-top: $spacing * $i;
+        }
+        %padding-bottom-#{$i}x,
+        %padding-vertical-#{$i}x {
+            padding-bottom: $spacing * $i;
+        }
+        %padding-left-#{$i}x,
+        %padding-horizontal-#{$i}x {
+            padding-left: $spacing * $i;
+        }
+        %padding-right-#{$i}x,
+        %padding-horizontal-#{$i}x {
+            padding-right: $spacing * $i;
+        }
+    }
+  }
+  $spacing: 4px;
+  @include maring-and-padding-spacing($spacing);
+  .m0-left{
+    @extend %margin-left-0x;
+  }
+  .m0-right{
+    @extend %margin-right-0x;
+  }
+  .margin-4x{
+    @extend %margin-4x;
+  }
+  .margin-0x{
+    @extend %margin-0x;
+  }
+  .m1-bottom{
+    @extend %margin-bottom-1x;
+  }
+  .m2-bottom{
+    @extend %margin-bottom-2x;
+  }
+  .m3-bottom{
+    @extend %margin-bottom-3x;
+  }
+  .m4-bottom{
+    @extend %margin-bottom-4x;
+  }
+  .m5-bottom {
+    @extend %margin-bottom-5x;
+  }
+  .m6-bottom{
+    @extend %margin-bottom-6x;
+  }
+  .m8-left{
+    @extend %margin-left-8x;
+  }
+  .m0-top{
+    @extend %margin-top-0x;    
+  }
+  .m2-top{
+    @extend %margin-top-2x;
+  }
+  .m3-top{
+    @extend %margin-top-3x;
+  }
+  .m4-top{
+    @extend %margin-top-4x;
+  }
+  .m1-top{
+    @extend %margin-top-1x;
+  }
+  .m6-top{
+    @extend %margin-top-6x;
+  }
+  .m8-top{
+    @extend %margin-top-8x;
+  }
+  .m2-left{
+    @extend %margin-left-2x;
+  }
+  .m1-left{
+    @extend %margin-left-1x;
+  }
+  .m0-left {
+    @extend %margin-left-0x;
+  }
+  .m0-right{
+    @extend %margin-right-0x;
+  }
+  .m4-right{
+    @extend %margin-right-4x;
+  }
+  .m2-right{
+    @extend %margin-right-2x;
+  }
+  .margin-vertical-4x{
+    @extend %margin-vertical-4x;
+  }
+  .margin-horizontal-10x{
+    @extend %margin-horizontal-10x;
+  }
+  .margin-left-3x{
+    @extend %margin-left-3x;
+  }
+  .margin-left-2x{
+    @extend %margin-left-2x;
+  }
+  .margin-left-4x{
+    @extend %margin-left-4x;
+  }
+  .margin-left-5x{
+    @extend %margin-left-5x;
+  }
+  .margin-top-6x{
+    @extend %margin-top-6x;
+  }
+  .margin-top-8x{
+    @extend %margin-top-8x;
+  }
+  .margin-top-3x{
+    @extend %margin-top-6x;
+  }
+  .pad-0{
+    padding: 0;
+  }
+
   h1,.h1{font-size:2.4rem}
   h1.red,.h1.red{color:$primary-red}
   h2,.h2{font-size:2rem}
   h2.red,.h2.red{color:$primary-red}
   h2.display-inline,.h2.display-inline{display:inline}
   h3,.h3{font-size:1.6rem;margin:20px 0 20px 0}
+  h3{font-size: 27px;color: white;}
   h3.red,.h3.red{color:$primary-red}
   h3.black,.h3.black{color:$primary-black}
   input.form-control,select.form-control,button.form-control,textarea.form-control{border-radius:2px}
@@ -33,10 +183,33 @@ button.btn{
   .box-border-blue{ border: 1px solid $color-blue; }
   .checkbox label, .radio label{ padding-left:0; }
 
+  .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{
+    outline:none;
+    box-shadow:none;
+  }
   .btn{ padding: 6px 24px; }
   .btn.btn-multi-select{ 
     padding-right: 14px;
     padding-left: 14px;
+  }
+  .btn.btn-primary,
+  .btn-primary:hover,
+  .btn-primary:active,
+  .btn-primary:not(:disabled):not(.disabled):active,
+  .btn-primary:not(:disabled):not(.disabled):active:focus{
+    background-color: $primary-red;
+    border: 1px solid $primary-red;
+    box-shadow: none;
+    outline:none;
+  }
+  .btn-primary:hover,
+  .btn-primary:active,
+  .btn-primary:not(:disabled):not(.disabled):active,
+  .btn-primary:not(:disabled):not(.disabled):active:focus{
+    opacity: 0.7;
+  }
+  .btn.btn-search{
+    color: $color-white;
   }
 
   .row,
@@ -103,10 +276,24 @@ button.btn{
   .m0-top{margin-top:0}
   .m0-left{margin-left:0}
   .m0-right{margin-right:0}
+  .padding-right-0x{
+    padding-right: 0;
+  }
+  .padding-left-0x{
+    padding-left: 0;
+  }
   
-  .panel-title{
+  .panel-default>.panel-heading{
+    padding: 0;
+  }
+  .panel-default .panel-title{
     font-size: 1em;
   }
+  .panel-default .panel-title a{
+    padding: 10px 15px;
+    display: block;
+  }
+
   .view-role-tab.visibility-none{
     display: none;
   }
@@ -120,8 +307,66 @@ button.btn{
   .nav-pills.nav-wizard > li.active a {
     background-color: $color-blue;
   }
+  .no-border{
+    border:none;
+  }
+  .navbar-right{
+    border-bottom: transparent;
+    margin-right: 4px;
+  }
+
+  .popover>.arrow:after{
+    border-width: 10px;
+  }
+  .popover.bottom>.arrow:after{
+    border-top-width: 0;
+  }
+  .popover.bottom > .arrow::before{
+    border-width: 0;
+  }
+  .popover .popover-title{
+    margin: 0;
+  }
+
+  #tree-section.tree-section .nav-tabs>li>a.tab-links{
+    font-size: 1.2rem;
+    border: 1px solid $primary-red;
+    border-radius: 0;
+    margin-right: 0;
+    padding: 10px 0;
+    color: $primary-red;
+  }
+  #tree-section.tree-section .nav-tabs>li>a.tab-links.division-link{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  #tree-section.tree-section .nav-tabs>li>a.tab-links.search-link{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  #tree-section.tree-section .nav-tabs>li.active>a.tab-links, 
+  #tree-section.tree-section .nav-tabs>li.active>a.tab-links:focus, 
+  #tree-section.tree-section .nav-tabs>li.active>a.tab-links:hover{
+    color: $color-white;
+    cursor: default;
+    background-color: $primary-red;
+    word-wrap: normal;
+  }
+
+  #document-management .doc-product-finder{
+    .nav-tabs>li.active{
+      a:focus,
+      a:hover{
+        background-color: $primary-red;
+        border-color: $primary-red;
+        color: $color-white;
+        border-bottom-color: $primary-red;
+      }
+    }
+  }
 
 }
+// Override clay theme END
 //Base styles END
 
 // Header styles START
@@ -152,6 +397,9 @@ button.btn{
     padding: 0 55px;
   }
 }
+header .navbar-collapse .navbar-nav .dropdown.open a[aria-expanded="false"]{
+  margin-top:1px;
+}
 // Navbar styles END
 
 //Navigation START
@@ -166,7 +414,7 @@ button.btn{
 }
 //Navigation END
 
-//downloads landing START
+//docSAFE: downloads landing START
 #content.container{
   display: block;
   width: 100%;
@@ -204,15 +452,22 @@ td.column-check .checkbox > label{
 body.override-clay-theme > .dropdown.inline.multi-dropdown-container{
   display:none;
 }
-//downloads landing END
+.downloads-landing .my-downloads .sub-menu.dropdown-menu .list-style-none{
+  float: left;
+  width: 100%;
+}
+div#myModalTest .modal-header #modal-title{
+  flex-grow: 1;
+}
+//docSAFE: downloads landing END
 
-//catalog START
+//docSAFE: catalog START
 .document-access-enquiry-container .col-md-offset-4{
   margin-left: 33.33333333% !important;
 }
-//catalog END
+//docSAFE: catalog END
 
-//docsafe/administration START
+//docSAFE: docsafe/administration START
 #idPendingNDARequest{
   .typeahead__field input {
     height: 34px;
@@ -228,33 +483,7 @@ body.override-clay-theme > .dropdown.inline.multi-dropdown-container{
   font-size: 1.2rem;
 }
 
-#doc-management-ul,
-#new-doc-management-ul,
-#DocTypeTabs,
-#doc-audience-ul,
-#slaExceptionsTabs,
-#programTabs,
-#newProgramTabs{
-  &.nav{ display:block; }
-  &.nav-tabs>li>a{
-    border-color: $secondary-gray-light;
-    border-bottom-color: $secondary-gray-light;
-    border-radius: 0;
-    padding: 4px 15px;
-  }
-  &.nav-tabs>li.active>a,
-  &.nav-tabs>li.active>a:focus,
-  &.nav-tabs>li.active>a:hover{
-    background-color: $color-blue;
-    border-color: $color-blue;
-    color: $color-white;
-    border-bottom-color: $color-blue;
-  }
-}
-.accessprofile-wrapper,
-.software-file-group-tabs,
-.softwareotherfile-tabs,
-.softwaredraftstabs{
+section#content{
   .nav{ display:block; }
   .nav-tabs>li>a{
     border-color: $secondary-gray-light;
@@ -291,9 +520,9 @@ body.override-clay-theme > .dropdown.inline.multi-dropdown-container{
 #typeahead-container .typeahead__query input[type='text']{
   height: 34px;
 }
-//docsafe/administration END
+//docSAFE: docsafe/administration END
 
-//Software/File delivery START
+//docSAFE: Software/File delivery START
 .master-grid table thead tr th{
   background-color: transparent;
   color: $color-white;
@@ -306,20 +535,24 @@ body.override-clay-theme > .dropdown.inline.multi-dropdown-container{
     color: $color-white;
   }
 }
+.override-clay-theme .productconfiguration .showalldetails {
+  border: 1px solid $primary-red;
+  background-color: $color-white;
+  color: $primary-red;
+}
+//docSAFE: Software/File delivery END
 
-//Software/File delivery END
 
-
-//Usage & Access START
+//docSAFE: Usage & Access START
 .override-clay-theme .permission-downloads-wrapper .filter-style{
   margin-left: 210px !important;
 }
 .access-report-by-product .filter-wrap label{
   white-space: nowrap;
 }
-//Usage & Access END
+//docSAFE: Usage & Access END
 
-//Request & Approval START
+//docSAFE: Request & Approval START
 .docforexisitnguser .search-mirror #typeahead-user-button{
   height:34px;
 }
@@ -327,4 +560,20 @@ body.override-clay-theme > .dropdown.inline.multi-dropdown-container{
 #frm-new-auto-approvals-prd .control-label.required{ white-space: nowrap; }
 #findProgram h3,
 .request-approval-breadcrumbs h3{font-size: 27px;}
-//Request & Approval END
+.programInformation .editScreen .multi-select .col-md-1{ max-width: inherit; }
+//docSAFE: Request & Approval END
+
+//docSAFE: Administration START
+.pagination-wrapper .custom-pagination .gird-custom-pagination ul li:last-child{
+  padding-right: 0;
+}
+.module-dm-tools.container{
+  padding: 0;
+}
+//docSAFE: Administration END
+
+//Master: Administration START
+.override-clay-theme .accountmanagementedit .editacount-users{
+  padding-right: 0;
+}
+//Master: Administration END
