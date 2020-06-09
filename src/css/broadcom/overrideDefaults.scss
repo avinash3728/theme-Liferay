@@ -168,6 +168,10 @@ button.btn{
     padding: 0;
   }
 
+  a:focus, a:hover{
+    color: $color-blue;
+  }
+
   h1,.h1{font-size:2.4rem}
   h1.red,.h1.red{color:$primary-red}
   h2,.h2{font-size:2rem}
@@ -577,3 +581,26 @@ section#content{
   padding-right: 0;
 }
 //Master: Administration END
+
+//Home START
+.portlet-column.portlet-column-first,
+.portlet-column.portlet-column-last{
+  width: 100%;
+  max-width: 100%;
+}
+#id_cases .cases-wrapper{
+  font-family: inherit;
+}
+.homepage-brocade .my-apps .apps-box .icon-wrapper{
+  display: block;
+}
+.homepage-brocade .my-reports .section-info{
+  float:none;
+}
+.homepage-brocade.other-resource .panel-broadcom{
+  padding-bottom: 30px !important;
+}
+#id_myrequestapproval .card-container .card-body{
+  padding:0;
+}
+//Home END
