@@ -292,10 +292,40 @@ button.btn{
   }
   .panel-default .panel-title{
     font-size: 1em;
-  }
-  .panel-default .panel-title a{
-    padding: 10px 15px;
-    display: block;
+    a{
+      padding: 10px 15px;
+      display: block;
+    }
+    .accordion-toggle.collapsed::before,
+    .accordion-toggle::before{
+      content: '';
+      width: 9px;
+      height: 2px;
+      display: block;
+      border-bottom: 1px solid #4e4e4e;
+      transform: rotate(-45deg);
+      position: absolute;
+      right: 18px;
+      top: 15px;
+    }
+    .accordion-toggle.collapsed::after,
+    .accordion-toggle::after{
+      content: '';
+      width: 9px;
+      height: 2px;
+      border-top: 1px solid #4e4e4e;
+      display: block;
+      transform: rotate(45deg);
+      position: absolute;
+      right: 12px;
+      top: 15px;
+    }
+    .accordion-toggle::before{
+      transform: rotate(45deg);
+    }
+    .accordion-toggle::after{
+      transform: rotate(-45deg);
+    }
   }
 
   .view-role-tab.visibility-none{
@@ -306,6 +336,7 @@ button.btn{
   }
   .modal{
     top: 25%;
+    margin: 0 auto;
   }
 
   .nav-pills.nav-wizard > li.active a {
@@ -494,6 +525,7 @@ section#content{
     border-bottom-color: $secondary-gray-light;
     border-radius: 0;
     padding: 4px 15px;
+    color: $color-link;
   }
   .nav-tabs>li.active>a,
   .nav-tabs>li.active>a:focus,
@@ -580,6 +612,16 @@ section#content{
 .override-clay-theme .accountmanagementedit .editacount-users{
   padding-right: 0;
 }
+#softwaregroupContainer{
+  .tab-content > .tab-pane{
+    display: none !important;
+    opacity: 0 !important;
+  }
+  .tab-content > .tab-pane.active{
+    display: block !important;
+    opacity: 1 !important;
+  }
+}
 //Master: Administration END
 
 //Home START
@@ -604,3 +646,68 @@ section#content{
   padding:0;
 }
 //Home END
+
+//My Profile START
+div[role='tooltip'].tooltip.top .tooltip-arrow{
+  background: transparent;
+  transform: rotate(0deg);
+  bottom: -1px;
+}
+.elasticsearch-wrapper .search-result-row .search-style-container .right-panel-container .categoryNav{
+  white-space: nowrap;
+  max-width: inherit;
+}
+.elasticsearch-wrapper .search-result-row .search-style-container .right-panel-container .categoryNavActive:hover {
+  border: 1px solid #0092bc;
+  color: #FFFFFF;
+  background: #0092bc;
+}
+.elasticsearch-wrapper .search-box-wrapper #searchText{
+  font-family: 'Gotham-Book', Arial, sans-serif;
+}
+//My Profile END
+
+//BSN Assist Portal START
+.assist-portal{
+  .radio-container{
+    .radiobutton {
+      display: inline-block;
+      margin-right: 15px;
+    }
+  }
+  button.search{
+    margin:0;
+  }
+  .link-wrapper{
+    display: inline-block;
+    margin: 12px 40px 12px 0;
+  }
+  .blueborder{
+    border: 1px solid #71c3da;
+  }
+  .panel.panel-default > .panel-heading{
+    margin: 1px;
+    .panel-heading{
+      margin:0;
+    }
+  }
+  .bordergroove{
+    margin: 4px 0;
+    .download a{
+      cursor: pointer;
+      color: $color-blue;
+    }
+    svg.downloadicon{
+      width: 12px;
+      margin: -5px 2px 0 0;
+      fill: $color-blue;
+    }
+  }
+}
+form#exportCompliance{
+  .radiobutton{
+    display: inline-block;
+    margin: 10px 30px 10px 0;
+  }
+}
+//BSN Assist Portal END
